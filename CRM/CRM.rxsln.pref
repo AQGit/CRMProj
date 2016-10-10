@@ -1,0 +1,12 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{F55937BA-ACFD-496D-AD76-CF29701FFA5B}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution CRM[CRM[Add_a_task.rxrec[]CRMRepository.rxrep[]]]]&#xD;&#xA;Solution CRM\CRM\CRM_login.rxrec&#xD;&#xA;Solution CRM" />
+  <StartupProject value="{F55937BA-ACFD-496D-AD76-CF29701FFA5B}" />
+</Properties>

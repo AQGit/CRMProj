@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="CRM"
+      id="42f2bf73-68f8-43a2-860b-4da9d51b5330"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="CRM"
+      id="42f2bf73-68f8-43a2-860b-4da9d51b5330"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

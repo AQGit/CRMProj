@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.8s"
+		durationms="16799"
+		type="root"
+		rid="2cbf8f5336dd8c95"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="7/10/2016 8:58:56 a.m."
+		timestampiso="2016-10-06T19:58:56"
+		timeoutfactor="1"
+		module="AQMC_redux">
+		<detail>
+			AQMC_redux
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.098"
+			timeRelativeToTestModuleStartTime="00:00.098"
+			timeWallClock="08:58:56"
+			time="00:00.098"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Users\Sunjeet.Khokhar\Desktop\AQ Mobile Collect.nal' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.153"
+			timeRelativeToTestModuleStartTime="00:00.153"
+			timeWallClock="08:58:56"
+			time="00:00.153"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AQMC.AQMC' at 235;51.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.866"
+			timeRelativeToTestModuleStartTime="00:01.866"
+			timeWallClock="08:58:58"
+			time="00:01.866"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'AQMC.AQMC' at 227;174.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.624"
+			timeRelativeToTestModuleStartTime="00:02.624"
+			timeWallClock="08:58:59"
+			time="00:02.624"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AQMC.AQMC' at 132;60.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.254"
+			timeRelativeToTestModuleStartTime="00:03.254"
+			timeWallClock="08:58:59"
+			time="00:03.254"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AQMC.AQMC' at 138;751.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.894"
+			timeRelativeToTestModuleStartTime="00:03.894"
+			timeWallClock="08:59:00"
+			time="00:03.894"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}345' with focus on 'AQMC.AQMC'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.398"
+			timeRelativeToTestModuleStartTime="00:04.398"
+			timeWallClock="08:59:00"
+			time="00:04.398"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'AQMC.AQMC' at 1595;330.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.903"
+			timeRelativeToTestModuleStartTime="00:04.903"
+			timeWallClock="08:59:01"
+			time="00:04.903"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'AQMC.AQMC' at 1598;397.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.440"
+			timeRelativeToTestModuleStartTime="00:05.440"
+			timeWallClock="08:59:01"
+			time="00:05.440"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AQMC.AQMC' at 124;610.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.142"
+			timeRelativeToTestModuleStartTime="00:06.142"
+			timeWallClock="08:59:02"
+			time="00:06.142"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Back}123' with focus on 'AQMC.AQMC'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.704"
+			timeRelativeToTestModuleStartTime="00:06.704"
+			timeWallClock="08:59:03"
+			time="00:06.704"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'AQMC.AQMC' at 1597;407.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.250"
+			timeRelativeToTestModuleStartTime="00:07.250"
+			timeWallClock="08:59:03"
+			time="00:07.250"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'AQMC.AQMC' at 1607;740.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="129"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.796"
+			timeRelativeToTestModuleStartTime="00:07.796"
+			timeWallClock="08:59:04"
+			time="00:07.796"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AQMC.AQMC' at 1201;837.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="134"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.498"
+			timeRelativeToTestModuleStartTime="00:08.498"
+			timeWallClock="08:59:04"
+			time="00:08.498"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck6.Button2' at 58;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='#32770']/button[@controlid='2']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck6.Button2"
+				id="26b8ff5dc484477a809d45299bcec737"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="138"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.262"
+			timeRelativeToTestModuleStartTime="00:09.262"
+			timeWallClock="08:59:05"
+			time="00:09.262"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AQMC.AQMC' at 221;56.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FMTfrmMondoMain']"
+				fullname="Drop_down_Qualcheck_testRepository.AQMC.AQMC"
+				id="4bcf5e26c07e43e69aafffd5776e95e6"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="142"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.964"
+			timeRelativeToTestModuleStartTime="00:09.964"
+			timeWallClock="08:59:06"
+			time="00:09.964"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck6.Button6' at 31;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='#32770']/button[@controlid='6']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck6.Button6"
+				id="2bf9ae805ada40fbad3a059339002d03"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AQMC_redux.cs"
+				codeline="146"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.799"
+			timeRelativeToTestModuleStartTime="00:16.799"
+			timeWallClock="08:59:13"
+			time="00:16.799"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

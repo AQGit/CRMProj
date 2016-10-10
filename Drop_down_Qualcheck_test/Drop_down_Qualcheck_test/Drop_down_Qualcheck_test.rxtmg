@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Drop_down_Qualcheck_test"
+      id="b8e70a4e-4467-41f9-bb06-6399240684c1"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Drop_down_Qualcheck_test"
+      id="b8e70a4e-4467-41f9-bb06-6399240684c1"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

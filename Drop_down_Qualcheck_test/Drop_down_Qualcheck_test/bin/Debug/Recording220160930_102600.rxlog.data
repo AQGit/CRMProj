@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="66f249fcad9be4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="30/09/2016 10:26:03 a.m."
+		timestampiso="2016-09-29T21:26:03"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.106"
+			timeRelativeToTestModuleStartTime="00:00.107"
+			timeWallClock="10:26:03"
+			time="00:00.106"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'C:\Users\Sunjeet.Khokhar\Desktop\Qualcheck Central QA.nal' with arguments '' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.160"
+			timeRelativeToTestModuleStartTime="00:00.161"
+			timeWallClock="10:26:03"
+			time="00:00.160"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.Button1012' at 51;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/button[@controlid='1012']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Button1012"
+				id="6fe80d7f54ed42e28510c2de77d008bf"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.920"
+			timeRelativeToTestModuleStartTime="00:01.921"
+			timeWallClock="10:26:05"
+			time="00:01.920"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.Text1011' at 7;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/text[@controlid='1011']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Text1011"
+				id="ff44025ce8ab47b7a268f177b1f08714"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.608"
+			timeRelativeToTestModuleStartTime="00:02.609"
+			timeWallClock="10:26:06"
+			time="00:02.608"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ferkatovo' with focus on 'Qualcheck4.Text1011'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/text[@controlid='1011']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Text1011"
+				id="ff44025ce8ab47b7a268f177b1f08714"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.716"
+			timeRelativeToTestModuleStartTime="00:03.717"
+			timeWallClock="10:26:07"
+			time="00:03.716"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Tab}' with focus on 'Qualcheck4.Text1011'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/text[@controlid='1011']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Text1011"
+				id="ff44025ce8ab47b7a268f177b1f08714"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.965"
+			timeRelativeToTestModuleStartTime="00:03.966"
+			timeWallClock="10:26:07"
+			time="00:03.965"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.Button1009' at 42;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/button[@controlid='1009']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Button1009"
+				id="374478592f3448a3bb4333c16789f7a8"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.683"
+			timeRelativeToTestModuleStartTime="00:04.684"
+			timeWallClock="10:26:08"
+			time="00:04.683"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.Text1010' at 9;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/text[@controlid='1010']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Text1010"
+				id="151ffa291877467099c3692523ab656c"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.401"
+			timeRelativeToTestModuleStartTime="00:05.402"
+			timeWallClock="10:26:09"
+			time="00:05.401"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qualcheck' with focus on 'Qualcheck4.Text1010'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/text[@controlid='1010']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Text1010"
+				id="151ffa291877467099c3692523ab656c"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.508"
+			timeRelativeToTestModuleStartTime="00:06.509"
+			timeWallClock="10:26:10"
+			time="00:06.508"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.Button1002' at 24;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/button[@controlid='1002']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.Button1002"
+				id="93502bf25c3b4a848a38785ef69f7f0e"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.226"
+			timeRelativeToTestModuleStartTime="00:07.227"
+			timeWallClock="10:26:11"
+			time="00:07.226"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck5.Entry' at 13;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWND3115']/?/?/menuitem[@accessiblename='Entry']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck5.Entry"
+				id="f982f4ff90d443c48483a17cc7b5c3da"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.053"
+			timeRelativeToTestModuleStartTime="00:08.054"
+			timeWallClock="10:26:11"
+			time="00:08.053"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck2.Jobs' at 37;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='qualcheck']/?/?/menuitem[@accessiblename='Jobs']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck2.Jobs"
+				id="f76b0519d7844535a9920c90cbceb768"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.864"
+			timeRelativeToTestModuleStartTime="00:08.865"
+			timeWallClock="10:26:12"
+			time="00:08.864"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck5.Button1004' at 85;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWND3115']/?/?/form[@controlid='200']/element[@controlid='1008']/?/?/button[@controlid='1004']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck5.Button1004"
+				id="8c60b19d1ba84091a4ee53f30d9fd6ed"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.051"
+			timeRelativeToTestModuleStartTime="00:12.052"
+			timeWallClock="10:26:15"
+			time="00:12.051"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.RadioButton2' at 9;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/radiobutton[@controlid='2']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.RadioButton2"
+				id="b1d63a2a8e36493fb33aa7e1e714e307"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.097"
+			timeRelativeToTestModuleStartTime="00:14.098"
+			timeWallClock="10:26:17"
+			time="00:14.097"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.TextT12' at 150;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/element[@controlid='1009']/text[@accessiblename='t_1']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.TextT12"
+				id="6f560b83c1d34005b264877d472508a9"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.814"
+			timeRelativeToTestModuleStartTime="00:14.815"
+			timeWallClock="10:26:18"
+			time="00:14.814"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.ListItemNZGAPManualNumber' at 223;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/element[@controlid='1009']/list[@accessiblename='a']/listitem[@accessiblename=' NZGAP Manual Number']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.ListItemNZGAPManualNumber"
+				id="ee320c3fe3364a63871e370e33a86d17"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="138"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.532"
+			timeRelativeToTestModuleStartTime="00:15.533"
+			timeWallClock="10:26:19"
+			time="00:15.532"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="142"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.296"
+			timeRelativeToTestModuleStartTime="00:16.297"
+			timeWallClock="10:26:20"
+			time="00:16.296"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="146"
+				itemindex="16"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.998"
+			timeRelativeToTestModuleStartTime="00:16.999"
+			timeWallClock="10:26:20"
+			time="00:16.998"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="150"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.700"
+			timeRelativeToTestModuleStartTime="00:17.701"
+			timeWallClock="10:26:21"
+			time="00:17.700"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="154"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.403"
+			timeRelativeToTestModuleStartTime="00:18.404"
+			timeWallClock="10:26:22"
+			time="00:18.403"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="158"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.105"
+			timeRelativeToTestModuleStartTime="00:19.106"
+			timeWallClock="10:26:22"
+			time="00:19.105"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="162"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.807"
+			timeRelativeToTestModuleStartTime="00:19.808"
+			timeWallClock="10:26:23"
+			time="00:19.807"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="166"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.509"
+			timeRelativeToTestModuleStartTime="00:20.510"
+			timeWallClock="10:26:24"
+			time="00:20.509"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="170"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.211"
+			timeRelativeToTestModuleStartTime="00:21.212"
+			timeWallClock="10:26:25"
+			time="00:21.211"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="174"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.913"
+			timeRelativeToTestModuleStartTime="00:21.914"
+			timeWallClock="10:26:25"
+			time="00:21.913"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="178"
+				itemindex="24"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.615"
+			timeRelativeToTestModuleStartTime="00:22.616"
+			timeWallClock="10:26:26"
+			time="00:22.615"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="182"
+				itemindex="25"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.317"
+			timeRelativeToTestModuleStartTime="00:23.318"
+			timeWallClock="10:26:27"
+			time="00:23.317"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="186"
+				itemindex="26"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.019"
+			timeRelativeToTestModuleStartTime="00:24.020"
+			timeWallClock="10:26:27"
+			time="00:24.019"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="190"
+				itemindex="27"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.721"
+			timeRelativeToTestModuleStartTime="00:24.722"
+			timeWallClock="10:26:28"
+			time="00:24.721"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3.LineDown' at 5;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']/?/?/button[@accessiblename='Line down']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.LineDown"
+				id="58cc507fab9c4d63b6053e0eed4466ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="194"
+				itemindex="28"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.423"
+			timeRelativeToTestModuleStartTime="00:25.424"
+			timeWallClock="10:26:29"
+			time="00:25.423"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3' at 139;176.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.Self"
+				id="35249a632484426a90c73e9e3539e76a"
+				timeout="30000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="198"
+				itemindex="29"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.125"
+			timeRelativeToTestModuleStartTime="00:26.126"
+			timeWallClock="10:26:29"
+			time="00:26.125"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.TextT13' at 61;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/?/?/text[@accessiblename='t_1']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.TextT13"
+				id="0511bacfc92749ea8a188678eee55a60"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="202"
+				itemindex="30"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.461"
+			timeRelativeToTestModuleStartTime="00:31.462"
+			timeWallClock="10:26:35"
+			time="00:31.461"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '3'.
+			</message>
+			<metainfo
+				itemindex="31"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="206"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.695"
+			timeRelativeToTestModuleStartTime="00:31.696"
+			timeWallClock="10:26:35"
+			time="00:31.695"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.JobTypeT' at 78;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/?/?/text[@accessiblename='job_type_t']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.JobTypeT"
+				id="8c5f8bd0b2894dc1b778d00af97b3ab4"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="210"
+				itemindex="32"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.083"
+			timeRelativeToTestModuleStartTime="00:33.084"
+			timeWallClock="10:26:36"
+			time="00:33.083"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.JobType' at 226;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/?/?/list[@accessiblename='job_type']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.JobType"
+				id="b2cdd4467aa04aba93d13de5741ab4d2"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="214"
+				itemindex="33"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.285"
+			timeRelativeToTestModuleStartTime="00:34.286"
+			timeWallClock="10:26:38"
+			time="00:34.285"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3' at 199;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.Self"
+				id="35249a632484426a90c73e9e3539e76a"
+				timeout="30000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="218"
+				itemindex="34"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.034"
+			timeRelativeToTestModuleStartTime="00:35.035"
+			timeWallClock="10:26:38"
+			time="00:35.034"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}'.
+			</message>
+			<metainfo
+				itemindex="35"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="222"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.268"
+			timeRelativeToTestModuleStartTime="00:35.269"
+			timeWallClock="10:26:39"
+			time="00:35.268"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.TextT4' at 86;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/?/?/text[@accessiblename='t_4']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.TextT4"
+				id="42e84f76e55f4d13b0da2142b7e32179"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="226"
+				itemindex="36"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.454"
+			timeRelativeToTestModuleStartTime="00:36.455"
+			timeWallClock="10:26:40"
+			time="00:36.454"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck4.OfficeId' at 94;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='FNWNS3115' and @instance='0']/?/?/list[@accessiblename='office_id']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck4.OfficeId"
+				id="c8042a81aea84eb3982fe9aad1c1cdfe"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="230"
+				itemindex="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:38.669"
+			timeRelativeToTestModuleStartTime="00:38.670"
+			timeWallClock="10:26:42"
+			time="00:38.669"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Qualcheck3' at 94;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@class='pbdw115']"
+				fullname="Drop_down_Qualcheck_testRepository.Qualcheck3.Self"
+				id="35249a632484426a90c73e9e3539e76a"
+				timeout="30000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\Recording2.cs"
+				codeline="234"
+				itemindex="38"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

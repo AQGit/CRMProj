@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13518d2f96c5ab43"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="4/10/2016 12:28:45 p.m."
+		timestampiso="2016-10-03T23:28:45"
+		timeoutfactor="1"
+		module="AuditTrax_job_search_and_processing">
+		<detail>
+			AuditTrax_job_search_and_processing
+		</detail>
+		<errmsg>
+			Failed to move to location '36;43' within element '{TableTag:}'.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.129"
+			timeRelativeToTestModuleStartTime="00:00.129"
+			timeWallClock="12:28:45"
+			time="00:00.129"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Dummy_var, index, InnerText
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.140"
+			timeRelativeToTestModuleStartTime="00:00.140"
+			timeWallClock="12:28:45"
+			time="00:00.140"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://cftest.asurequality.com/audittrax/Login.cfm' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="115"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.177"
+			timeRelativeToTestModuleStartTime="00:00.177"
+			timeWallClock="12:28:45"
+			time="00:00.177"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AuditTraxAsureQualitysAuditTracking.MenuTitles' at 48;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//span[#'menuTitles']"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.MenuTitles"
+				id="d7aaf7bb775d46dca04840f3304417f0"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="119"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.924"
+			timeRelativeToTestModuleStartTime="00:01.924"
+			timeWallClock="12:28:46"
+			time="00:01.924"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientContact' at 7;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//form[#'frmLogin']/table//input[@name='client_contact']"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientContact"
+				id="b6f61f8bd5324150a6f00d15752d4a6b"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="123"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.909"
+			timeRelativeToTestModuleStartTime="00:02.909"
+			timeWallClock="12:28:47"
+			time="00:02.909"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'harmand{Tab}' with focus on 'AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientContact'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//form[#'frmLogin']/table//input[@name='client_contact']"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientContact"
+				id="b6f61f8bd5324150a6f00d15752d4a6b"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="127"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.212"
+			timeRelativeToTestModuleStartTime="00:04.212"
+			timeWallClock="12:28:49"
+			time="00:04.212"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AuditTraxAsureQualitysAuditTracking.SomeTableTag.MenuTitles1' at 48;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//form[#'frmLogin']/table//span[@innertext='Password']"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.SomeTableTag.MenuTitles1"
+				id="6094df8ba3d640218d23e35bc5716cdb"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="131"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.200"
+			timeRelativeToTestModuleStartTime="00:05.200"
+			timeWallClock="12:28:50"
+			time="00:05.200"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientPassword' at 9;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//form[#'frmLogin']/table//input[@name='client_password']"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientPassword"
+				id="8fbd068365644dfda4016c85d7e279ff"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="135"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.186"
+			timeRelativeToTestModuleStartTime="00:06.186"
+			timeWallClock="12:28:51"
+			time="00:06.186"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'qualcheck' with focus on 'AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientPassword'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//form[#'frmLogin']/table//input[@name='client_password']"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.SomeTableTag.ClientPassword"
+				id="8fbd068365644dfda4016c85d7e279ff"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="139"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.552"
+			timeRelativeToTestModuleStartTime="00:07.552"
+			timeWallClock="12:28:52"
+			time="00:07.552"
+			level="Info"
+			category="Mouse"
+			errimg=".\AuditTra_14d0a866_0d8234e0_trace.jpg"
+			errthumb=".\AuditTra_14d0a866_0d8234e0_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'AuditTraxAsureQualitysAuditTracking.FmtButtons' at 29;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//input[#'fmtButtons']"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.FmtButtons"
+				id="a93f40a76d674dbcab10620290b6a8ee"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="143"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.516"
+			timeRelativeToTestModuleStartTime="00:08.516"
+			timeWallClock="12:28:53"
+			time="00:08.516"
+			level="Info"
+			category="Mouse"
+			errimg=".\AuditTra_14d0a866_c370557b_trace.jpg"
+			errthumb=".\AuditTra_14d0a866_c370557b_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'AuditTraxAsureQualitysAuditTracking.SomeTableTag1' at 36;43.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//td[#'contentDisplay']/table"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.SomeTableTag1"
+				id="d349d64f03234b4fb56d46665d4c0a55"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="147"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.137"
+			timeRelativeToTestModuleStartTime="00:09.137"
+			timeWallClock="12:28:54"
+			time="00:09.137"
+			level="Error"
+			category="Module"
+			errimg=".\AuditTra_14d0a866_05ddf80b_trace.jpg"
+			errthumb=".\AuditTra_14d0a866_05ddf80b_trace_thumb.jpg">
+			<message>
+				Failed to move to location '36;43' within element '{TableTag:}'.<br/>The pointer cannot be moved to point '{X=332,Y=-14693}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Adapter.Click(Location location)
+   at Drop_down_Qualcheck_test.AuditTrax_job_search_and_processing.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs:line 148
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\Drop_down_Qualcheck_test\Drop_down_Qualcheck_test\AuditTrax_job_search_and_processing.cs"
+				codeline="148"
+				type="repoitem"
+				path="/dom[@domain='cftest.asurequality.com']//td[#'contentDisplay']/table"
+				fullname="Drop_down_Qualcheck_testRepository.AuditTraxAsureQualitysAuditTracking.SomeTableTag1"
+				id="d349d64f03234b4fb56d46665d4c0a55"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="8"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{637481E0-8C26-4223-BF07-FDDCDD4DDA8E}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Drop_down_Qualcheck_test</RootNamespace>
+    <AssemblyName>QualCheck_job_creation_script_Fonterra</AssemblyName>
+    <RanorexVersion>6.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <projectdefaultrepository>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AQMC.cs">
+      <BoundTo>233af227-90f8-4365-8852-346c9ba0d51d</BoundTo>
+      <DependentUpon>AQMC.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a713c6a0-1bd3-4337-a9b9-8f8edf46505e</id>
+    </Compile>
+    <Compile Include="AQMC.UserCode.cs">
+      <BoundTo>233af227-90f8-4365-8852-346c9ba0d51d</BoundTo>
+      <DependentUpon>AQMC.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>60a9780c-7c87-4f54-aa8e-f45b66bb9749</id>
+    </Compile>
+    <Compile Include="AQMC_redux.cs">
+      <BoundTo>a18d7abd-07b6-461d-a598-d8e36ab65f79</BoundTo>
+      <DependentUpon>AQMC_redux.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2d2f425f-53b0-41e7-a36e-287ecb3350e9</id>
+    </Compile>
+    <Compile Include="AQMC_redux.UserCode.cs">
+      <BoundTo>a18d7abd-07b6-461d-a598-d8e36ab65f79</BoundTo>
+      <DependentUpon>AQMC_redux.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f67f6c0d-2dc1-4152-9750-7864be5943e8</id>
+    </Compile>
+    <Compile Include="AQMC_triux.cs">
+      <BoundTo>491508c6-700d-41c8-a051-bc74a4e64cf2</BoundTo>
+      <DependentUpon>AQMC_triux.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>042b9b73-afc4-4888-abab-372c1836fb0e</id>
+    </Compile>
+    <Compile Include="AQMC_triux.UserCode.cs">
+      <BoundTo>491508c6-700d-41c8-a051-bc74a4e64cf2</BoundTo>
+      <DependentUpon>AQMC_triux.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4f492690-051a-4732-8d20-59482548b454</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>bd0f9ec2-0692-4e7d-96d5-ff430da4a1bc</id>
+    </Compile>
+    <Compile Include="AuditTrax_job_search_and_processing.cs">
+      <BoundTo>fbcbbea2-2bf5-4c79-9336-d9981a23c0ec</BoundTo>
+      <DependentUpon>AuditTrax_job_search_and_processing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d14aadb0-abb8-443d-ad76-abf91edfa72b</id>
+    </Compile>
+    <Compile Include="AuditTrax_job_search_and_processing.UserCode.cs">
+      <BoundTo>fbcbbea2-2bf5-4c79-9336-d9981a23c0ec</BoundTo>
+      <DependentUpon>AuditTrax_job_search_and_processing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9bbdb15d-bb1f-4d91-870c-4fe62c885890</id>
+    </Compile>
+    <Compile Include="Drop_down_Qualcheck_testRepository.cs">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <DependentUpon>Drop_down_Qualcheck_testRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>141f3c67-9ade-4a53-baf1-b7a508e37b98</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>536e1e15-a55e-4615-b1a6-b1eae4fd7343</id>
+    </Compile>
+    <Compile Include="Base_recording_to_re_use.cs">
+      <BoundTo>07c53c7a-8f75-4191-b07d-bb85eec30c24</BoundTo>
+      <DependentUpon>Base_recording_to_re_use.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3f54a91-045b-47f9-84b6-d97c5429e938</id>
+    </Compile>
+    <Compile Include="Base_recording_to_re_use.UserCode.cs">
+      <BoundTo>07c53c7a-8f75-4191-b07d-bb85eec30c24</BoundTo>
+      <DependentUpon>Base_recording_to_re_use.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3517ed1a-775d-4d95-96c1-66fc94d23ed4</id>
+    </Compile>
+    <Compile Include="POC_job_create_in_QualCheck.cs">
+      <BoundTo>07a7fbfc-2380-40fc-ada4-ba3b1472fb45</BoundTo>
+      <DependentUpon>POC_job_create_in_QualCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>972ef680-a6d9-4f54-af3e-bd7bc7673b2a</id>
+    </Compile>
+    <Compile Include="POC_job_create_in_QualCheck.UserCode.cs">
+      <BoundTo>07a7fbfc-2380-40fc-ada4-ba3b1472fb45</BoundTo>
+      <DependentUpon>POC_job_create_in_QualCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bcc9a520-70b7-42b0-b363-98c6dd5854b7</id>
+    </Compile>
+    <Compile Include="UserCodeModule1.cs">
+      <id>b7cc3f93-c774-4dbd-89a9-67aceb4e2894</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>74e5c98f-5ac7-46c2-a221-708fa2f9c1d2</id>
+    </None>
+    <None Include="AQMC.rxrec">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <id>233af227-90f8-4365-8852-346c9ba0d51d</id>
+      <recordtableid>dbbf6b44-8f2d-417f-8358-6f0d5eec071b</recordtableid>
+    </None>
+    <None Include="AQMC_redux.rxrec">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <id>a18d7abd-07b6-461d-a598-d8e36ab65f79</id>
+      <recordtableid>0a25b455-b950-4077-98c3-fb5cf56714a7</recordtableid>
+    </None>
+    <None Include="AQMC_triux.rxrec">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <id>491508c6-700d-41c8-a051-bc74a4e64cf2</id>
+      <recordtableid>f0c0e421-a9b7-46fd-8e1b-38c4d5fcc6ee</recordtableid>
+    </None>
+    <None Include="AuditTrax_job_search_and_processing.rxrec">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <id>fbcbbea2-2bf5-4c79-9336-d9981a23c0ec</id>
+      <recordtableid>d498f0de-b3ad-457d-ba04-8e4e452e5940</recordtableid>
+    </None>
+    <None Include="Drop_down_Qualcheck_testRepository.rximg">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <DependentUpon>Drop_down_Qualcheck_testRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>d7a4137c-e901-4b06-961d-42747975481f</id>
+    </None>
+    <None Include="Drop_down_Qualcheck_testRepository.rxrep">
+      <id>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</id>
+      <repoid>329267de-f025-4386-b6b5-d9b010dc1bae</repoid>
+      <reporootid>15786f71-5ebd-453c-bd13-66356850b6ed</reporootid>
+    </None>
+    <None Include="Base_recording_to_re_use.rxrec">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <id>07c53c7a-8f75-4191-b07d-bb85eec30c24</id>
+      <recordtableid>ed4827a2-8c65-4820-9e21-316042259ea6</recordtableid>
+    </None>
+    <None Include="POC_job_create_in_QualCheck.rxrec">
+      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
+      <id>07a7fbfc-2380-40fc-ada4-ba3b1472fb45</id>
+      <recordtableid>f19b70c4-9080-4df4-8196-533541a92eeb</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Drop_down_Qualcheck_test.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>49231d78-a3ba-4eb0-ac18-bbe3bff99afa</id>
+    </Content>
+    <Content Include="Drop_down_Qualcheck_test.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>fe9c929d-1796-494f-9d75-a5a81712eca5</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" />
+</Project>

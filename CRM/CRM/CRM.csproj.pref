@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CRM_login.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Add_a_task.rxrec" />
+    <Element value="CRM.rxtst" />
+    <Element value="CRM_login.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>
