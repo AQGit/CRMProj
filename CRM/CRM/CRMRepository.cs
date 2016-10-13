@@ -32,6 +32,10 @@ namespace CRM
         CRMRepositoryFolders.AccountFonterraAustraliaPtyLtdGoAppFolder _accountfonterraaustraliaptyltdgo;
         CRMRepositoryFolders.DashboardsAQCustomerServicesDashboa1AppFolder _dashboardsaqcustomerservicesdashboa1;
         CRMRepositoryFolders.SignInToYourAccountAppFolder _signintoyouraccount;
+        CRMRepositoryFolders.CodeExamplesRanorexAutomatedSoftAppFolder _codeexamplesranorexautomatedsoft;
+        CRMRepositoryFolders.EvaluationDialogAppFolder _evaluationdialog;
+        CRMRepositoryFolders.UntitledGoogleChromeAppFolder _untitledgooglechrome;
+        CRMRepositoryFolders.CaseTestCaseForFonterra123GooglAppFolder _casetestcaseforfonterra123googl;
 
         /// <summary>
         /// Gets the singleton class instance representing the CRMRepository element repository.
@@ -53,9 +57,25 @@ namespace CRM
             _accountfonterraaustraliaptyltdgo = new CRMRepositoryFolders.AccountFonterraAustraliaPtyLtdGoAppFolder(this);
             _dashboardsaqcustomerservicesdashboa1 = new CRMRepositoryFolders.DashboardsAQCustomerServicesDashboa1AppFolder(this);
             _signintoyouraccount = new CRMRepositoryFolders.SignInToYourAccountAppFolder(this);
+            _codeexamplesranorexautomatedsoft = new CRMRepositoryFolders.CodeExamplesRanorexAutomatedSoftAppFolder(this);
+            _evaluationdialog = new CRMRepositoryFolders.EvaluationDialogAppFolder(this);
+            _untitledgooglechrome = new CRMRepositoryFolders.UntitledGoogleChromeAppFolder(this);
+            _casetestcaseforfonterra123googl = new CRMRepositoryFolders.CaseTestCaseForFonterra123GooglAppFolder(this);
         }
 
 #region Variables
+
+        string _month_text = "october2016";
+
+        /// <summary>
+        /// Gets or sets the value of variable month_text.
+        /// </summary>
+        [TestVariable("a23b1b90-e3f2-4003-8ae7-4b01cea8b80d")]
+        public string month_text
+        {
+            get { return _month_text; }
+            set { _month_text = value; }
+        }
 
 #endregion
 
@@ -114,6 +134,42 @@ namespace CRM
         public virtual CRMRepositoryFolders.SignInToYourAccountAppFolder SignInToYourAccount
         {
             get { return _signintoyouraccount; }
+        }
+
+        /// <summary>
+        /// The CodeExamplesRanorexAutomatedSoft folder.
+        /// </summary>
+        [RepositoryFolder("b3b5a340-d1d0-4244-90fe-b20909d2b874")]
+        public virtual CRMRepositoryFolders.CodeExamplesRanorexAutomatedSoftAppFolder CodeExamplesRanorexAutomatedSoft
+        {
+            get { return _codeexamplesranorexautomatedsoft; }
+        }
+
+        /// <summary>
+        /// The EvaluationDialog folder.
+        /// </summary>
+        [RepositoryFolder("36f3ed24-8fed-4034-97cd-2319dde9221c")]
+        public virtual CRMRepositoryFolders.EvaluationDialogAppFolder EvaluationDialog
+        {
+            get { return _evaluationdialog; }
+        }
+
+        /// <summary>
+        /// The UntitledGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("ac303b4b-c4f9-429c-9c85-c4afe9c3c55b")]
+        public virtual CRMRepositoryFolders.UntitledGoogleChromeAppFolder UntitledGoogleChrome
+        {
+            get { return _untitledgooglechrome; }
+        }
+
+        /// <summary>
+        /// The CaseTestCaseForFonterra123Googl folder.
+        /// </summary>
+        [RepositoryFolder("99016e47-e96b-447f-af3f-87365e46f241")]
+        public virtual CRMRepositoryFolders.CaseTestCaseForFonterra123GooglAppFolder CaseTestCaseForFonterra123Googl
+        {
+            get { return _casetestcaseforfonterra123googl; }
         }
     }
 
@@ -198,6 +254,7 @@ namespace CRM
             CRMRepositoryFolders.ContentIFrame0Folder _contentiframe0;
             CRMRepositoryFolders.ContentIFrame1Folder _contentiframe1;
             CRMRepositoryFolders.DashboardFrameFolder _dashboardframe;
+            CRMRepositoryFolders.NavBarGloablQuickCreateFolder _navbargloablquickcreate;
             RepoItemInfo _salesInfo;
             RepoItemInfo _accountsInfo;
             RepoItemInfo _navtabbuttonimagecontainerInfo;
@@ -207,6 +264,13 @@ namespace CRM
             RepoItemInfo _navbaruserinfotextidInfo;
             RepoItemInfo _navtabbuttonuserinfosignoutidInfo;
             RepoItemInfo _account_nameInfo;
+            RepoItemInfo _navtabglobalcreateimageInfo;
+            RepoItemInfo _caseInfo;
+            RepoItemInfo _globalquickcreatesavebuttonnavbargloaInfo;
+            RepoItemInfo _casetestcaseforfonterra123wascreaInfo;
+            RepoItemInfo _closeInfo;
+            RepoItemInfo _dashboardsInfo;
+            RepoItemInfo _aqcustomerservicesdashboardInfo;
 
             /// <summary>
             /// Creates a new DashboardsAQCustomerServicesDashboa  folder.
@@ -217,6 +281,7 @@ namespace CRM
                 _contentiframe0 = new CRMRepositoryFolders.ContentIFrame0Folder(this);
                 _contentiframe1 = new CRMRepositoryFolders.ContentIFrame1Folder(this);
                 _dashboardframe = new CRMRepositoryFolders.DashboardFrameFolder(this);
+                _navbargloablquickcreate = new CRMRepositoryFolders.NavBarGloablQuickCreateFolder(this);
                 _salesInfo = new RepoItemInfo(this, "Sales", ".//span[#'TabSFA']//img[@alt='Sales']", 30000, null, "601c89b2-f7a1-4ac1-b9cd-6b967a52696b");
                 _accountsInfo = new RepoItemInfo(this, "Accounts", ".//a[#'nav_accts']/span[@innertext='Accounts']", 30000, null, "61925703-8798-4999-9558-d32efcb7ab9e");
                 _navtabbuttonimagecontainerInfo = new RepoItemInfo(this, "NavTabButtonImageContainer", ".//span[#'TabSFA']/?/?/span", 30000, null, "53b878ce-1171-41d6-8624-18f3232ab303");
@@ -226,6 +291,13 @@ namespace CRM
                 _navbaruserinfotextidInfo = new RepoItemInfo(this, "NavBarUserInfoTextId", ".//span[#'navBarUserInfoTextId']", 30000, null, "2d74f326-1043-4719-bdce-1083f09dd8df");
                 _navtabbuttonuserinfosignoutidInfo = new RepoItemInfo(this, "NavTabButtonUserInfoSignOutId", ".//a[#'navTabButtonUserInfoSignOutId']", 30000, null, "d5b99126-4c33-40fe-a8f1-fc0e4f94a69a");
                 _account_nameInfo = new RepoItemInfo(this, "Account_Name", ".//span[#'navBarUserInfoTextId']/span[@title='Sunjeet Khokhar']", 30000, null, "f4905f95-745f-4645-9996-e382709bf5e1");
+                _navtabglobalcreateimageInfo = new RepoItemInfo(this, "NavTabGlobalCreateImage", ".//img[#'navTabGlobalCreateImage']", 30000, null, "9f827395-0897-4946-a99f-265b0da6f4b4");
+                _caseInfo = new RepoItemInfo(this, "Case", ".//a[#'{e3fe4ff2-a630-49bb-a1e9-debc3a076815}']/span[@innertext='Case']", 30000, null, "9175ad58-f1fb-4c05-a646-5a2819fe0af5");
+                _globalquickcreatesavebuttonnavbargloaInfo = new RepoItemInfo(this, "GlobalquickcreateSaveButtonNavBarGloa", ".//button[#'globalquickcreate_save_button_NavBarGloablQuickCreate']", 30000, null, "f0b4dbce-b13d-414f-9dce-dbc539088c55");
+                _casetestcaseforfonterra123wascreaInfo = new RepoItemInfo(this, "CaseTestCaseForFonterra123WasCrea", ".//div[#'navStatusArea']/table//span[@innertext~'^Case\\ Test\\ case\\ for\\ Fonter']", 30000, null, "a01c6b3d-ed97-4275-b92f-982741e8a6e2");
+                _closeInfo = new RepoItemInfo(this, "Close", ".//div[#'navStatusArea']/table//a[@title='Close']/img[@alt='Close']", 30000, null, "82fa955b-c969-4063-8a67-36beccf59fcf");
+                _dashboardsInfo = new RepoItemInfo(this, "Dashboards", ".//span[#'Tabnav_dashboards']//img[@alt='Dashboards']", 30000, null, "b9d7768a-16e8-4dd6-8881-f777c561160e");
+                _aqcustomerservicesdashboardInfo = new RepoItemInfo(this, "AQCustomerServicesDashboard", ".//a[#'&#123;53316014-cf81-e511-80ed-c4346bc5a710&#125;']/span[@innertext~'^AQ\\ Customer\\ Services\\ dash']", 30000, null, "9be61f4e-e327-4461-ac15-996f2a0c3c37");
             }
 
             /// <summary>
@@ -469,6 +541,174 @@ namespace CRM
             }
 
             /// <summary>
+            /// The NavTabGlobalCreateImage item.
+            /// </summary>
+            [RepositoryItem("9f827395-0897-4946-a99f-265b0da6f4b4")]
+            public virtual Ranorex.ImgTag NavTabGlobalCreateImage
+            {
+                get
+                {
+                    return _navtabglobalcreateimageInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NavTabGlobalCreateImage item info.
+            /// </summary>
+            [RepositoryItemInfo("9f827395-0897-4946-a99f-265b0da6f4b4")]
+            public virtual RepoItemInfo NavTabGlobalCreateImageInfo
+            {
+                get
+                {
+                    return _navtabglobalcreateimageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Case item.
+            /// </summary>
+            [RepositoryItem("9175ad58-f1fb-4c05-a646-5a2819fe0af5")]
+            public virtual Ranorex.SpanTag Case
+            {
+                get
+                {
+                    return _caseInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Case item info.
+            /// </summary>
+            [RepositoryItemInfo("9175ad58-f1fb-4c05-a646-5a2819fe0af5")]
+            public virtual RepoItemInfo CaseInfo
+            {
+                get
+                {
+                    return _caseInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GlobalquickcreateSaveButtonNavBarGloa item.
+            /// </summary>
+            [RepositoryItem("f0b4dbce-b13d-414f-9dce-dbc539088c55")]
+            public virtual Ranorex.ButtonTag GlobalquickcreateSaveButtonNavBarGloa
+            {
+                get
+                {
+                    return _globalquickcreatesavebuttonnavbargloaInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GlobalquickcreateSaveButtonNavBarGloa item info.
+            /// </summary>
+            [RepositoryItemInfo("f0b4dbce-b13d-414f-9dce-dbc539088c55")]
+            public virtual RepoItemInfo GlobalquickcreateSaveButtonNavBarGloaInfo
+            {
+                get
+                {
+                    return _globalquickcreatesavebuttonnavbargloaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CaseTestCaseForFonterra123WasCrea item.
+            /// </summary>
+            [RepositoryItem("a01c6b3d-ed97-4275-b92f-982741e8a6e2")]
+            public virtual Ranorex.SpanTag CaseTestCaseForFonterra123WasCrea
+            {
+                get
+                {
+                    return _casetestcaseforfonterra123wascreaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CaseTestCaseForFonterra123WasCrea item info.
+            /// </summary>
+            [RepositoryItemInfo("a01c6b3d-ed97-4275-b92f-982741e8a6e2")]
+            public virtual RepoItemInfo CaseTestCaseForFonterra123WasCreaInfo
+            {
+                get
+                {
+                    return _casetestcaseforfonterra123wascreaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("82fa955b-c969-4063-8a67-36beccf59fcf")]
+            public virtual Ranorex.ImgTag Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("82fa955b-c969-4063-8a67-36beccf59fcf")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Dashboards item.
+            /// </summary>
+            [RepositoryItem("b9d7768a-16e8-4dd6-8881-f777c561160e")]
+            public virtual Ranorex.ImgTag Dashboards
+            {
+                get
+                {
+                    return _dashboardsInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Dashboards item info.
+            /// </summary>
+            [RepositoryItemInfo("b9d7768a-16e8-4dd6-8881-f777c561160e")]
+            public virtual RepoItemInfo DashboardsInfo
+            {
+                get
+                {
+                    return _dashboardsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AQCustomerServicesDashboard item.
+            /// </summary>
+            [RepositoryItem("9be61f4e-e327-4461-ac15-996f2a0c3c37")]
+            public virtual Ranorex.SpanTag AQCustomerServicesDashboard
+            {
+                get
+                {
+                    return _aqcustomerservicesdashboardInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AQCustomerServicesDashboard item info.
+            /// </summary>
+            [RepositoryItemInfo("9be61f4e-e327-4461-ac15-996f2a0c3c37")]
+            public virtual RepoItemInfo AQCustomerServicesDashboardInfo
+            {
+                get
+                {
+                    return _aqcustomerservicesdashboardInfo;
+                }
+            }
+
+            /// <summary>
             /// The ContentIFrame0 folder.
             /// </summary>
             [RepositoryFolder("423da974-2a9c-4d3d-87eb-2702c14dbf0e")]
@@ -494,6 +734,15 @@ namespace CRM
             {
                 get { return _dashboardframe; }
             }
+
+            /// <summary>
+            /// The NavBarGloablQuickCreate folder.
+            /// </summary>
+            [RepositoryFolder("15b1637b-c2d4-4d2f-9c8e-f9cd44a8c847")]
+            public virtual CRMRepositoryFolders.NavBarGloablQuickCreateFolder NavBarGloablQuickCreate
+            {
+                get { return _navbargloablquickcreate; }
+            }
         }
 
         /// <summary>
@@ -510,6 +759,9 @@ namespace CRM
             RepoItemInfo _sometdtag1Info;
             RepoItemInfo _crmgridclearcriteriaimgInfo;
             RepoItemInfo _westlandcoopdairycoltdInfo;
+            RepoItemInfo _dashboardselectorcontainerInfo;
+            RepoItemInfo _mscrmfloatingdivInfo;
+            RepoItemInfo _quotesforrenewalInfo;
 
             /// <summary>
             /// Creates a new ContentIFrame0  folder.
@@ -525,6 +777,9 @@ namespace CRM
                 _sometdtag1Info = new RepoItemInfo(this, "SomeTdTag1", ".//div[#'crmGrid_splitTD']/?/?/table//td", 30000, null, "0d26e861-d558-4f1b-b1a1-b34798acd48b");
                 _crmgridclearcriteriaimgInfo = new RepoItemInfo(this, "CrmGridClearCriteriaImg", ".//img[#'crmGrid_clearCriteriaImg']", 30000, null, "6ac0cd6c-b364-4c06-a8c0-91ad90be552a");
                 _westlandcoopdairycoltdInfo = new RepoItemInfo(this, "WestlandCoOpDairyCoLtd", ".//table[#'gridBodyTable']/tbody/tr[8]/td[4]/?/?/a[@innertext~'^Westland\\ Co-op\\ Dairy\\ co\\ L']", 30000, null, "414eb5da-b3cd-44d5-9387-3805ac152110");
+                _dashboardselectorcontainerInfo = new RepoItemInfo(this, "DashboardSelectorContainer", ".//span[#'dashboardSelectorContainer']", 30000, null, "37d59889-edcd-4738-ad14-3fab5db672f3");
+                _mscrmfloatingdivInfo = new RepoItemInfo(this, "MsCrmFloatingDiv", "body/div[4]", 30000, null, "ffaf522b-2d68-44c2-a8fe-21cae7a7e361");
+                _quotesforrenewalInfo = new RepoItemInfo(this, "QuotesForRenewal", ".//iframe[#'dashboardFrame']//a[#'Componentc512969_SavedNewQuerySelector']/span[@innertext='Quotes for Renewal']", 30000, null, "19858705-4512-4621-b055-1698f90c40c6");
             }
 
             /// <summary>
@@ -740,6 +995,78 @@ namespace CRM
                 get
                 {
                     return _westlandcoopdairycoltdInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DashboardSelectorContainer item.
+            /// </summary>
+            [RepositoryItem("37d59889-edcd-4738-ad14-3fab5db672f3")]
+            public virtual Ranorex.SpanTag DashboardSelectorContainer
+            {
+                get
+                {
+                    return _dashboardselectorcontainerInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DashboardSelectorContainer item info.
+            /// </summary>
+            [RepositoryItemInfo("37d59889-edcd-4738-ad14-3fab5db672f3")]
+            public virtual RepoItemInfo DashboardSelectorContainerInfo
+            {
+                get
+                {
+                    return _dashboardselectorcontainerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmFloatingDiv item.
+            /// </summary>
+            [RepositoryItem("ffaf522b-2d68-44c2-a8fe-21cae7a7e361")]
+            public virtual Ranorex.DivTag MsCrmFloatingDiv
+            {
+                get
+                {
+                    return _mscrmfloatingdivInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmFloatingDiv item info.
+            /// </summary>
+            [RepositoryItemInfo("ffaf522b-2d68-44c2-a8fe-21cae7a7e361")]
+            public virtual RepoItemInfo MsCrmFloatingDivInfo
+            {
+                get
+                {
+                    return _mscrmfloatingdivInfo;
+                }
+            }
+
+            /// <summary>
+            /// The QuotesForRenewal item.
+            /// </summary>
+            [RepositoryItem("19858705-4512-4621-b055-1698f90c40c6")]
+            public virtual Ranorex.SpanTag QuotesForRenewal
+            {
+                get
+                {
+                    return _quotesforrenewalInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The QuotesForRenewal item info.
+            /// </summary>
+            [RepositoryItemInfo("19858705-4512-4621-b055-1698f90c40c6")]
+            public virtual RepoItemInfo QuotesForRenewalInfo
+            {
+                get
+                {
+                    return _quotesforrenewalInfo;
                 }
             }
         }
@@ -1056,6 +1383,7 @@ namespace CRM
             RepoItemInfo _taskInfo;
             RepoItemInfo _nobrInfo;
             RepoItemInfo _httpsasurequalitytestcrm6dynamicscInfo;
+            RepoItemInfo _atagt7Info;
 
             /// <summary>
             /// Creates a new DashboardFrame  folder.
@@ -1069,6 +1397,7 @@ namespace CRM
                 _taskInfo = new RepoItemInfo(this, "Task", ".//table[#'gridBodyTable']/tbody/tr[5]/td[3]/tag[@tagname='nobr']/span[@innertext='Task']", 30000, null, "8d5ed629-18bd-4d66-92e8-7bb0bff94c45");
                 _nobrInfo = new RepoItemInfo(this, "Nobr", ".//table[#'gridBodyTable']/tbody/tr[5]/td[4]/tag[@tagname='nobr']", 30000, null, "52c4dd5c-e858-45a6-83aa-25d6eeccc629");
                 _httpsasurequalitytestcrm6dynamicscInfo = new RepoItemInfo(this, "HttpsAsurequalitytestCrm6DynamicsC", ".//td[#'gridBodyTable_gridDelBtn_0']//img[@alt='']", 30000, null, "9946e03a-3a14-4da5-b52d-a1b1b6429faa");
+                _atagt7Info = new RepoItemInfo(this, "ATagT7", ".//table[#'gridBodyTable']//a[@innertext='t7']", 30000, null, "77890d60-989a-441c-a3f3-99df63a18ecb");
             }
 
             /// <summary>
@@ -1238,6 +1567,200 @@ namespace CRM
                     return _httpsasurequalitytestcrm6dynamicscInfo;
                 }
             }
+
+            /// <summary>
+            /// The ATagT7 item.
+            /// </summary>
+            [RepositoryItem("77890d60-989a-441c-a3f3-99df63a18ecb")]
+            public virtual Ranorex.ATag ATagT7
+            {
+                get
+                {
+                    return _atagt7Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ATagT7 item info.
+            /// </summary>
+            [RepositoryItemInfo("77890d60-989a-441c-a3f3-99df63a18ecb")]
+            public virtual RepoItemInfo ATagT7Info
+            {
+                get
+                {
+                    return _atagt7Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The NavBarGloablQuickCreateFolder folder.
+        /// </summary>
+        [RepositoryFolder("15b1637b-c2d4-4d2f-9c8e-f9cd44a8c847")]
+        public partial class NavBarGloablQuickCreateFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _mscrmilmenuInfo;
+            RepoItemInfo _mscrminlinevaluemscrminlinelookupInfo;
+            RepoItemInfo _mscrminlinevaluemscrminlineedithInfo;
+            RepoItemInfo _fonterraaustraliaptyltdInfo;
+            RepoItemInfo _optiontag2Info;
+
+            /// <summary>
+            /// Creates a new NavBarGloablQuickCreate  folder.
+            /// </summary>
+            public NavBarGloablQuickCreateFolder(RepoGenBaseFolder parentFolder) :
+                    base("NavBarGloablQuickCreate", ".//iframe[#'NavBarGloablQuickCreate']", parentFolder, 30000, null, false, "15b1637b-c2d4-4d2f-9c8e-f9cd44a8c847", "")
+            {
+                _mscrmilmenuInfo = new RepoItemInfo(this, "MsCrmILMenu", ".//div[#'Dialog_customerid_IMenu']/div[2]", 30000, null, "8531f4a3-8de2-4767-a30a-0b61bff783e5");
+                _mscrminlinevaluemscrminlinelookupInfo = new RepoItemInfo(this, "MsCrmInlineValueMsCrmInlineLookup", ".//div[#'customerid']/div[1]", 30000, null, "ab90745c-3c35-4213-bfb8-6edf40f2679e");
+                _mscrminlinevaluemscrminlineedithInfo = new RepoItemInfo(this, "MsCrmInlineValueMsCrmInlineEditH", ".//div[#'title']/div[1]", 30000, null, "04911325-0182-4bc9-b2d9-e6b64f736ba3");
+                _fonterraaustraliaptyltdInfo = new RepoItemInfo(this, "FonterraAustraliaPtyLtd", ".//li[#'item8']//span[@title~'^Fonterra\\ Australia\\ Pty\\ Lt']", 30000, null, "57c57e78-9f6c-4ad7-8c5b-02769c8f55f3");
+                _optiontag2Info = new RepoItemInfo(this, "OptionTag2", ".//select[#'casetypecode_i']/option[@value='2']", 30000, null, "c1705833-4b95-4323-8125-16b73ef0d2cd");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("15b1637b-c2d4-4d2f-9c8e-f9cd44a8c847")]
+            public virtual Ranorex.IFrameTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.IFrameTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("15b1637b-c2d4-4d2f-9c8e-f9cd44a8c847")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmILMenu item.
+            /// </summary>
+            [RepositoryItem("8531f4a3-8de2-4767-a30a-0b61bff783e5")]
+            public virtual Ranorex.DivTag MsCrmILMenu
+            {
+                get
+                {
+                    return _mscrmilmenuInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmILMenu item info.
+            /// </summary>
+            [RepositoryItemInfo("8531f4a3-8de2-4767-a30a-0b61bff783e5")]
+            public virtual RepoItemInfo MsCrmILMenuInfo
+            {
+                get
+                {
+                    return _mscrmilmenuInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmInlineValueMsCrmInlineLookup item.
+            /// </summary>
+            [RepositoryItem("ab90745c-3c35-4213-bfb8-6edf40f2679e")]
+            public virtual Ranorex.DivTag MsCrmInlineValueMsCrmInlineLookup
+            {
+                get
+                {
+                    return _mscrminlinevaluemscrminlinelookupInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmInlineValueMsCrmInlineLookup item info.
+            /// </summary>
+            [RepositoryItemInfo("ab90745c-3c35-4213-bfb8-6edf40f2679e")]
+            public virtual RepoItemInfo MsCrmInlineValueMsCrmInlineLookupInfo
+            {
+                get
+                {
+                    return _mscrminlinevaluemscrminlinelookupInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmInlineValueMsCrmInlineEditH item.
+            /// </summary>
+            [RepositoryItem("04911325-0182-4bc9-b2d9-e6b64f736ba3")]
+            public virtual Ranorex.DivTag MsCrmInlineValueMsCrmInlineEditH
+            {
+                get
+                {
+                    return _mscrminlinevaluemscrminlineedithInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmInlineValueMsCrmInlineEditH item info.
+            /// </summary>
+            [RepositoryItemInfo("04911325-0182-4bc9-b2d9-e6b64f736ba3")]
+            public virtual RepoItemInfo MsCrmInlineValueMsCrmInlineEditHInfo
+            {
+                get
+                {
+                    return _mscrminlinevaluemscrminlineedithInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FonterraAustraliaPtyLtd item.
+            /// </summary>
+            [RepositoryItem("57c57e78-9f6c-4ad7-8c5b-02769c8f55f3")]
+            public virtual Ranorex.SpanTag FonterraAustraliaPtyLtd
+            {
+                get
+                {
+                    return _fonterraaustraliaptyltdInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FonterraAustraliaPtyLtd item info.
+            /// </summary>
+            [RepositoryItemInfo("57c57e78-9f6c-4ad7-8c5b-02769c8f55f3")]
+            public virtual RepoItemInfo FonterraAustraliaPtyLtdInfo
+            {
+                get
+                {
+                    return _fonterraaustraliaptyltdInfo;
+                }
+            }
+
+            /// <summary>
+            /// The OptionTag2 item.
+            /// </summary>
+            [RepositoryItem("c1705833-4b95-4323-8125-16b73ef0d2cd")]
+            public virtual Ranorex.OptionTag OptionTag2
+            {
+                get
+                {
+                    return _optiontag2Info.CreateAdapter<Ranorex.OptionTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OptionTag2 item info.
+            /// </summary>
+            [RepositoryItemInfo("c1705833-4b95-4323-8125-16b73ef0d2cd")]
+            public virtual RepoItemInfo OptionTag2Info
+            {
+                get
+                {
+                    return _optiontag2Info;
+                }
+            }
         }
 
         /// <summary>
@@ -1314,6 +1837,10 @@ namespace CRM
         {
             RepoItemInfo _closeInfo;
             RepoItemInfo _close1Info;
+            RepoItemInfo _close2Info;
+            RepoItemInfo _casetestcaseforfonterra123Info;
+            RepoItemInfo _pagetablistInfo;
+            RepoItemInfo _clientInfo;
 
             /// <summary>
             /// Creates a new DashboardsAQCustomerServicesDashboa1  folder.
@@ -1323,6 +1850,10 @@ namespace CRM
             {
                 _closeInfo = new RepoItemInfo(this, "Close", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Dashboards:\\ AQ\\ Customer\\ S']/button[@accessiblename='Close']", 30000, null, "c6e53b4b-6b96-4786-948e-4ec769907ce6");
                 _close1Info = new RepoItemInfo(this, "Close1", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Sign out']/button[@accessiblename='Close']", 30000, null, "daf8ed33-060a-4a10-9509-6119c844d8d0");
+                _close2Info = new RepoItemInfo(this, "Close2", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Case:\\ Test\\ case\\ for\\ Fonte']/button[@accessiblename='Close']", 30000, null, "51624ee1-9017-432c-b429-b10375489a32");
+                _casetestcaseforfonterra123Info = new RepoItemInfo(this, "CaseTestCaseForFonterra123", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Case:\\ Test\\ case\\ for\\ Fonte']/text[@accessiblename~'^Case:\\ Test\\ case\\ for\\ Fonte']", 30000, null, "b88f04a5-b71c-457a-8bc3-8425a01ae722");
+                _pagetablistInfo = new RepoItemInfo(this, "PageTabList", "container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']", 30000, null, "03228fb1-aa10-4760-a6ee-0cf5bceec058");
+                _clientInfo = new RepoItemInfo(this, "Client", "container[@accessiblename='Google Chrome']/container[2]/container[2]", 30000, null, "a32e78da-aa84-4d14-8cc7-d439c502a920");
             }
 
             /// <summary>
@@ -1394,6 +1925,102 @@ namespace CRM
                 get
                 {
                     return _close1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Close2 item.
+            /// </summary>
+            [RepositoryItem("51624ee1-9017-432c-b429-b10375489a32")]
+            public virtual Ranorex.Button Close2
+            {
+                get
+                {
+                    return _close2Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close2 item info.
+            /// </summary>
+            [RepositoryItemInfo("51624ee1-9017-432c-b429-b10375489a32")]
+            public virtual RepoItemInfo Close2Info
+            {
+                get
+                {
+                    return _close2Info;
+                }
+            }
+
+            /// <summary>
+            /// The CaseTestCaseForFonterra123 item.
+            /// </summary>
+            [RepositoryItem("b88f04a5-b71c-457a-8bc3-8425a01ae722")]
+            public virtual Ranorex.Text CaseTestCaseForFonterra123
+            {
+                get
+                {
+                    return _casetestcaseforfonterra123Info.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The CaseTestCaseForFonterra123 item info.
+            /// </summary>
+            [RepositoryItemInfo("b88f04a5-b71c-457a-8bc3-8425a01ae722")]
+            public virtual RepoItemInfo CaseTestCaseForFonterra123Info
+            {
+                get
+                {
+                    return _casetestcaseforfonterra123Info;
+                }
+            }
+
+            /// <summary>
+            /// The PageTabList item.
+            /// </summary>
+            [RepositoryItem("03228fb1-aa10-4760-a6ee-0cf5bceec058")]
+            public virtual Ranorex.TabPageList PageTabList
+            {
+                get
+                {
+                    return _pagetablistInfo.CreateAdapter<Ranorex.TabPageList>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PageTabList item info.
+            /// </summary>
+            [RepositoryItemInfo("03228fb1-aa10-4760-a6ee-0cf5bceec058")]
+            public virtual RepoItemInfo PageTabListInfo
+            {
+                get
+                {
+                    return _pagetablistInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Client item.
+            /// </summary>
+            [RepositoryItem("a32e78da-aa84-4d14-8cc7-d439c502a920")]
+            public virtual Ranorex.Container Client
+            {
+                get
+                {
+                    return _clientInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Client item info.
+            /// </summary>
+            [RepositoryItemInfo("a32e78da-aa84-4d14-8cc7-d439c502a920")]
+            public virtual RepoItemInfo ClientInfo
+            {
+                get
+                {
+                    return _clientInfo;
                 }
             }
         }
@@ -1486,6 +2113,270 @@ namespace CRM
                 get
                 {
                     return _creduseridinputtextInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CodeExamplesRanorexAutomatedSoftAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("b3b5a340-d1d0-4244-90fe-b20909d2b874")]
+        public partial class CodeExamplesRanorexAutomatedSoftAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _litagaltInfo;
+
+            /// <summary>
+            /// Creates a new CodeExamplesRanorexAutomatedSoft  folder.
+            /// </summary>
+            public CodeExamplesRanorexAutomatedSoftAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CodeExamplesRanorexAutomatedSoft", "/dom[@domain='www.ranorex.com']", parentFolder, 30000, null, false, "b3b5a340-d1d0-4244-90fe-b20909d2b874", "")
+            {
+                _litagaltInfo = new RepoItemInfo(this, "LiTagAlt", ".//div[#'c7773']//ol/li[9]", 30000, null, "1ea492c7-eeec-492a-a6d7-7cba68b7998f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("b3b5a340-d1d0-4244-90fe-b20909d2b874")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b3b5a340-d1d0-4244-90fe-b20909d2b874")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LiTagAlt item.
+            /// </summary>
+            [RepositoryItem("1ea492c7-eeec-492a-a6d7-7cba68b7998f")]
+            public virtual Ranorex.LiTag LiTagAlt
+            {
+                get
+                {
+                    return _litagaltInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LiTagAlt item info.
+            /// </summary>
+            [RepositoryItemInfo("1ea492c7-eeec-492a-a6d7-7cba68b7998f")]
+            public virtual RepoItemInfo LiTagAltInfo
+            {
+                get
+                {
+                    return _litagaltInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The EvaluationDialogAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("36f3ed24-8fed-4034-97cd-2319dde9221c")]
+        public partial class EvaluationDialogAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _continuebuttonInfo;
+
+            /// <summary>
+            /// Creates a new EvaluationDialog  folder.
+            /// </summary>
+            public EvaluationDialogAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("EvaluationDialog", "/form[@controlname='EvaluationDialog']", parentFolder, 30000, null, true, "36f3ed24-8fed-4034-97cd-2319dde9221c", "")
+            {
+                _continuebuttonInfo = new RepoItemInfo(this, "ContinueButton", "button[@controlname='continueButton']", 30000, null, "8beaa493-c357-496c-9dfc-dac7dfd19c3f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("36f3ed24-8fed-4034-97cd-2319dde9221c")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("36f3ed24-8fed-4034-97cd-2319dde9221c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ContinueButton item.
+            /// </summary>
+            [RepositoryItem("8beaa493-c357-496c-9dfc-dac7dfd19c3f")]
+            public virtual Ranorex.Button ContinueButton
+            {
+                get
+                {
+                    return _continuebuttonInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ContinueButton item info.
+            /// </summary>
+            [RepositoryItemInfo("8beaa493-c357-496c-9dfc-dac7dfd19c3f")]
+            public virtual RepoItemInfo ContinueButtonInfo
+            {
+                get
+                {
+                    return _continuebuttonInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The UntitledGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("ac303b4b-c4f9-429c-9c85-c4afe9c3c55b")]
+        public partial class UntitledGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _graphicInfo;
+
+            /// <summary>
+            /// Creates a new UntitledGoogleChrome  folder.
+            /// </summary>
+            public UntitledGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("UntitledGoogleChrome", "/form[@title='Untitled - Google Chrome']", parentFolder, 30000, null, true, "ac303b4b-c4f9-429c-9c85-c4afe9c3c55b", "")
+            {
+                _graphicInfo = new RepoItemInfo(this, "Graphic", ".//toolbar[@accessiblename='main']/button[@accessiblename='Reload']/picture[@accessiblerole='Graphic']", 30000, null, "0b45ab8b-9913-42ab-8769-3ef88753df40");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ac303b4b-c4f9-429c-9c85-c4afe9c3c55b")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ac303b4b-c4f9-429c-9c85-c4afe9c3c55b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Graphic item.
+            /// </summary>
+            [RepositoryItem("0b45ab8b-9913-42ab-8769-3ef88753df40")]
+            public virtual Ranorex.Picture Graphic
+            {
+                get
+                {
+                    return _graphicInfo.CreateAdapter<Ranorex.Picture>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Graphic item info.
+            /// </summary>
+            [RepositoryItemInfo("0b45ab8b-9913-42ab-8769-3ef88753df40")]
+            public virtual RepoItemInfo GraphicInfo
+            {
+                get
+                {
+                    return _graphicInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The CaseTestCaseForFonterra123GooglAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("99016e47-e96b-447f-af3f-87365e46f241")]
+        public partial class CaseTestCaseForFonterra123GooglAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _closeInfo;
+
+            /// <summary>
+            /// Creates a new CaseTestCaseForFonterra123Googl  folder.
+            /// </summary>
+            public CaseTestCaseForFonterra123GooglAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("CaseTestCaseForFonterra123Googl", "/form[@title~'^Case:\\ Test\\ case\\ for\\ Fonte']", parentFolder, 30000, null, true, "99016e47-e96b-447f-af3f-87365e46f241", "")
+            {
+                _closeInfo = new RepoItemInfo(this, "Close", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Case:\\ Test\\ case\\ for\\ Fonte']/button[@accessiblename='Close']", 30000, null, "5c344f93-e450-40ff-9ca2-a10b01046c3c");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("99016e47-e96b-447f-af3f-87365e46f241")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("99016e47-e96b-447f-af3f-87365e46f241")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("5c344f93-e450-40ff-9ca2-a10b01046c3c")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("5c344f93-e450-40ff-9ca2-a10b01046c3c")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
                 }
             }
         }

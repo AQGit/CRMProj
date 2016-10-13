@@ -4,9 +4,10 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Add_a_task.rxrec" />
     <Element value="CRM.rxtst" />
     <Element value="CRM_login.rxrec" />
+    <Element value="Add_a_task.rxrec" />
+    <Element value="Adding_a_case.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

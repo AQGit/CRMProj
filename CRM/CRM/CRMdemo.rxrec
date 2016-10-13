@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="e57288ae-864b-464e-95ce-0da505ec0f11"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		CRMdemo
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CRMdemo"
+	namespace="CRM"/>
+	<variables/>
+	<recorditems>
+		<openwebsiterecorditem
+		enabled="True"
+		optional="False"
+		browser="chrome"
+		args=""
+		maximized="False"
+		incognito="False"
+		clearcache="False">
+			<comment/>
+			<bindings/>
+			<url>
+				https://asurequalitytest.crm6.dynamics.com/main.aspx
+			</url>
+		</openwebsiterecorditem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="8dc0108a-f11b-4def-acb0-fdcbc5cb26e2"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="75"
+		sy="42"
+		loc="9;3">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="0b45ab8b-9913-42ab-8769-3ef88753df40">
+				<element
+				role="picture"
+				prefcap="picture"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="1"
+				rect="66,39,16,16"
+				snapElem="">
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Graphic
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Untitled - Google Chrome']//toolbar[@accessiblename='main']/button[@accessiblename='Reload']/picture[@accessiblerole='Graphic']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e76b3ad9-7430-4f8b-bedc-076e4eff4db7">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwADADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDX2yf8
+82/Mf40bZP8Anm35j/GrVV7u6S0jDyKxBOPlobsOMXJ2Q3bJ/wA82/Mf40bZP+ebfmP8arf23b/8
+85fyH+NH9t2//POX8h/jU88e5r9Xq/ylnbJ/zzb8x/jRtk/55N+Y/wAaLO9jvN/lqw2Yzu9//wBV
+WFBdm+cqFOOMelUncylFxdmKCGGRWbr3/Hon/XT+hrSACjArN17/AI9E/wCun9DUz+Fm2H/ixJpZ
+Hgk3vzCepA5T/wCtVaC9le4TztiQSO6xOo4cgkAH0PGferMsbzybH+WEdQDy/wD9altIIZdMaCRA
+0ZkkXaf99qowINK/4+77/rp/Vq0ousn+9/QVkaQUhvriBZ1uA671kVwxwDyG9+R9a14usn+9/QUo
+qyNKslKV15fkLVW/tPtkKx79mGznGatUUNXJjJxd0Zn9mXH/AEEJfyP+NRSaVdLGrJeF2hJeNNmN
+zEk8nPOc4rUmlWIAkEknAAx/WmLdxEkOwjI7Ow5/WkkkXKpOe/5IraVaNbNcMY2iWR8ohxwOvY46
+k/lV5SUZvlLBjnjHpQjq67kYMPUHNNkmijZRJIiFjhQzAZ+lUZtt7n//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="40683b80-86e1-49ef-95f0-b1128afadaab"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="69"
+		sy="50"
+		loc="3;11">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="0b45ab8b-9913-42ab-8769-3ef88753df40">
+				<element
+				role="picture"
+				prefcap="picture"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="66,39,16,16"
+				snapElem="">
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Graphic
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Untitled - Google Chrome']//toolbar[@accessiblename='main']/button[@accessiblename='Reload']/picture[@accessiblerole='Graphic']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="70df3dc4-f9e2-4a61-b4f2-d0496f5b523d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAwADADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDX2yf8
+82/Mf40bZP8Anm35j/GrVQXd0lpEJJAxBbb8tDdhxi5OyGbZP+ebfmP8aNsn/PNvzH+NV/7atv7k
+v5D/ABo/tq2/uS/kP8annj3Nfq9X+UsbZP8Anm35j/GjbJ/zyb8x/jS2d7Heb/LVxsxncB3/AP1V
+OoLs3zlQpxxj0qk7mUouLsxQQwyKztd/48k/66D+RrRACjArO13/AI8k/wCug/kamfws2w/8WJL+
+9u5pFWVooY22/JwWPfmoS11FdpDG08kW9dzOucc88+lJJPLYXk5EfmW2BJJt+8hbIz7j5easRSzX
+ckciBooB82SeX9PwqjAh0v8A4/b7/rp/Vq0Yusn+9/QVnaX/AMft9/10/q1aMXWT/e/oKmGxviP4
+n3fkLVa/tPtkIj37MNuzjPY/41ZoptXMoycXdFHT4Xt7y5WWZpiY4zub0y/FULuIW16kVreGOORw
+phWTmMnoQuehz07Vdv7cPNueZhFIFR4lGC4G443Z4HPNVtOZobs+cwT91td2ZQJCD8h6k5xnNGmw
++eXNzdS7Y2RtGlZpTIZCCSRj19/erSkozfKWDHPGPSkWSNhlXUj1BpGniQgPKilugLAZoStohSk5
+vmkf/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="CRMRepository"
+	id="3927bcef-8569-41f8-abfb-de551733af0c"
+	rxversion="6.1"
+	relativepath="CRMRepository.rxrep">
+		<codegen
+		classname="CRMRepository"
+		namespace="CRM"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="d2449b8d-a71b-40ef-90fb-0bd7d816b0e7"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CRMdemo.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

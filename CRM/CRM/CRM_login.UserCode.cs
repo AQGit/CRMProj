@@ -32,5 +32,11 @@ namespace CRM
             // Your recording specific initialization code goes here.
         }
 
+        public void debug_comment()
+        {
+        	
+			System.Diagnostics.Process.Start( "notepad.exe");
+        }
+
     }
 }

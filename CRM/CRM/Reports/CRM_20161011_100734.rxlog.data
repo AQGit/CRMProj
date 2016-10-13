@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="111f79d5ad80c933"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="11/10/2016 10:07:34 a.m."
+		timestampiso="2016-10-10T21:07:34"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="40.86s"
+			durationms="40857"
+			type="test suite"
+			rid="ce1ddfc0525b230"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			testsuitename="CRM"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="40.84s"
+				durationms="40844"
+				type="test case"
+				rid="72a4db88a1ba76b"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="TestCase1"
+				testcaseid="54cefd4a-cbe2-4318-b28c-2cc5c392938b"
+				datasource="NewConnector1"
+				iterationcount="2"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="40.84s"
+					durationms="40840"
+					type="test case iteration"
+					rid="1f18006c77f79962"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase1"
+					iteration="1">
+					<datarow>
+						<field
+							name="User_name">
+							sunjeet.khokhar@asurequality.com
+						</field>
+						<field
+							name="Account_name">
+							Sunjeet Khokhar
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="40.83s"
+						durationms="40829"
+						type="test module"
+						rid="37624d1123d6038"
+						totalerrorcount="1"
+						totalwarningcount="2"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CRM_login"
+						moduleid="232bb703-abd3-4354-b971-15cf2572df49"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="CRM_user_name"
+								value="sunjeet.khokhar@asurequality.com"/>
+							<varbinding
+								name="Account_name"
+								value="Sunjeet Khokhar"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.287"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="10:07:34"
+							time="00:00.287"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$CRM_user_name = 'sunjeet.khokhar@asurequality.com', $Account_name = 'Sunjeet Khokhar'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.352"
+							timeRelativeToTestModuleStartTime="00:00.066"
+							timeWallClock="10:07:34"
+							time="00:00.352"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>Title
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.400"
+							timeRelativeToTestModuleStartTime="00:00.114"
+							timeWallClock="10:07:34"
+							time="00:00.400"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="121"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.575"
+							timeRelativeToTestModuleStartTime="00:00.289"
+							timeWallClock="10:07:35"
+							time="00:00.575"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.UseAnotherAccount' at 28;32.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//table[#'use_another_account']//td/table/tbody/tr[2]/td[1]/img[@alt='Use another account']"
+								fullname="CRMRepository.SignInToYourAccount.UseAnotherAccount"
+								id="653d7c0ed3da45e0a1957f6665a9b197"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="125"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.424"
+							timeRelativeToTestModuleStartTime="00:03.138"
+							timeWallClock="10:07:37"
+							time="00:03.424"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.CredUseridInputtext' at 20;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'cred_userid_inputtext']"
+								fullname="CRMRepository.SignInToYourAccount.CredUseridInputtext"
+								id="2894b0e36ee64c5a89a5e0a8a36c9b28"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="129"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:04.481"
+							timeRelativeToTestModuleStartTime="00:04.195"
+							timeWallClock="10:07:39"
+							time="00:04.481"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$CRM_user_name' with focus on 'SignInToYourAccount.CredUseridInputtext'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'cred_userid_inputtext']"
+								fullname="CRMRepository.SignInToYourAccount.CredUseridInputtext"
+								id="2894b0e36ee64c5a89a5e0a8a36c9b28"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="137"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.252"
+							timeRelativeToTestModuleStartTime="00:07.966"
+							timeWallClock="10:07:42"
+							time="00:08.252"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{TAB}'.
+							</message>
+							<metainfo
+								itemindex="5"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="141"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:08.541"
+							timeRelativeToTestModuleStartTime="00:08.255"
+							timeWallClock="10:07:43"
+							time="00:08.541"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavBarUserInfoTextId' at 9;39.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarUserInfoTextId"
+								id="2d74f32610434719bdce1083f09dd8df"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="145"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.056"
+							timeRelativeToTestModuleStartTime="00:16.770"
+							timeWallClock="10:07:51"
+							time="00:17.056"
+							level="Warn"
+							category="Automation">
+							<message>
+								Could not get a valid element rectangle from '{SpanTag:}', since the element is no longer valid.
+							</message>
+							<metainfo
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="146"
+								loglvl="Warn"
+								itemindex="6"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.424"
+							timeRelativeToTestModuleStartTime="00:17.138"
+							timeWallClock="10:07:51"
+							time="00:17.424"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating AttributeEqual (Title=$Account_name) on item 'DashboardsAQCustomerServicesDashboa.Account_Name'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']/span[@title='Sunjeet Khokhar']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Account_Name"
+								id="f4905f95745f46459996e382709bf5e1"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="153"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.345"
+							timeRelativeToTestModuleStartTime="00:19.059"
+							timeWallClock="10:07:53"
+							time="00:19.345"
+							level="Success"
+							category="Validation">
+							<message>
+								Attribute 'Title' of element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.Account_Name' does match the specified value.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']/span[@title='Sunjeet Khokhar']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Account_Name"
+								id="f4905f95745f46459996e382709bf5e1"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="154"
+								loglvl="Success"
+								itemindex="8"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.432"
+							timeRelativeToTestModuleStartTime="00:19.146"
+							timeWallClock="10:07:53"
+							time="00:19.432"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId' at 24;22.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'navTabButtonUserInfoSignOutId']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId"
+								id="d5b991264c3340fea8f1fc0e4f94a69a"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="160"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:31.956"
+							timeRelativeToTestModuleStartTime="00:31.670"
+							timeWallClock="10:08:06"
+							time="00:31.956"
+							level="Info"
+							category="Mouse"
+							errimg="images_CRM_2016_95e32894\CRM_2016_95e32894_926bf7a4_trace.jpg"
+							errthumb="images_CRM_2016_95e32894\CRM_2016_95e32894_926bf7a4_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa1.Close1' at 13;17.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title~'^Dashboards:\ AQ\ Customer\ S']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Sign out']/button[@accessiblename='Close']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa1.Close1"
+								id="daf8ed33060a4a1095096119c844d8d0"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="164"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:34.404"
+							timeRelativeToTestModuleStartTime="00:34.118"
+							timeWallClock="10:08:08"
+							time="00:34.404"
+							level="Info"
+							category="Mouse"
+							errimg="images_CRM_2016_95e32894\CRM_2016_95e32894_dfddd48e_trace.jpg"
+							errthumb="images_CRM_2016_95e32894\CRM_2016_95e32894_dfddd48e_trace_thumb.jpg">
+							<message>
+								Mouse Left DoubleClick item 'CodeExamplesRanorexAutomatedSoft.LiTagAlt' at 589;3.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='www.ranorex.com']//div[#'c7773']//ol/li[9]"
+								fullname="CRMRepository.CodeExamplesRanorexAutomatedSoft.LiTagAlt"
+								id="1ea492c7eeec492aa6d77cba68b7998f"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="168"
+								itemindex="12"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:40.938"
+							timeRelativeToTestModuleStartTime="00:40.652"
+							timeWallClock="10:08:15"
+							time="00:40.938"
+							level="Error"
+							category="User"
+							errimg="images_CRM_2016_95e32894\CRM_2016_95e32894_b10690bf_trace.jpg"
+							errthumb="images_CRM_2016_95e32894\CRM_2016_95e32894_b10690bf_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test case iteration"
+					rid="1024270574be6a07"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase1"
+					iteration="2">
+					<datarow>
+						<field
+							name="User_name">
+							sunjeet.khokhar@asurequality.com
+						</field>
+						<field
+							name="Account_name">
+							Sunjeet Khokhar1
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -43,6 +43,8 @@ namespace CRM
         {
             Account_to_search = "fonterra";
             month_text = "october2016";
+            get_task_name = "";
+            validate_txt = "";
         }
 
         /// <summary>
@@ -67,7 +69,29 @@ namespace CRM
             set { _Account_to_search = value; }
         }
 
-        string _month_text;
+        string _get_task_name;
+
+        /// <summary>
+        /// Gets or sets the value of variable get_task_name.
+        /// </summary>
+        [TestVariable("4aaf35ca-b946-4126-870f-a6499bddbcc3")]
+        public string get_task_name
+        {
+            get { return _get_task_name; }
+            set { _get_task_name = value; }
+        }
+
+        string _validate_txt;
+
+        /// <summary>
+        /// Gets or sets the value of variable validate_txt.
+        /// </summary>
+        [TestVariable("8adeb8db-ec69-4a43-9d50-7d91e7310590")]
+        public string validate_txt
+        {
+            get { return _validate_txt; }
+            set { _validate_txt = value; }
+        }
 
         /// <summary>
         /// Gets or sets the value of variable month_text.
@@ -75,8 +99,8 @@ namespace CRM
         [TestVariable("2677a97f-061b-4ef3-9dd3-85200f2c0ac2")]
         public string month_text
         {
-            get { return _month_text; }
-            set { _month_text = value; }
+            get { return repo.month_text; }
+            set { repo.month_text = value; }
         }
 
 #endregion
@@ -217,12 +241,12 @@ namespace CRM
             repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1.Click("143;15");
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1'.", repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1Info, new RecordItemIndex(27));
-            //Validate.Exists(repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1Info);
+            //Report.Log(ReportLevel.Info, "Set Value", "Setting attribute title to 'foobar' on item 'DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1'.", repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1Info, new RecordItemIndex(27));
+            //repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1.Element.SetAttributeValue("title", "foobar");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='nobr') on item 'DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1'.", repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1Info, new RecordItemIndex(28));
-            Validate.Attribute(repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1Info, "TagName", "nobr");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (title=$month_text) on item 'DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1'.", repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1Info, new RecordItemIndex(28));
+            Validate.Attribute(repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.Nobr1Info, "title", month_text);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.DashboardFrame.HttpsAsurequalitytestCrm6DynamicsC' at 6;8.", repo.DashboardsAQCustomerServicesDashboa.DashboardFrame.HttpsAsurequalitytestCrm6DynamicsCInfo, new RecordItemIndex(29));

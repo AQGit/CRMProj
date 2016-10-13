@@ -109,7 +109,7 @@ rxversion="6.1">
 				</tr>
 				<tr>
 					<td>
-						micky mouse
+						micky mouse1
 					</td>
 				</tr>
 			</table>
@@ -118,7 +118,7 @@ rxversion="6.1">
 		name="NewConnector1"
 		type="Ranorex.Core.Data.SimpleDataConnector"
 		id="24216a59-5ba1-4944-aa15-bdc4b5008bae"
-		lastknownrowcount="1">
+		lastknownrowcount="2">
 			<lastknowncolumns>
 				<column>
 					User_name
@@ -136,6 +136,14 @@ rxversion="6.1">
 					<th>
 						Account_name
 					</th>
+				</tr>
+				<tr>
+					<td>
+						sunjeet.khokhar@asurequality.com
+					</td>
+					<td>
+						Sunjeet Khokhar
+					</td>
 				</tr>
 				<tr>
 					<td>

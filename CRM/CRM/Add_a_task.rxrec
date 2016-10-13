@@ -36,6 +36,14 @@ mode="Desktop">
 		id="2677a97f-061b-4ef3-9dd3-85200f2c0ac2">
 			october2016
 		</var>
+		<var
+		name="get_task_name"
+		id="4aaf35ca-b946-4126-870f-a6499bddbcc3">
+		</var>
+		<var
+		name="validate_txt"
+		id="8adeb8db-ec69-4a43-9d50-7d91e7310590">
+		</var>
 	</variables>
 	<recorditems>
 		<openwebsiterecorditem
@@ -4430,11 +4438,11 @@ d3bxHeoWYqvmbQTwMuOlFFAHQ0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
 UAFFFFAH/9k=
 			</helperscreenshot>
 		</mouseitem>
-		<validationitem
+		<setvaluerecorditem
 		enabled="False"
 		optional="False"
-		searchpropertyid="e0a6fb68-ee5d-46e0-9766-195bface0c6f"
-		action="Exists">
+		searchpropertyid="1a7c3163-b5d9-4485-bf11-a209f9b16812"
+		attrname="title">
 			<comment/>
 			<bindings/>
 			<info
@@ -4444,20 +4452,21 @@ UAFFFFAH/9k=
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//table[#'gridBodyTable']//tag[@tagname='nobr']
 				</path>
 			</info>
-			<matchname>
-				InnerText
-			</matchname>
-			<matchvalue>
-				t7october2016
-			</matchvalue>
-		</validationitem>
+			<AttributeValue>
+				foobar
+			</AttributeValue>
+		</setvaluerecorditem>
 		<validationitem
 		enabled="True"
 		optional="False"
-		searchpropertyid="e0a6fb68-ee5d-46e0-9766-195bface0c6f"
+		searchpropertyid="cc77697d-5b25-4c03-b82b-545e27bb4cfb"
 		action="AttributeEqual">
 			<comment/>
-			<bindings/>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="month_text"/>
+			</bindings>
 			<info
 			sourcename="ItemRecorderEditor"
 			id="e13bbb55-ea46-4229-9a3f-059666563ef0">
@@ -4466,10 +4475,10 @@ UAFFFFAH/9k=
 				</path>
 			</info>
 			<matchname>
-				TagName
+				title
 			</matchname>
 			<matchvalue>
-				nobr
+				yourtext
 			</matchvalue>
 		</validationitem>
 		<mouseitem

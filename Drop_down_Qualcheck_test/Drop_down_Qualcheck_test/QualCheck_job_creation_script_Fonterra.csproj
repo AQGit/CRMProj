@@ -64,18 +64,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AQMC.cs">
-      <BoundTo>233af227-90f8-4365-8852-346c9ba0d51d</BoundTo>
-      <DependentUpon>AQMC.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>a713c6a0-1bd3-4337-a9b9-8f8edf46505e</id>
-    </Compile>
-    <Compile Include="AQMC.UserCode.cs">
-      <BoundTo>233af227-90f8-4365-8852-346c9ba0d51d</BoundTo>
-      <DependentUpon>AQMC.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>60a9780c-7c87-4f54-aa8e-f45b66bb9749</id>
-    </Compile>
     <Compile Include="AQMC_redux.cs">
       <BoundTo>a18d7abd-07b6-461d-a598-d8e36ab65f79</BoundTo>
       <DependentUpon>AQMC_redux.rxrec</DependentUpon>
@@ -155,11 +143,6 @@
   <ItemGroup>
     <None Include="app.config">
       <id>74e5c98f-5ac7-46c2-a221-708fa2f9c1d2</id>
-    </None>
-    <None Include="AQMC.rxrec">
-      <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>
-      <id>233af227-90f8-4365-8852-346c9ba0d51d</id>
-      <recordtableid>dbbf6b44-8f2d-417f-8358-6f0d5eec071b</recordtableid>
     </None>
     <None Include="AQMC_redux.rxrec">
       <BoundTo>f753abfe-0f5b-409c-9bbe-5fe120fb6c56</BoundTo>

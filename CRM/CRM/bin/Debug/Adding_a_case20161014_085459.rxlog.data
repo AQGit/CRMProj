@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ec384ef92103230"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="14/10/2016 8:55:01 a.m."
+		timestampiso="2016-10-13T19:55:01"
+		timeoutfactor="1"
+		module="Adding_a_case">
+		<detail>
+			Adding_a_case
+		</detail>
+		<errmsg>
+			Attribute 'Text' of element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea' does not match the specified value (actual='(null)', expected='yourtext').
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.338"
+			timeRelativeToTestModuleStartTime="00:00.338"
+			timeWallClock="08:55:02"
+			time="00:00.338"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.468"
+			timeRelativeToTestModuleStartTime="00:00.468"
+			timeWallClock="08:55:02"
+			time="00:00.468"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage' at 10;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//img[#'navTabGlobalCreateImage']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage"
+				id="9f82739508974946a99f265b0da6f4b4"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.512"
+			timeRelativeToTestModuleStartTime="00:05.512"
+			timeWallClock="08:55:07"
+			time="00:05.512"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Case' at 3;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{e3fe4ff2-a630-49bb-a1e9-debc3a076815}']/span[@innertext='Case']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Case"
+				id="9175ad58f1fb4c05a6465a2819fe0af5"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.562"
+			timeRelativeToTestModuleStartTime="00:06.562"
+			timeWallClock="08:55:08"
+			time="00:06.562"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.OptionTag2' at 54;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//select[#'casetypecode_i']/option[@value='2']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.OptionTag2"
+				id="c17058334b954323812516b73ef0d2cd"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.821"
+			timeRelativeToTestModuleStartTime="00:08.821"
+			timeWallClock="08:55:10"
+			time="00:08.821"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmInlineValueMsCrmInlineEditH' at 40;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'title']/div[1]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmInlineValueMsCrmInlineEditH"
+				id="0491132501824bc9b2d9e6b64f736ba3"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.184"
+			timeRelativeToTestModuleStartTime="00:10.184"
+			timeWallClock="08:55:12"
+			time="00:10.184"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}T{LShiftKey up}est{Space}case{Space}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="102"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.346"
+			timeRelativeToTestModuleStartTime="00:11.346"
+			timeWallClock="08:55:13"
+			time="00:11.346"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'for{Space}{LShiftKey down}F{LShiftKey up}onterra{Space}123'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="106"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.154"
+			timeRelativeToTestModuleStartTime="00:13.154"
+			timeWallClock="08:55:14"
+			time="00:13.154"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmInlineValueMsCrmInlineLookup' at 30;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'customerid']/div[1]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmInlineValueMsCrmInlineLookup"
+				id="ab90745c3c354213bfb86edf40f2679e"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.500"
+			timeRelativeToTestModuleStartTime="00:14.500"
+			timeWallClock="08:55:16"
+			time="00:14.500"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LShiftKey down}F{LShiftKey up}onterra{Space}australia{Return}'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="114"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.633"
+			timeRelativeToTestModuleStartTime="00:16.633"
+			timeWallClock="08:55:18"
+			time="00:16.633"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmILMenu' at 323;102.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'Dialog_customerid_IMenu']/div[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmILMenu"
+				id="8531f4a38de24767a30a0b61bff783e5"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.541"
+			timeRelativeToTestModuleStartTime="00:18.541"
+			timeWallClock="08:55:20"
+			time="00:18.541"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmILMenu' at 320;190.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'Dialog_customerid_IMenu']/div[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmILMenu"
+				id="8531f4a38de24767a30a0b61bff783e5"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.259"
+			timeRelativeToTestModuleStartTime="00:19.259"
+			timeWallClock="08:55:21"
+			time="00:19.259"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.FonterraAustraliaPtyLtd' at 84;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//li[#'item8']//span[@title~'^Fonterra\ Australia\ Pty\ Lt']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.FonterraAustraliaPtyLtd"
+				id="57c57e789f6c4ad78c5b02769c8f55f3"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.224"
+			timeRelativeToTestModuleStartTime="00:20.224"
+			timeWallClock="08:55:22"
+			time="00:20.224"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.GlobalquickcreateSaveButtonNavBarGloa' at 23;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//button[#'globalquickcreate_save_button_NavBarGloablQuickCreate']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.GlobalquickcreateSaveButtonNavBarGloa"
+				id="f0b4dbceb13d414f9dcedbc539088c55"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="132"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.038"
+			timeRelativeToTestModuleStartTime="00:21.038"
+			timeWallClock="08:55:22"
+			time="00:21.038"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea' at 109;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table//span[@innertext~'^Case\ Test\ case\ for\ Fonter']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea"
+				id="a01c6b3ded974275b92f982741e8a6e2"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="136"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.391"
+			timeRelativeToTestModuleStartTime="00:23.391"
+			timeWallClock="08:55:25"
+			time="00:23.391"
+			level="Info"
+			category="Validation"
+			errimg=".\Adding_a_87366b07_47c627bb_trace.jpg"
+			errthumb=".\Adding_a_87366b07_47c627bb_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='yourtext') on item 'DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table//span[@innertext~'^Case\ Test\ case\ for\ Fonter']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea"
+				id="a01c6b3ded974275b92f982741e8a6e2"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="140"
+				itemindex="14"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.534"
+			timeRelativeToTestModuleStartTime="00:23.534"
+			timeWallClock="08:55:25"
+			time="00:23.534"
+			level="Failure"
+			category="Validation"
+			errimg=".\Adding_a_87366b07_1b12d593_trace.jpg"
+			errthumb=".\Adding_a_87366b07_1b12d593_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea' does not match the specified value (actual='(null)', expected='yourtext').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table//span[@innertext~'^Case\ Test\ case\ for\ Fonter']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea"
+				id="a01c6b3ded974275b92f982741e8a6e2"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="141"
+				loglvl="Failure"
+				itemindex="14"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.546"
+			timeRelativeToTestModuleStartTime="00:23.546"
+			timeWallClock="08:55:25"
+			time="00:23.546"
+			level="Error"
+			category="Module"
+			errimg=".\Adding_a_87366b07_1b12d593_trace.jpg"
+			errthumb=".\Adding_a_87366b07_1b12d593_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea' does not match the specified value (actual='(null)', expected='yourtext').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CRM.Adding_a_case.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs:line 141
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Adding_a_case.cs"
+				codeline="141"
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table//span[@innertext~'^Case\ Test\ case\ for\ Fonter']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.CaseTestCaseForFonterra123WasCrea"
+				id="a01c6b3ded974275b92f982741e8a6e2"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="14"/>
+		</item>
+	</activity>
+</report>

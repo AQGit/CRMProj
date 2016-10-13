@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8def5e500c4e880"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="10/10/2016 3:32:13 p.m."
+		timestampiso="2016-10-10T02:32:13"
+		timeoutfactor="1"
+		module="CRM_login">
+		<detail>
+			CRM_login
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.110"
+			timeRelativeToTestModuleStartTime="00:00.110"
+			timeWallClock="15:32:13"
+			time="00:00.110"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>CRM_user_name, Account_name, Title
+			</message>
+			<metainfo
+				loglvl="Warn"/>
+		</item>
+	</activity>
+</report>

@@ -36,6 +36,10 @@ mode="Desktop">
 		id="bd3ee648-96b6-4a20-bff4-2565d5173347">
 			Sunjeet Khokhar
 		</var>
+		<var
+		name="Title"
+		id="99a88f98-58d1-4689-9ae6-669d3aaf931b">
+		</var>
 	</variables>
 	<recorditems>
 		<openwebsiterecorditem
@@ -1102,10 +1106,26 @@ I0tFACbh7/kaNw9/yNLRQAm4e/5GjcPf8jS0UAJuHv8AkaNw9/yNLRQAm4e/5GjcPf8AI0tFACbh
 pbb/AFv4UAf/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<getvaluerecorditem
+		enabled="False"
+		optional="False"
+		searchpropertyid="a61a9cce-dd5a-4010-90f3-0283a29a2bb7"
+		attrname="Title"
+		varname="Title">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="f4905f95-745f-4645-9996-e382709bf5e1">
+				<path>
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']/span[@title='Sunjeet Khokhar']
+				</path>
+			</info>
+		</getvaluerecorditem>
 		<validationitem
 		enabled="True"
 		optional="False"
-		searchpropertyid="fac4a2f5-1076-4f4a-b9b9-086b01866412"
+		searchpropertyid="30bdfa97-3d42-40c9-a97b-cea9191f5fd8"
 		action="AttributeEqual">
 			<comment/>
 			<bindings>
@@ -1124,9 +1144,19 @@ pbb/AFv4UAf/2Q==
 				Title
 			</matchname>
 			<matchvalue>
-				Sunjeet Khokhar
+				yourtext
 			</matchvalue>
 		</validationitem>
+		<userrecorditem
+		enabled="False"
+		optional="False"
+		methodname="debug_comment"
+		varname="">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="1fe4cf02-96d1-48e3-b3fb-9d2aa41f3d89"/>
+		</userrecorditem>
 		<mouseitem
 		enabled="True"
 		optional="False"

@@ -1,15 +1,14 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="POC_job_create_in_QualCheck.rxrec" />
+    <Element value="AQMC_redux.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="AQMC_triux.rxrec" />
     <Element value="AuditTrax_job_search_and_processing.rxrec" />
     <Element value="POC_job_create_in_QualCheck.rxrec" />
     <Element value="Drop_down_Qualcheck_test.rxtst" />
-    <Element value="AQMC.rxrec" />
     <Element value="AQMC_redux.rxrec" />
-    <Element value="AQMC_triux.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

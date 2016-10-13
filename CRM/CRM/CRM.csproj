@@ -11,6 +11,8 @@
     <RanorexVersion>6.1</RanorexVersion>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <projectdefaultrepository>4b916693-a537-46f4-81bf-77fe05058a72</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <RunCodeAnalysis>False</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -64,8 +66,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adding_a_case.cs">
+      <BoundTo>040169bd-f9e8-48a4-908a-61c63ad39f9b</BoundTo>
+      <DependentUpon>Adding_a_case.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>59b9cadf-cafe-469a-9525-87f081e37b51</id>
+    </Compile>
+    <Compile Include="Adding_a_case.UserCode.cs">
+      <BoundTo>040169bd-f9e8-48a4-908a-61c63ad39f9b</BoundTo>
+      <DependentUpon>Adding_a_case.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>26d6708b-0a13-4ef3-a968-762c98435dab</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>766fdbee-656b-4eee-8d14-befa57ad50a1</id>
+    </Compile>
+    <Compile Include="CRMdemo.cs">
+      <BoundTo>41fff0ef-f713-41e1-9adb-2ac9a905474c</BoundTo>
+      <DependentUpon>CRMdemo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7affa06-5d5b-4861-b301-20e7c5d72973</id>
+    </Compile>
+    <Compile Include="CRMdemo.UserCode.cs">
+      <BoundTo>41fff0ef-f713-41e1-9adb-2ac9a905474c</BoundTo>
+      <DependentUpon>CRMdemo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c799c9ea-bdd7-4046-b59b-43f65038ee5c</id>
     </Compile>
     <Compile Include="CRMRepository.cs">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
@@ -100,10 +126,32 @@
       <UserCode>true</UserCode>
       <id>77acf533-ce98-492d-8cd7-d39deb2fed44</id>
     </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>d8d365d6-6967-4aa0-9e97-e60802a47242</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d48830df-8256-41c9-bb91-1a7e8f5e5ccd</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>d8d365d6-6967-4aa0-9e97-e60802a47242</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0f30d0a8-38bd-45e9-863f-ab2506b01347</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Adding_a_case.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>040169bd-f9e8-48a4-908a-61c63ad39f9b</id>
+      <recordtableid>a1cfd953-0bdc-4ad8-9417-f3734b6ed904</recordtableid>
+    </None>
     <None Include="app.config">
       <id>376aec5b-c766-4235-a4d2-cef505c5c3f4</id>
+    </None>
+    <None Include="CRMdemo.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>41fff0ef-f713-41e1-9adb-2ac9a905474c</id>
+      <recordtableid>e57288ae-864b-464e-95ce-0da505ec0f11</recordtableid>
     </None>
     <None Include="CRMRepository.rximg">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
@@ -125,6 +173,11 @@
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
       <id>e58d3baa-c0a0-4368-bcc1-e007039abcc9</id>
       <recordtableid>232bb703-abd3-4354-b971-15cf2572df49</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <id>d8d365d6-6967-4aa0-9e97-e60802a47242</id>
+      <recordtableid>e8e4b14d-3cc3-47ab-b90b-bdd19bb524ad</recordtableid>
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
     </None>
   </ItemGroup>
   <ItemGroup>

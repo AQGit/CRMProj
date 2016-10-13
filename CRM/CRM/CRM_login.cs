@@ -43,6 +43,7 @@ namespace CRM
         {
             CRM_user_name = "asurequality.com{Tab}";
             Account_name = "Sunjeet Khokhar";
+            Title = "";
         }
 
         /// <summary>
@@ -77,6 +78,18 @@ namespace CRM
         {
             get { return _Account_name; }
             set { _Account_name = value; }
+        }
+
+        string _Title;
+
+        /// <summary>
+        /// Gets or sets the value of variable Title.
+        /// </summary>
+        [TestVariable("99a88f98-58d1-4689-9ae6-669d3aaf931b")]
+        public string Title
+        {
+            get { return _Title; }
+            set { _Title = value; }
         }
 
 #endregion
@@ -133,15 +146,22 @@ namespace CRM
             repo.DashboardsAQCustomerServicesDashboa.NavBarUserInfoTextId.Click("9;39");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Title=$Account_name) on item 'DashboardsAQCustomerServicesDashboa.Account_Name'.", repo.DashboardsAQCustomerServicesDashboa.Account_NameInfo, new RecordItemIndex(7));
+            //Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Title' from item 'DashboardsAQCustomerServicesDashboa.Account_Name' and assigning its value to variable 'Title'.", repo.DashboardsAQCustomerServicesDashboa.Account_NameInfo, new RecordItemIndex(7));
+            //Title = repo.DashboardsAQCustomerServicesDashboa.Account_Name.Element.GetAttributeValueText("Title");
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Title=$Account_name) on item 'DashboardsAQCustomerServicesDashboa.Account_Name'.", repo.DashboardsAQCustomerServicesDashboa.Account_NameInfo, new RecordItemIndex(8));
             Validate.Attribute(repo.DashboardsAQCustomerServicesDashboa.Account_NameInfo, "Title", Account_name);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId' at 24;22.", repo.DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutIdInfo, new RecordItemIndex(8));
+            //debug_comment();
+            //Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId' at 24;22.", repo.DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutIdInfo, new RecordItemIndex(10));
             repo.DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId.Click("24;22");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa1.Close1' at 13;17.", repo.DashboardsAQCustomerServicesDashboa1.Close1Info, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa1.Close1' at 13;17.", repo.DashboardsAQCustomerServicesDashboa1.Close1Info, new RecordItemIndex(11));
             repo.DashboardsAQCustomerServicesDashboa1.Close1.Click("13;17");
             Delay.Milliseconds(200);
             
