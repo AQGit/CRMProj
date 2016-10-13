@@ -1148,7 +1148,7 @@ pbb/AFv4UAf/2Q==
 			</matchvalue>
 		</validationitem>
 		<userrecorditem
-		enabled="False"
+		enabled="True"
 		optional="False"
 		methodname="debug_comment"
 		varname="">

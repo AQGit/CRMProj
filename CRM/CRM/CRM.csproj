@@ -99,6 +99,18 @@
       <RepositoryCode>true</RepositoryCode>
       <id>3cdbcd56-6ff6-43a7-a2ef-9ee9cdcf1e22</id>
     </Compile>
+    <Compile Include="CRM_adding_a_lead.cs">
+      <BoundTo>25f4765c-a017-4115-95ab-6d1c83bae4a2</BoundTo>
+      <DependentUpon>CRM_adding_a_lead.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>32897bb2-8e4d-4437-bdab-3b666c1fe7c8</id>
+    </Compile>
+    <Compile Include="CRM_adding_a_lead.UserCode.cs">
+      <BoundTo>25f4765c-a017-4115-95ab-6d1c83bae4a2</BoundTo>
+      <DependentUpon>CRM_adding_a_lead.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6509267f-9b03-43dd-aafd-645b45b50224</id>
+    </Compile>
     <Compile Include="CRM_login.cs">
       <BoundTo>e58d3baa-c0a0-4368-bcc1-e007039abcc9</BoundTo>
       <DependentUpon>CRM_login.rxrec</DependentUpon>
@@ -168,6 +180,11 @@
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
       <id>563bf180-b1c9-4ccd-9f81-a61846692dfe</id>
       <recordtableid>260ffd1b-0c8f-4b05-ae72-5014bf728d4f</recordtableid>
+    </None>
+    <None Include="CRM_adding_a_lead.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>25f4765c-a017-4115-95ab-6d1c83bae4a2</id>
+      <recordtableid>bb80f846-bf1b-4113-965f-1827135fc4ae</recordtableid>
     </None>
     <None Include="CRM_login.rxrec">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>

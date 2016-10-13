@@ -36,6 +36,8 @@ namespace CRM
         CRMRepositoryFolders.EvaluationDialogAppFolder _evaluationdialog;
         CRMRepositoryFolders.UntitledGoogleChromeAppFolder _untitledgooglechrome;
         CRMRepositoryFolders.CaseTestCaseForFonterra123GooglAppFolder _casetestcaseforfonterra123googl;
+        CRMRepositoryFolders.GoogleAppFolder _google;
+        CRMRepositoryFolders.LeadTestNameGoogleChromeAppFolder _leadtestnamegooglechrome;
 
         /// <summary>
         /// Gets the singleton class instance representing the CRMRepository element repository.
@@ -61,6 +63,8 @@ namespace CRM
             _evaluationdialog = new CRMRepositoryFolders.EvaluationDialogAppFolder(this);
             _untitledgooglechrome = new CRMRepositoryFolders.UntitledGoogleChromeAppFolder(this);
             _casetestcaseforfonterra123googl = new CRMRepositoryFolders.CaseTestCaseForFonterra123GooglAppFolder(this);
+            _google = new CRMRepositoryFolders.GoogleAppFolder(this);
+            _leadtestnamegooglechrome = new CRMRepositoryFolders.LeadTestNameGoogleChromeAppFolder(this);
         }
 
 #region Variables
@@ -171,6 +175,24 @@ namespace CRM
         {
             get { return _casetestcaseforfonterra123googl; }
         }
+
+        /// <summary>
+        /// The Google folder.
+        /// </summary>
+        [RepositoryFolder("0d3e7e69-e718-4296-a223-b0c8206986b0")]
+        public virtual CRMRepositoryFolders.GoogleAppFolder Google
+        {
+            get { return _google; }
+        }
+
+        /// <summary>
+        /// The LeadTestNameGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("24d64cbd-12a9-4d87-878d-0f6c1aad7175")]
+        public virtual CRMRepositoryFolders.LeadTestNameGoogleChromeAppFolder LeadTestNameGoogleChrome
+        {
+            get { return _leadtestnamegooglechrome; }
+        }
     }
 
     /// <summary>
@@ -271,6 +293,8 @@ namespace CRM
             RepoItemInfo _closeInfo;
             RepoItemInfo _dashboardsInfo;
             RepoItemInfo _aqcustomerservicesdashboardInfo;
+            RepoItemInfo _leadInfo;
+            RepoItemInfo _sometdtagInfo;
 
             /// <summary>
             /// Creates a new DashboardsAQCustomerServicesDashboa  folder.
@@ -298,6 +322,8 @@ namespace CRM
                 _closeInfo = new RepoItemInfo(this, "Close", ".//div[#'navStatusArea']/table//a[@title='Close']/img[@alt='Close']", 30000, null, "82fa955b-c969-4063-8a67-36beccf59fcf");
                 _dashboardsInfo = new RepoItemInfo(this, "Dashboards", ".//span[#'Tabnav_dashboards']//img[@alt='Dashboards']", 30000, null, "b9d7768a-16e8-4dd6-8881-f777c561160e");
                 _aqcustomerservicesdashboardInfo = new RepoItemInfo(this, "AQCustomerServicesDashboard", ".//a[#'&#123;53316014-cf81-e511-80ed-c4346bc5a710&#125;']/span[@innertext~'^AQ\\ Customer\\ Services\\ dash']", 30000, null, "9be61f4e-e327-4461-ac15-996f2a0c3c37");
+                _leadInfo = new RepoItemInfo(this, "Lead", ".//a[#'{dc6574cb-92ce-446c-a5d6-885a75107d52}']/span[@innertext='Lead']", 30000, null, "b474ac56-6825-4698-8e3a-09f369c2dd2f");
+                _sometdtagInfo = new RepoItemInfo(this, "SomeTdTag", ".//div[#'navStatusArea']/table/?/?/tr/td[2]", 30000, null, "0c2a31d6-0d9a-433d-ad0a-75e27990210d");
             }
 
             /// <summary>
@@ -705,6 +731,54 @@ namespace CRM
                 get
                 {
                     return _aqcustomerservicesdashboardInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Lead item.
+            /// </summary>
+            [RepositoryItem("b474ac56-6825-4698-8e3a-09f369c2dd2f")]
+            public virtual Ranorex.SpanTag Lead
+            {
+                get
+                {
+                    return _leadInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Lead item info.
+            /// </summary>
+            [RepositoryItemInfo("b474ac56-6825-4698-8e3a-09f369c2dd2f")]
+            public virtual RepoItemInfo LeadInfo
+            {
+                get
+                {
+                    return _leadInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeTdTag item.
+            /// </summary>
+            [RepositoryItem("0c2a31d6-0d9a-433d-ad0a-75e27990210d")]
+            public virtual Ranorex.TdTag SomeTdTag
+            {
+                get
+                {
+                    return _sometdtagInfo.CreateAdapter<Ranorex.TdTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeTdTag item info.
+            /// </summary>
+            [RepositoryItemInfo("0c2a31d6-0d9a-433d-ad0a-75e27990210d")]
+            public virtual RepoItemInfo SomeTdTagInfo
+            {
+                get
+                {
+                    return _sometdtagInfo;
                 }
             }
 
@@ -1604,6 +1678,8 @@ namespace CRM
             RepoItemInfo _mscrminlinevaluemscrminlineedithInfo;
             RepoItemInfo _fonterraaustraliaptyltdInfo;
             RepoItemInfo _optiontag2Info;
+            RepoItemInfo _mscrminlinevaluemscrminlineedithiInfo;
+            RepoItemInfo _subjectclInfo;
 
             /// <summary>
             /// Creates a new NavBarGloablQuickCreate  folder.
@@ -1616,6 +1692,8 @@ namespace CRM
                 _mscrminlinevaluemscrminlineedithInfo = new RepoItemInfo(this, "MsCrmInlineValueMsCrmInlineEditH", ".//div[#'title']/div[1]", 30000, null, "04911325-0182-4bc9-b2d9-e6b64f736ba3");
                 _fonterraaustraliaptyltdInfo = new RepoItemInfo(this, "FonterraAustraliaPtyLtd", ".//li[#'item8']//span[@title~'^Fonterra\\ Australia\\ Pty\\ Lt']", 30000, null, "57c57e78-9f6c-4ad7-8c5b-02769c8f55f3");
                 _optiontag2Info = new RepoItemInfo(this, "OptionTag2", ".//select[#'casetypecode_i']/option[@value='2']", 30000, null, "c1705833-4b95-4323-8125-16b73ef0d2cd");
+                _mscrminlinevaluemscrminlineedithiInfo = new RepoItemInfo(this, "MsCrmInlineValueMsCrmInlineEditHi", ".//div[#'lastname']/div[1]", 30000, null, "6c3009db-09da-4c58-93e4-33c653441527");
+                _subjectclInfo = new RepoItemInfo(this, "SubjectCl", ".//span[#'subject_cl']", 30000, null, "7e176232-c1b7-48be-b81a-8322e11ceb0b");
             }
 
             /// <summary>
@@ -1759,6 +1837,54 @@ namespace CRM
                 get
                 {
                     return _optiontag2Info;
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmInlineValueMsCrmInlineEditHi item.
+            /// </summary>
+            [RepositoryItem("6c3009db-09da-4c58-93e4-33c653441527")]
+            public virtual Ranorex.DivTag MsCrmInlineValueMsCrmInlineEditHi
+            {
+                get
+                {
+                    return _mscrminlinevaluemscrminlineedithiInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MsCrmInlineValueMsCrmInlineEditHi item info.
+            /// </summary>
+            [RepositoryItemInfo("6c3009db-09da-4c58-93e4-33c653441527")]
+            public virtual RepoItemInfo MsCrmInlineValueMsCrmInlineEditHiInfo
+            {
+                get
+                {
+                    return _mscrminlinevaluemscrminlineedithiInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SubjectCl item.
+            /// </summary>
+            [RepositoryItem("7e176232-c1b7-48be-b81a-8322e11ceb0b")]
+            public virtual Ranorex.SpanTag SubjectCl
+            {
+                get
+                {
+                    return _subjectclInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SubjectCl item info.
+            /// </summary>
+            [RepositoryItemInfo("7e176232-c1b7-48be-b81a-8322e11ceb0b")]
+            public virtual RepoItemInfo SubjectClInfo
+            {
+                get
+                {
+                    return _subjectclInfo;
                 }
             }
         }
@@ -2322,6 +2448,7 @@ namespace CRM
         public partial class CaseTestCaseForFonterra123GooglAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _closeInfo;
+            RepoItemInfo _close1Info;
 
             /// <summary>
             /// Creates a new CaseTestCaseForFonterra123Googl  folder.
@@ -2330,6 +2457,7 @@ namespace CRM
                     base("CaseTestCaseForFonterra123Googl", "/form[@title~'^Case:\\ Test\\ case\\ for\\ Fonte']", parentFolder, 30000, null, true, "99016e47-e96b-447f-af3f-87365e46f241", "")
             {
                 _closeInfo = new RepoItemInfo(this, "Close", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Case:\\ Test\\ case\\ for\\ Fonte']/button[@accessiblename='Close']", 30000, null, "5c344f93-e450-40ff-9ca2-a10b01046c3c");
+                _close1Info = new RepoItemInfo(this, "Close1", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Lead: test name']/button[@accessiblename='Close']", 30000, null, "6ba3edac-cb18-4e71-9147-4def9e2a3e4c");
             }
 
             /// <summary>
@@ -2372,6 +2500,240 @@ namespace CRM
             /// The Close item info.
             /// </summary>
             [RepositoryItemInfo("5c344f93-e450-40ff-9ca2-a10b01046c3c")]
+            public virtual RepoItemInfo CloseInfo
+            {
+                get
+                {
+                    return _closeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close1 item.
+            /// </summary>
+            [RepositoryItem("6ba3edac-cb18-4e71-9147-4def9e2a3e4c")]
+            public virtual Ranorex.Button Close1
+            {
+                get
+                {
+                    return _close1Info.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close1 item info.
+            /// </summary>
+            [RepositoryItemInfo("6ba3edac-cb18-4e71-9147-4def9e2a3e4c")]
+            public virtual RepoItemInfo Close1Info
+            {
+                get
+                {
+                    return _close1Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The GoogleAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("0d3e7e69-e718-4296-a223-b0c8206986b0")]
+        public partial class GoogleAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _lstibInfo;
+            RepoItemInfo _btnkInfo;
+            RepoItemInfo _espncricinfolivecricketscorescommInfo;
+
+            /// <summary>
+            /// Creates a new Google  folder.
+            /// </summary>
+            public GoogleAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Google", "/dom[@domain='www.google.co.nz']", parentFolder, 30000, null, false, "0d3e7e69-e718-4296-a223-b0c8206986b0", "")
+            {
+                _lstibInfo = new RepoItemInfo(this, "LstIb", ".//input[#'lst-ib']", 30000, null, "16f80424-4f6a-4fa4-9eda-af7acb1f2e7b");
+                _btnkInfo = new RepoItemInfo(this, "BtnK", ".//form[#'tsf']/div[2]//input[@name='btnK']", 30000, null, "c1644a54-8b0f-4063-b3d9-24c730034383");
+                _espncricinfolivecricketscorescommInfo = new RepoItemInfo(this, "ESPNCricinfoLiveCricketScoresComm", ".//div[#'rso']/div[2]//a[@innertext~'^ESPN\\ Cricinfo:\\ Live\\ crick']", 30000, null, "b5728c46-61bb-4caa-a9b4-7cc9b79dff85");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("0d3e7e69-e718-4296-a223-b0c8206986b0")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("0d3e7e69-e718-4296-a223-b0c8206986b0")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LstIb item.
+            /// </summary>
+            [RepositoryItem("16f80424-4f6a-4fa4-9eda-af7acb1f2e7b")]
+            public virtual Ranorex.InputTag LstIb
+            {
+                get
+                {
+                    return _lstibInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LstIb item info.
+            /// </summary>
+            [RepositoryItemInfo("16f80424-4f6a-4fa4-9eda-af7acb1f2e7b")]
+            public virtual RepoItemInfo LstIbInfo
+            {
+                get
+                {
+                    return _lstibInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnK item.
+            /// </summary>
+            [RepositoryItem("c1644a54-8b0f-4063-b3d9-24c730034383")]
+            public virtual Ranorex.InputTag BtnK
+            {
+                get
+                {
+                    return _btnkInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnK item info.
+            /// </summary>
+            [RepositoryItemInfo("c1644a54-8b0f-4063-b3d9-24c730034383")]
+            public virtual RepoItemInfo BtnKInfo
+            {
+                get
+                {
+                    return _btnkInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ESPNCricinfoLiveCricketScoresComm item.
+            /// </summary>
+            [RepositoryItem("b5728c46-61bb-4caa-a9b4-7cc9b79dff85")]
+            public virtual Ranorex.ATag ESPNCricinfoLiveCricketScoresComm
+            {
+                get
+                {
+                    return _espncricinfolivecricketscorescommInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ESPNCricinfoLiveCricketScoresComm item info.
+            /// </summary>
+            [RepositoryItemInfo("b5728c46-61bb-4caa-a9b4-7cc9b79dff85")]
+            public virtual RepoItemInfo ESPNCricinfoLiveCricketScoresCommInfo
+            {
+                get
+                {
+                    return _espncricinfolivecricketscorescommInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The LeadTestNameGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("24d64cbd-12a9-4d87-878d-0f6c1aad7175")]
+        public partial class LeadTestNameGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _leadtestnameInfo;
+            RepoItemInfo _closeInfo;
+
+            /// <summary>
+            /// Creates a new LeadTestNameGoogleChrome  folder.
+            /// </summary>
+            public LeadTestNameGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("LeadTestNameGoogleChrome", "/form[@title~'^Lead:\\ test\\ name\\ -\\ Google\\ ']", parentFolder, 30000, null, true, "24d64cbd-12a9-4d87-878d-0f6c1aad7175", "")
+            {
+                _leadtestnameInfo = new RepoItemInfo(this, "LeadTestName", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Lead: test name']/text[@accessiblename='Lead: test name']", 30000, null, "5cf19710-3405-465d-ac43-d1cc33805817");
+                _closeInfo = new RepoItemInfo(this, "Close", "container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Lead: test name']/button[@accessiblename='Close']", 30000, null, "d2ad69f2-bdd2-462f-ae1a-26d86f6d1f90");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("24d64cbd-12a9-4d87-878d-0f6c1aad7175")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("24d64cbd-12a9-4d87-878d-0f6c1aad7175")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LeadTestName item.
+            /// </summary>
+            [RepositoryItem("5cf19710-3405-465d-ac43-d1cc33805817")]
+            public virtual Ranorex.Text LeadTestName
+            {
+                get
+                {
+                    return _leadtestnameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LeadTestName item info.
+            /// </summary>
+            [RepositoryItemInfo("5cf19710-3405-465d-ac43-d1cc33805817")]
+            public virtual RepoItemInfo LeadTestNameInfo
+            {
+                get
+                {
+                    return _leadtestnameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Close item.
+            /// </summary>
+            [RepositoryItem("d2ad69f2-bdd2-462f-ae1a-26d86f6d1f90")]
+            public virtual Ranorex.Button Close
+            {
+                get
+                {
+                    return _closeInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Close item info.
+            /// </summary>
+            [RepositoryItemInfo("d2ad69f2-bdd2-462f-ae1a-26d86f6d1f90")]
             public virtual RepoItemInfo CloseInfo
             {
                 get

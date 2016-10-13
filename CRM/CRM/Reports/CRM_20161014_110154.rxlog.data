@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="226be1bd1f4a488"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="14/10/2016 11:01:54 a.m."
+		timestampiso="2016-10-13T22:01:54"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="48.2s"
+			durationms="48195"
+			type="test suite"
+			rid="745b96b6fa7a27a"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			testsuitename="CRM"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="48.17s"
+				durationms="48172"
+				type="test case"
+				rid="7edbcc8ee2782d9"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="TestCase1"
+				testcaseid="54cefd4a-cbe2-4318-b28c-2cc5c392938b"
+				datasource="NewConnector1"
+				iterationcount="2"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="48.17s"
+					durationms="48169"
+					type="test case iteration"
+					rid="3b674969a00ae54"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase1"
+					iteration="1">
+					<datarow>
+						<field
+							name="User_name">
+							sunjeet.khokhar@asurequality.com
+						</field>
+						<field
+							name="Account_name">
+							Sunjeet Khokhar
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="48.14s"
+						durationms="48142"
+						type="test module"
+						rid="1741723f3ba0e435"
+						totalerrorcount="1"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="CRM_login"
+						moduleid="232bb703-abd3-4354-b971-15cf2572df49"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+								name="CRM_user_name"
+								value="sunjeet.khokhar@asurequality.com"/>
+							<varbinding
+								name="Account_name"
+								value="Sunjeet Khokhar"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.494"
+							timeRelativeToTestModuleStartTime="00:00.001"
+							timeWallClock="11:01:55"
+							time="00:00.494"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$CRM_user_name = 'sunjeet.khokhar@asurequality.com', $Account_name = 'Sunjeet Khokhar'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.564"
+							timeRelativeToTestModuleStartTime="00:00.071"
+							timeWallClock="11:01:55"
+							time="00:00.564"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>Title
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.633"
+							timeRelativeToTestModuleStartTime="00:00.140"
+							timeWallClock="11:01:55"
+							time="00:00.633"
+							level="Info"
+							category="Website"
+							errimg="images_CRM_2016_fb8f09c9\CRM_2016_fb8f09c9_0c64df61_trace.jpg"
+							errthumb="images_CRM_2016_fb8f09c9\CRM_2016_fb8f09c9_0c64df61_trace_thumb.jpg">
+							<message>
+								Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="121"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.937"
+							timeRelativeToTestModuleStartTime="00:00.444"
+							timeWallClock="11:01:55"
+							time="00:00.937"
+							level="Info"
+							category="Mouse"
+							errimg="images_CRM_2016_fb8f09c9\CRM_2016_fb8f09c9_4ffd1a7e_trace.jpg"
+							errthumb="images_CRM_2016_fb8f09c9\CRM_2016_fb8f09c9_4ffd1a7e_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.UseAnotherAccount' at 28;32.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//table[#'use_another_account']//td/table/tbody/tr[2]/td[1]/img[@alt='Use another account']"
+								fullname="CRMRepository.SignInToYourAccount.UseAnotherAccount"
+								id="653d7c0ed3da45e0a1957f6665a9b197"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_login.cs"
+								codeline="125"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:48.420"
+							timeRelativeToTestModuleStartTime="00:47.927"
+							timeWallClock="11:02:43"
+							time="00:48.420"
+							level="Error"
+							category="User"
+							errimg="images_CRM_2016_fb8f09c9\CRM_2016_fb8f09c9_ab6b9cad_trace.jpg"
+							errthumb="images_CRM_2016_fb8f09c9\CRM_2016_fb8f09c9_ab6b9cad_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+								loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="0ms"
+					durationms="0"
+					type="test case iteration"
+					rid="1ac0cfe6c152e3a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase1"
+					iteration="2">
+					<datarow>
+						<field
+							name="User_name">
+							sunjeet.khokhar@asurequality.com
+						</field>
+						<field
+							name="Account_name">
+							Sunjeet Khokhar1
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

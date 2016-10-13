@@ -154,8 +154,8 @@ namespace CRM
             Validate.Attribute(repo.DashboardsAQCustomerServicesDashboa.Account_NameInfo, "Title", Account_name);
             Delay.Milliseconds(0);
             
-            //debug_comment();
-            //Delay.Milliseconds(0);
+            debug_comment();
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId' at 24;22.", repo.DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutIdInfo, new RecordItemIndex(10));
             repo.DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId.Click("24;22");

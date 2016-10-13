@@ -577,6 +577,26 @@ AAAASUVORK5CYII=
 				refimgid="ac3780fe-d31f-44d1-99d7-76feaaa16a5e">
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//select[#'casetypecode_i']/option[@value='2']
 				</item>
+				<item
+				name="MsCrmInlineValueMsCrmInlineEditHi"
+				id="6c3009db-09da-4c58-93e4-33c653441527"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'lastname']/div[1]"
+				addcaps="unknown,webelement,divtag"
+				refimgid="e37fee2b-4fa8-498e-b6b3-0d2fa95cf8ef">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'lastname']/div[1]
+				</item>
+				<item
+				name="SubjectCl"
+				id="7e176232-c1b7-48be-b81a-8322e11ceb0b"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//span[#'subject_cl']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="499b2960-59b8-4de5-ad74-7fa136a9396c">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//span[#'subject_cl']
+				</item>
 				<basepath>
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']
 				</basepath>
@@ -600,6 +620,26 @@ AAAASUVORK5CYII=
 			addcaps="unknown,webelement,spantag"
 			refimgid="62d6b3d6-5028-410f-82f3-e986fb15b0df">
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'&amp;#123;53316014-cf81-e511-80ed-c4346bc5a710&amp;#125;']/span[@innertext~'^AQ\ Customer\ Services\ dash']
+			</item>
+			<item
+			name="Lead"
+			id="b474ac56-6825-4698-8e3a-09f369c2dd2f"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{dc6574cb-92ce-446c-a5d6-885a75107d52}']/span[@innertext='Lead']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="147b4d85-4b64-45d0-ada8-7c595bb4c75f">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{dc6574cb-92ce-446c-a5d6-885a75107d52}']/span[@innertext='Lead']
+			</item>
+			<item
+			name="SomeTdTag"
+			id="0c2a31d6-0d9a-433d-ad0a-75e27990210d"
+			searchtimeout="30000ms"
+			capname="tdtag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/tbody/tr/td[2]"
+			addcaps="unknown,webelement,tdtag"
+			refimgid="80f55710-8ad3-4394-98bb-49faf9a0db56">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/?/?/tr/td[2]
 			</item>
 			<basepath>
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']
@@ -927,8 +967,125 @@ AAAASUVORK5CYII=
 			refimgid="6cf5395a-ee58-4e0b-91ca-c8e4e9481489">
 				/form[@title~'^Case:\ Test\ case\ for\ Fonte']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Case:\ Test\ case\ for\ Fonte']/button[@accessiblename='Close']
 			</item>
+			<item
+			name="Close1"
+			id="6ba3edac-cb18-4e71-9147-4def9e2a3e4c"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Lead:\ test\ name\ -\ Google\ ']/container/container[2]/container[2]/tabpagelist/tabpage[@accessiblename='Lead: test name']/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="093d474a-f0a7-4615-a8d7-2761902d0e84">
+				/form[@title~'^Case:\ Test\ case\ for\ Fonte']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Lead: test name']/button[@accessiblename='Close']
+			</item>
 			<basepath>
 				/form[@title~'^Case:\ Test\ case\ for\ Fonte']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="Google"
+		id="0d3e7e69-e718-4296-a223-b0c8206986b0"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='www.google.co.nz']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="LstIb"
+			id="16f80424-4f6a-4fa4-9eda-af7acb1f2e7b"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.google.co.nz']//input[#'lst-ib']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="c3b3cd7b-6fa4-4c44-b70e-6f1336c9367e">
+				/dom[@domain='www.google.co.nz']//input[#'lst-ib']
+			</item>
+			<item
+			name="BtnK"
+			id="c1644a54-8b0f-4063-b3d9-24c730034383"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.google.co.nz']//form[#'tsf']/div[2]/div[3]/center/input[@name='btnK']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="0b0f8cd0-e696-429d-8a14-45b224501f93">
+				/dom[@domain='www.google.co.nz']//form[#'tsf']/div[2]//input[@name='btnK']
+			</item>
+			<item
+			name="ESPNCricinfoLiveCricketScoresComm"
+			id="b5728c46-61bb-4caa-a9b4-7cc9b79dff85"
+			searchtimeout="30000ms"
+			capname="atag"
+			refpath="/dom[@domain='www.google.co.nz']//div[#'rso']/div[2]/div[1]/div/h3/a[@innertext~'^ESPN\ Cricinfo:\ Live\ crick']"
+			addcaps="unknown,webelement,atag"
+			refimgid="acb49643-56a2-48e8-85ed-0632eadaddf3">
+				/dom[@domain='www.google.co.nz']//div[#'rso']/div[2]//a[@innertext~'^ESPN\ Cricinfo:\ Live\ crick']
+			</item>
+			<basepath>
+				/dom[@domain='www.google.co.nz']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="LeadTestNameGoogleChrome"
+		id="24d64cbd-12a9-4d87-878d-0f6c1aad7175"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Lead: test name - Google Chrome']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="LeadTestName"
+			id="5cf19710-3405-465d-ac43-d1cc33805817"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title~'^Lead:\ test\ name\ -\ Google\ ']/container/container[2]/container[2]/tabpagelist/tabpage/text[@accessiblename='Lead: test name']"
+			addcaps="text,accessible"
+			refimgid="ccb6ab3c-abb0-4c56-b582-717a4b49d836">
+				/form[@title~'^Lead:\ test\ name\ -\ Google\ ']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Lead: test name']/text[@accessiblename='Lead: test name']
+			</item>
+			<item
+			name="Close"
+			id="d2ad69f2-bdd2-462f-ae1a-26d86f6d1f90"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Lead:\ test\ name\ -\ Google\ ']/container/container[2]/container[2]/tabpagelist/tabpage/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="10d14f70-5df6-43db-8e7a-30e1f8e4f57f">
+				/form[@title~'^Lead:\ test\ name\ -\ Google\ ']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Lead: test name']/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Lead:\ test\ name\ -\ Google\ ']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx

@@ -145,6 +145,42 @@ namespace CRM
             repo.CaseTestCaseForFonterra123Googl.Close.Click("12;14");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LControlKey down}{Tkey down}{LControlKey up}'.", new RecordItemIndex(16));
+            Keyboard.Press("{LControlKey down}{Tkey down}{LControlKey up}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '.'.", new RecordItemIndex(17));
+            Keyboard.Press(".");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '.{Return}'.", new RecordItemIndex(18));
+            Keyboard.Press(".{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.LstIb' at 58;15.", repo.Google.LstIbInfo, new RecordItemIndex(19));
+            repo.Google.LstIb.Click("58;15");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.LstIb' at 65;11.", repo.Google.LstIbInfo, new RecordItemIndex(20));
+            repo.Google.LstIb.Click("65;11");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.BtnK' at 47;20.", repo.Google.BtnKInfo, new RecordItemIndex(21));
+            repo.Google.BtnK.Click("47;20");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.LstIb' at 154;17.", repo.Google.LstIbInfo, new RecordItemIndex(22));
+            repo.Google.LstIb.Click("154;17");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'cricket{Return}' with focus on 'Google.LstIb'.", repo.Google.LstIbInfo, new RecordItemIndex(23));
+            repo.Google.LstIb.PressKeys("cricket{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Google.ESPNCricinfoLiveCricketScoresComm' at 159;4.", repo.Google.ESPNCricinfoLiveCricketScoresCommInfo, new RecordItemIndex(24));
+            repo.Google.ESPNCricinfoLiveCricketScoresComm.Click("159;4");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data
