@@ -1229,6 +1229,27 @@ srE4ZlU43IMYaj7Mu/O99obcFyMA1NRTuwsRSQCR2LOwDIUIGMY/KlaFWk3knPy/pn/GpKKLgRNb
 gncrujZJ3DHftyPaj7OmYzz8me/X6/jzUtFFwIUtlR925yOcKcYGetFTUUnqC0P/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c53c2464-a99c-4f90-bcf0-2faf995493ab"
+		action="NotExists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="0c2a31d6-0d9a-433d-ad0a-75e27990210d">
+				<path>
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/?/?/tr/td[2]
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
 		<mouseitem
 		enabled="True"
 		optional="False"

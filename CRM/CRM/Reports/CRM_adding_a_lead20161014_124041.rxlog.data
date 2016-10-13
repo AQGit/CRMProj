@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c9ecb24bf4fe00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="14/10/2016 12:40:45 p.m."
+		timestampiso="2016-10-13T23:40:45"
+		timeoutfactor="1"
+		module="CRM_adding_a_lead">
+		<detail>
+			CRM_adding_a_lead
+		</detail>
+		<errmsg>
+			Element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag' does exist.
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.403"
+			timeRelativeToTestModuleStartTime="00:00.403"
+			timeWallClock="12:40:45"
+			time="00:00.403"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.556"
+			timeRelativeToTestModuleStartTime="00:00.556"
+			timeWallClock="12:40:46"
+			time="00:00.556"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage' at 11;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//img[#'navTabGlobalCreateImage']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage"
+				id="9f82739508974946a99f265b0da6f4b4"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.722"
+			timeRelativeToTestModuleStartTime="00:07.722"
+			timeWallClock="12:40:53"
+			time="00:07.722"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Lead' at 17;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{dc6574cb-92ce-446c-a5d6-885a75107d52}']/span[@innertext='Lead']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Lead"
+				id="b474ac56682546988e3a09f369c2dd2f"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.074"
+			timeRelativeToTestModuleStartTime="00:09.074"
+			timeWallClock="12:40:54"
+			time="00:09.074"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s for item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.SubjectCl' to exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//span[#'subject_cl']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.SubjectCl"
+				id="7e176232c1b748beb81a8322e11ceb0b"
+				timeout="5000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.981"
+			timeRelativeToTestModuleStartTime="00:09.981"
+			timeWallClock="12:40:55"
+			time="00:09.981"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'demo{Space}lead'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="97"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.992"
+			timeRelativeToTestModuleStartTime="00:10.992"
+			timeWallClock="12:40:56"
+			time="00:10.992"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmInlineValueMsCrmInlineEditHi' at 23;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'lastname']/div[1]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavBarGloablQuickCreate.MsCrmInlineValueMsCrmInlineEditHi"
+				id="6c3009db09da4c5893e433c653441527"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.597"
+			timeRelativeToTestModuleStartTime="00:12.597"
+			timeWallClock="12:40:58"
+			time="00:12.597"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'test{Space}name'.
+			</message>
+			<metainfo
+				itemindex="6"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="105"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.600"
+			timeRelativeToTestModuleStartTime="00:13.600"
+			timeWallClock="12:40:59"
+			time="00:13.600"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.GlobalquickcreateSaveButtonNavBarGloa' at 24;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//button[#'globalquickcreate_save_button_NavBarGloablQuickCreate']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.GlobalquickcreateSaveButtonNavBarGloa"
+				id="f0b4dbceb13d414f9dcedbc539088c55"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.638"
+			timeRelativeToTestModuleStartTime="00:14.638"
+			timeWallClock="12:41:00"
+			time="00:14.638"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DashboardsAQCustomerServicesDashboa.SomeTdTag' at 144;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/?/?/tr/td[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag"
+				id="0c2a31d60d9a433dad0a75e27990210d"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="113"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.184"
+			timeRelativeToTestModuleStartTime="00:16.184"
+			timeWallClock="12:41:01"
+			time="00:16.184"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DashboardsAQCustomerServicesDashboa.SomeTdTag' at 144;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/?/?/tr/td[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag"
+				id="0c2a31d60d9a433dad0a75e27990210d"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.123"
+			timeRelativeToTestModuleStartTime="00:17.123"
+			timeWallClock="12:41:02"
+			time="00:17.123"
+			level="Info"
+			category="Validation"
+			errimg=".\CRM_addi_df0a365d_76439858_trace.jpg"
+			errthumb=".\CRM_addi_df0a365d_76439858_trace_thumb.jpg">
+			<message>
+				Validating NotExists on item 'DashboardsAQCustomerServicesDashboa.SomeTdTag'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/?/?/tr/td[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag"
+				id="0c2a31d60d9a433dad0a75e27990210d"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.325"
+			timeRelativeToTestModuleStartTime="00:17.325"
+			timeWallClock="12:41:02"
+			time="00:17.325"
+			level="Failure"
+			category="Validation"
+			errimg=".\CRM_addi_df0a365d_24c518b2_trace.jpg"
+			errthumb=".\CRM_addi_df0a365d_24c518b2_trace_thumb.jpg">
+			<message>
+				Element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/?/?/tr/td[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag"
+				id="0c2a31d60d9a433dad0a75e27990210d"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="124"
+				loglvl="Failure"
+				itemindex="10"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.336"
+			timeRelativeToTestModuleStartTime="00:17.336"
+			timeWallClock="12:41:02"
+			time="00:17.336"
+			level="Error"
+			category="Module"
+			errimg=".\CRM_addi_df0a365d_24c518b2_trace.jpg"
+			errthumb=".\CRM_addi_df0a365d_24c518b2_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag' does exist.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.NotExists(RepoItemInfo itemInfo, String message, Options options)
+   at Ranorex.Validate.NotExists(RepoItemInfo itemInfo)
+   at CRM.CRM_adding_a_lead.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs:line 124
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\CRM_adding_a_lead.cs"
+				codeline="124"
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'navStatusArea']/table/?/?/tr/td[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SomeTdTag"
+				id="0c2a31d60d9a433dad0a75e27990210d"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="10"/>
+		</item>
+	</activity>
+</report>

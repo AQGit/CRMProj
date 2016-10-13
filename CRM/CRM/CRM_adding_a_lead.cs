@@ -120,11 +120,15 @@ namespace CRM
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LeadTestNameGoogleChrome.LeadTestName' at 65;8.", repo.LeadTestNameGoogleChrome.LeadTestNameInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'DashboardsAQCustomerServicesDashboa.SomeTdTag'.", repo.DashboardsAQCustomerServicesDashboa.SomeTdTagInfo, new RecordItemIndex(10));
+            Validate.NotExists(repo.DashboardsAQCustomerServicesDashboa.SomeTdTagInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LeadTestNameGoogleChrome.LeadTestName' at 65;8.", repo.LeadTestNameGoogleChrome.LeadTestNameInfo, new RecordItemIndex(11));
             repo.LeadTestNameGoogleChrome.LeadTestName.Click("65;8");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LeadTestNameGoogleChrome.Close' at 10;13.", repo.LeadTestNameGoogleChrome.CloseInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LeadTestNameGoogleChrome.Close' at 10;13.", repo.LeadTestNameGoogleChrome.CloseInfo, new RecordItemIndex(12));
             repo.LeadTestNameGoogleChrome.Close.Click("10;13");
             Delay.Milliseconds(200);
             
