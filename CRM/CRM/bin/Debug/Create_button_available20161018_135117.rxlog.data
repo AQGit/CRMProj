@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2ef9fb801702b9b"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="18/10/2016 1:51:21 p.m."
+		timestampiso="2016-10-18T00:51:21"
+		timeoutfactor="1"
+		module="Create_button_available">
+		<detail>
+			Create_button_available
+		</detail>
+		<errmsg>
+			Element for item 'Account' does not exist (Failed to find item 'CRMRepository.DashboardsAQCustomerServicesDashboa.Account'. No element found for path '/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']' within 1m.).
+		</errmsg>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.356"
+			timeRelativeToTestModuleStartTime="00:00.357"
+			timeWallClock="13:51:21"
+			time="00:00.356"
+			level="Info"
+			category="Website">
+			<message>
+				Pre-requisite - 1. AD login session active in the Chrome browser 2. No browser window opren  .<br/>Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="83"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.501"
+			timeRelativeToTestModuleStartTime="00:00.502"
+			timeWallClock="13:51:21"
+			time="00:00.501"
+			level="Info"
+			category="Mouse">
+			<message>
+				This test click the plus sign button on the CRM home page , then looks for the create account button and if available validates for the create account form<br/>Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage' at 10;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//img[#'navTabGlobalCreateImage']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage"
+				id="9f82739508974946a99f265b0da6f4b4"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="88"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.813"
+			timeRelativeToTestModuleStartTime="00:04.814"
+			timeWallClock="13:51:26"
+			time="00:04.813"
+			level="Info"
+			category="Validation"
+			errimg=".\Create_b_ba34c26f_7e9bd2c1_trace.jpg"
+			errthumb=".\Create_b_ba34c26f_7e9bd2c1_trace_thumb.jpg">
+			<message>
+				Validating Exists on item 'DashboardsAQCustomerServicesDashboa.Account'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Account"
+				id="f34e53cb404a4e4c83645ac94e6f749a"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.132"
+			timeRelativeToTestModuleStartTime="01:05.133"
+			timeWallClock="13:52:26"
+			time="01:05.132"
+			level="Failure"
+			category="Validation"
+			errimg=".\Create_b_ba34c26f_02753564_trace.jpg"
+			errthumb=".\Create_b_ba34c26f_02753564_trace_thumb.jpg">
+			<message>
+				Element for item 'Account' does not exist (Failed to find item 'CRMRepository.DashboardsAQCustomerServicesDashboa.Account'. No element found for path '/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']' within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Account"
+				id="f34e53cb404a4e4c83645ac94e6f749a"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="93"
+				loglvl="Failure"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.153"
+			timeRelativeToTestModuleStartTime="01:05.154"
+			timeWallClock="13:52:26"
+			time="01:05.153"
+			level="Error"
+			category="Module"
+			errimg=".\Create_b_ba34c26f_02753564_trace.jpg"
+			errthumb=".\Create_b_ba34c26f_02753564_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Element for item 'Account' does not exist (Failed to find item 'CRMRepository.DashboardsAQCustomerServicesDashboa.Account'. No element found for path '/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']' within 1m.).
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   at Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   at CRM.Create_button_available.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs:line 93
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="93"
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Account"
+				id="f34e53cb404a4e4c83645ac94e6f749a"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="2"/>
+		</item>
+	</activity>
+</report>

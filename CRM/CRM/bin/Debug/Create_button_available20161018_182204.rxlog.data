@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1c338a46782127fe"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="18/10/2016 6:22:08 p.m."
+		timestampiso="2016-10-18T05:22:08"
+		timeoutfactor="1"
+		module="Create_button_available">
+		<detail>
+			Create_button_available
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.310"
+			timeRelativeToTestModuleStartTime="00:00.310"
+			timeWallClock="18:22:09"
+			time="00:00.310"
+			level="Info"
+			category="Website"
+			errimg=".\Create_b_d02f3709_cbe3411d_trace.jpg"
+			errthumb=".\Create_b_d02f3709_cbe3411d_trace_thumb.jpg">
+			<message>
+				Pre-req - Appropriate AD login to CRM active in the browser. Not browser windows open with CRM<br/>Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="83"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.429"
+			timeRelativeToTestModuleStartTime="00:00.429"
+			timeWallClock="18:22:09"
+			time="00:00.429"
+			level="Info"
+			category="Mouse"
+			errimg=".\Create_b_d02f3709_1b8c5bd1_trace.jpg"
+			errthumb=".\Create_b_d02f3709_1b8c5bd1_trace_thumb.jpg">
+			<message>
+				This tests goes to the account page and checks that the &quot;new&quot; bbbutton is present<br/>Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1' at 15;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'HomeTabLink']/span"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1"
+				id="c5ca2b27b56043b9a257a9daec5046e1"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="88"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.536"
+			timeRelativeToTestModuleStartTime="00:09.536"
+			timeWallClock="18:22:18"
+			time="00:09.536"
+			level="Error"
+			category="User"
+			errimg=".\Create_b_d02f3709_26c8c04a_trace.jpg"
+			errthumb=".\Create_b_d02f3709_26c8c04a_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

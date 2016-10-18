@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f1209145be6e203"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="18/10/2016 2:20:22 p.m."
+		timestampiso="2016-10-18T01:20:22"
+		timeoutfactor="1"
+		module="Create_button_available">
+		<detail>
+			Create_button_available
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.397"
+			timeRelativeToTestModuleStartTime="00:00.397"
+			timeWallClock="14:20:22"
+			time="00:00.397"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.548"
+			timeRelativeToTestModuleStartTime="00:00.548"
+			timeWallClock="14:20:22"
+			time="00:00.548"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 14;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//img[#'homeButtonImage navTabButtonImageSandbox']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox"
+				id="69bc1f1161bc4c668ade157d8ab52b1d"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.449"
+			timeRelativeToTestModuleStartTime="00:06.449"
+			timeWallClock="14:20:28"
+			time="00:06.449"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 57;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'SFA']/?/?/span"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavActionButtonIcon"
+				id="a0a2567efa694715adbbe1480e44c220"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.918"
+			timeRelativeToTestModuleStartTime="00:07.918"
+			timeWallClock="14:20:29"
+			time="00:07.918"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 11;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'nav_accts']/span[@innertext='Accounts']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Accounts"
+				id="61925703879849999558d32efcb7ab9e"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.244"
+			timeRelativeToTestModuleStartTime="00:09.244"
+			timeWallClock="14:20:31"
+			time="00:09.244"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.SpanTagNew' at 15;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.NewRecord']//span[@innertext=' New ']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SpanTagNew"
+				id="eeac61c45e964f129f2861c676f77ff7"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.460"
+			timeRelativeToTestModuleStartTime="00:11.460"
+			timeWallClock="14:20:33"
+			time="00:11.460"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Close' at 12;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'closeButton']/img[@title='Close']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Close"
+				id="bc67de7a63464a86a60d91ea882c2c17"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.874"
+			timeRelativeToTestModuleStartTime="00:12.874"
+			timeWallClock="14:20:34"
+			time="00:12.874"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'AccountsAllAccountsMicrosoftDynami.Client' at 1569;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title~'^Accounts\ All\ Accounts\ -\ M']/container[@accessiblename='Google Chrome']/container[2]/container[2]"
+				fullname="CRMRepository.AccountsAllAccountsMicrosoftDynami.Client"
+				id="c7c60c2940b04cbc8ddb888072abd5c5"
+				timeout="60000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

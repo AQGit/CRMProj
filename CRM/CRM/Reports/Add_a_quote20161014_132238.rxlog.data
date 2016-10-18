@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="23415817b10cd8a4"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="14/10/2016 1:22:43 p.m."
+		timestampiso="2016-10-14T00:22:43"
+		timeoutfactor="1"
+		module="Add_a_quote">
+		<detail>
+			Add_a_quote
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.412"
+			timeRelativeToTestModuleStartTime="00:00.412"
+			timeWallClock="13:22:43"
+			time="00:00.412"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chromium' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="82"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.780"
+			timeRelativeToTestModuleStartTime="00:00.780"
+			timeWallClock="13:22:44"
+			time="00:00.780"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Component548905AddImageButtonImage' at 4;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//iframe[#'dashboardFrame']//img[#'Component548905_addImageButtonImage']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Component548905AddImageButtonImage"
+				id="f44907a6bdc54771a42ac48cfe7d747b"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.325"
+			timeRelativeToTestModuleStartTime="00:08.325"
+			timeWallClock="13:22:51"
+			time="00:08.325"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqNameI' at 175;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//input[#'aq_name_i']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqNameI"
+				id="888722b687a64fbdbb87afb7bb9f2712"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.214"
+			timeRelativeToTestModuleStartTime="00:11.214"
+			timeWallClock="13:22:54"
+			time="00:11.214"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '458389' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqNameI'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//input[#'aq_name_i']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqNameI"
+				id="888722b687a64fbdbb87afb7bb9f2712"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.828"
+			timeRelativeToTestModuleStartTime="00:12.828"
+			timeWallClock="13:22:56"
+			time="00:12.828"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineLookup' at 24;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'aq_account']/div[1]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineLookup"
+				id="16b5d10acd85498583ab483caa151ce2"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.303"
+			timeRelativeToTestModuleStartTime="00:14.303"
+			timeWallClock="13:22:57"
+			time="00:14.303"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'fonterra{Space}australia{Return}'.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="102"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.307"
+			timeRelativeToTestModuleStartTime="00:16.307"
+			timeWallClock="13:22:59"
+			time="00:16.307"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmILMenu' at 322;121.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'Dialog_aq_account_IMenu']/div[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmILMenu"
+				id="d0c4fe945ba8430f8058cbf518fcf8e9"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.298"
+			timeRelativeToTestModuleStartTime="00:17.298"
+			timeWallClock="13:23:00"
+			time="00:17.298"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmILMenu' at 322;220.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'Dialog_aq_account_IMenu']/div[2]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmILMenu"
+				id="d0c4fe945ba8430f8058cbf518fcf8e9"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="111"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.228"
+			timeRelativeToTestModuleStartTime="00:18.228"
+			timeWallClock="13:23:01"
+			time="00:18.228"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.FonterraAustraliaPtyLtd1' at 68;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//li[#'item8']//span[@title~'^Fonterra\ Australia\ Pty\ Lt']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.FonterraAustraliaPtyLtd1"
+				id="48222163be974f1d914274f9f09b461b"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="116"
+				itemindex="8"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.369"
+			timeRelativeToTestModuleStartTime="00:19.369"
+			timeWallClock="13:23:02"
+			time="00:19.369"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineEditHi' at 29;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'aq_daterequested']/div[1]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineEditHi"
+				id="f947f889de6a4af585730414c6093634"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="120"
+				itemindex="9"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.869"
+			timeRelativeToTestModuleStartTime="00:20.869"
+			timeWallClock="13:23:04"
+			time="00:20.869"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqDaterequestedIimg' at 9;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//img[#'aq_daterequested_iimg']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqDaterequestedIimg"
+				id="c72236a214074e95908de9846be11509"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="124"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.544"
+			timeRelativeToTestModuleStartTime="00:22.544"
+			timeWallClock="13:23:05"
+			time="00:22.544"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.HttpsAsurequalitytestCrm6DynamicsC' at 4;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//td[#'tdNxt']/img[@src='https://asurequalitytest.crm6.dynamics.com/_imgs/ribbon/arrow_right.png']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.HttpsAsurequalitytestCrm6DynamicsC"
+				id="e9f382d3ccb447f2a1c19a3105093fe3"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="128"
+				itemindex="11"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.745"
+			timeRelativeToTestModuleStartTime="00:23.745"
+			timeWallClock="13:23:07"
+			time="00:23.745"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdTag10' at 8;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'Dialog_aq_daterequested_iCalContaineraq_daterequested_iDateInput_miniCal']//td[@innertext='10']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdTag10"
+				id="d336c87286294059b162ee20c8c73793"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="132"
+				itemindex="12"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.877"
+			timeRelativeToTestModuleStartTime="00:24.877"
+			timeWallClock="13:23:08"
+			time="00:24.877"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineEditHi1' at 86;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'aq_datesent']/div[1]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineEditHi1"
+				id="41173edc4ec9497881a6f0a04bc2cf9c"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="136"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.366"
+			timeRelativeToTestModuleStartTime="00:26.366"
+			timeWallClock="13:23:09"
+			time="00:26.366"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '11/11/2016'.
+			</message>
+			<metainfo
+				itemindex="14"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="140"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.472"
+			timeRelativeToTestModuleStartTime="00:27.472"
+			timeWallClock="13:23:10"
+			time="00:27.472"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineEditHi2' at 62;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'aq_dateofexpiry']/div[1]"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.MsCrmInlineValueMsCrmInlineEditHi2"
+				id="d1342e06d9b74ed7a1f28bf40b2ab592"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="144"
+				itemindex="15"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.928"
+			timeRelativeToTestModuleStartTime="00:28.928"
+			timeWallClock="13:23:12"
+			time="00:28.928"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '11/11/2017'.
+			</message>
+			<metainfo
+				itemindex="16"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="148"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.044"
+			timeRelativeToTestModuleStartTime="00:30.044"
+			timeWallClock="13:23:13"
+			time="00:30.044"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas' at 1567;150.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'tdAreas']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas"
+				id="5d9283c906cb41ec81f8cbb609335fdb"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="152"
+				itemindex="17"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.076"
+			timeRelativeToTestModuleStartTime="00:31.076"
+			timeWallClock="13:23:14"
+			time="00:31.076"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas' at 1575;142.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'tdAreas']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas"
+				id="5d9283c906cb41ec81f8cbb609335fdb"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="157"
+				itemindex="18"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.070"
+			timeRelativeToTestModuleStartTime="00:32.070"
+			timeWallClock="13:23:15"
+			time="00:32.070"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Tab1' at 1544;178.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'tab1']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Tab1"
+				id="944cde8420ba428aa68faf53bca0ef84"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="161"
+				itemindex="19"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.181"
+			timeRelativeToTestModuleStartTime="00:33.181"
+			timeWallClock="13:23:16"
+			time="00:33.181"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas' at 1563;29.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'tdAreas']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas"
+				id="5d9283c906cb41ec81f8cbb609335fdb"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="166"
+				itemindex="20"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.322"
+			timeRelativeToTestModuleStartTime="00:34.322"
+			timeWallClock="13:23:17"
+			time="00:34.322"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas' at 1564;72.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'tdAreas']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas"
+				id="5d9283c906cb41ec81f8cbb609335fdb"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="170"
+				itemindex="21"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:35.332"
+			timeRelativeToTestModuleStartTime="00:35.332"
+			timeWallClock="13:23:18"
+			time="00:35.332"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas' at 1570;331.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'tdAreas']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.TdAreas"
+				id="5d9283c906cb41ec81f8cbb609335fdb"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="175"
+				itemindex="22"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.374"
+			timeRelativeToTestModuleStartTime="00:36.374"
+			timeWallClock="13:23:19"
+			time="00:36.374"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqBudairyservicesI' at 7;3.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//input[#'aq_budairyservices_i']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.AqBudairyservicesI"
+				id="db4df1eac4634b18a03859fae057ed1a"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="180"
+				itemindex="23"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.885"
+			timeRelativeToTestModuleStartTime="00:37.885"
+			timeWallClock="13:23:21"
+			time="00:37.885"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.SavefooterStatuscontrol' at 11;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//img[#'savefooter_statuscontrol']"
+				fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.SavefooterStatuscontrol"
+				id="ac4e6ecee27a4cca9134968d2bd22eb3"
+				timeout="90000"
+				codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Add_a_quote.cs"
+				codeline="184"
+				itemindex="24"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1233,7 +1233,7 @@ gncrujZJ3DHftyPaj7OmYzz8me/X6/jzUtFFwIUtlR925yOcKcYGetFTUUnqC0P/2Q==
 		enabled="True"
 		optional="False"
 		searchpropertyid="c53c2464-a99c-4f90-bcf0-2faf995493ab"
-		action="NotExists">
+		action="Exists">
 			<comment/>
 			<bindings/>
 			<info
@@ -1250,8 +1250,24 @@ gncrujZJ3DHftyPaj7OmYzz8me/X6/jzUtFFwIUtlR925yOcKcYGetFTUUnqC0P/2Q==
 				yourtext
 			</matchvalue>
 		</validationitem>
-		<mouseitem
+		<closeapprecorditem
 		enabled="True"
+		optional="False"
+		searchpropertyid="fa5063f6-bd57-4062-9972-80582988a727"
+		method="CloseWindow"
+		graceperiod="100ms">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="24d64cbd-12a9-4d87-878d-0f6c1aad7175">
+				<path>
+					/form[@title~'^Lead:\ test\ name\ -\ Google\ ']
+				</path>
+			</info>
+		</closeapprecorditem>
+		<mouseitem
+		enabled="False"
 		optional="False"
 		duration="500ms"
 		searchpropertyid="9979e83b-c164-47bf-b5ba-548c2e1a0d27"
@@ -1381,7 +1397,7 @@ ipi7obVmFFFFUIKKKKACiiigChFqXmXQh8rGWIzu/wDrVfooqYu42j//2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		duration="500ms"
 		searchpropertyid="3247c2d8-56af-4d54-a8fd-8d64d236a405"
@@ -1391,7 +1407,9 @@ ipi7obVmFFFFUIKKKKACiiigChFqXmXQh8rGWIzu/wDrVfooqYu42j//2Q==
 		sx="187"
 		sy="13"
 		loc="10;13">
-			<comment/>
+			<comment>
+				dont use mouse to close  just use the kill application command more robust
+			</comment>
 			<bindings/>
 			<info
 			sourcename="Recorder"

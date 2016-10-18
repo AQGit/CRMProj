@@ -4,9 +4,44 @@ rxversion="6.1">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testcase
+			name="TestCase3"
+			id="11ba2eb7-bbeb-49ca-935c-d59274a4d755"
+			datasource="NewConnector3"/>
+			<testmodule
+			name="Add_a_quote"
+			id="1c5ca291-807d-4afd-8e1e-fdf11b380510"
+			ref="767b36f3-bfe1-440a-8a4e-5d11e8c59b6c"
+			type="Recording">
+				<databinding>
+					<var
+					variablename="Order_id"
+					variableid="7809f475-8510-41c4-bbd4-ae5a68579d6d"
+					dataname="Order_id"
+					datasourceid="87a8b98e-b824-4423-8850-572fa8a8e13c"/>
+				</databinding>
+			</testmodule>
+			<testcase
 			name="TestCase1"
 			id="54cefd4a-cbe2-4318-b28c-2cc5c392938b"
 			datasource="NewConnector1"/>
+			<testmodule
+			name="Search_Techone_number_in_CRM"
+			id="5f5e783c-5ce4-4506-b899-ee8aeece5e70"
+			ref="5ca96adf-222a-4918-a3b6-5558b05a238b"
+			type="Recording">
+				<databinding>
+					<var
+					variablename="Tech_One_number"
+					variableid="843c4587-80e9-4eb8-9bb5-519d0b30f9ad"
+					dataname="Tech_one_number"
+					datasourceid="5ef2ea20-ba9c-413f-9964-9a9722d8c175"/>
+					<var
+					variablename="Account_name"
+					variableid="bff3e371-1ae9-4fff-9fde-efb58c42929e"
+					dataname="Account_name"
+					datasourceid="5ef2ea20-ba9c-413f-9964-9a9722d8c175"/>
+				</databinding>
+			</testmodule>
 			<testcase
 			name="TestCase"
 			id="93c8a285-73eb-4a65-bfed-274ddfa08be5"
@@ -15,15 +50,7 @@ rxversion="6.1">
 			name="Add_a_task"
 			id="c16b9d0c-c112-4ed2-9257-b6cb3409c75b"
 			ref="260ffd1b-0c8f-4b05-ae72-5014bf728d4f"
-			type="Recording">
-				<databinding>
-					<var
-					variablename="month_text"
-					variableid="2677a97f-061b-4ef3-9dd3-85200f2c0ac2"
-					dataname="Month_text"
-					datasourceid="525e6827-ddb0-4467-bd3b-52f8fc1d15bf"/>
-				</databinding>
-			</testmodule>
+			type="Recording"/>
 			<testmodule
 			name="CRM_login"
 			id="c87b0330-0b30-467b-a2f6-2d6a7b183618"
@@ -42,6 +69,10 @@ rxversion="6.1">
 					datasourceid="24216a59-5ba1-4944-aa15-bdc4b5008bae"/>
 				</databinding>
 			</testmodule>
+			<testcase
+			name="TestCase2"
+			id="e43b44a2-eb7e-49c4-9d38-9e6120096495"
+			datasource="NewConnector2"/>
 			<testcase
 			name="CRM"
 			id="f6bdd161-fc89-4525-90e9-b02b707587f9"
@@ -79,6 +110,20 @@ rxversion="6.1">
 						<testmodule
 						name="CRM_login"
 						id="c87b0330-0b30-467b-a2f6-2d6a7b183618"/>
+					</testcase>
+					<testcase
+					name="TestCase2"
+					id="e43b44a2-eb7e-49c4-9d38-9e6120096495">
+						<testmodule
+						name="Add_a_quote"
+						id="1c5ca291-807d-4afd-8e1e-fdf11b380510"/>
+					</testcase>
+					<testcase
+					name="TestCase3"
+					id="11ba2eb7-bbeb-49ca-935c-d59274a4d755">
+						<testmodule
+						name="Search_Techone_number_in_CRM"
+						id="5f5e783c-5ce4-4506-b899-ee8aeece5e70"/>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -155,15 +200,94 @@ rxversion="6.1">
 				</tr>
 			</table>
 		</DataSource>
+		<DataSource
+		name="NewConnector2"
+		type="Ranorex.Core.Data.SimpleDataConnector"
+		id="87a8b98e-b824-4423-8850-572fa8a8e13c"
+		lastknownrowcount="3">
+			<lastknowncolumns>
+				<column>
+					Order_id
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<table>
+				<tr>
+					<th>
+						Order_id
+					</th>
+				</tr>
+				<tr>
+					<td>
+						3834498
+					</td>
+				</tr>
+				<tr>
+					<td>
+						89328923
+					</td>
+				</tr>
+				<tr>
+					<td>
+						483932
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		name="NewConnector3"
+		type="Ranorex.Core.Data.SimpleDataConnector"
+		id="5ef2ea20-ba9c-413f-9964-9a9722d8c175"
+		lastknownrowcount="2">
+			<lastknowncolumns>
+				<column>
+					Tech_one_number
+				</column>
+				<column>
+					Account_name
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<table>
+				<tr>
+					<th>
+						Tech_one_number
+					</th>
+					<th>
+						Account_name
+					</th>
+				</tr>
+				<tr>
+					<td>
+						04864
+					</td>
+					<td>
+						Fonterra Australia Pty Ltd
+					</td>
+				</tr>
+				<tr>
+					<td>
+						03573
+					</td>
+					<td>
+						Westland Co-op Dairy co Ltd
+					</td>
+				</tr>
+			</table>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
 			<testcase
+			id="11ba2eb7-bbeb-49ca-935c-d59274a4d755"/>
+			<testcase
 			id="54cefd4a-cbe2-4318-b28c-2cc5c392938b"/>
 			<testcase
 			id="93c8a285-73eb-4a65-bfed-274ddfa08be5"/>
+			<testcase
+			id="e43b44a2-eb7e-49c4-9d38-9e6120096495"/>
 			<testcase
 			id="f6bdd161-fc89-4525-90e9-b02b707587f9"/>
 		</testconfiguration>

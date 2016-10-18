@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cac0f3e36a03f2a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="14/10/2016 3:48:38 p.m."
+		timestampiso="2016-10-14T02:48:38"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="24.45s"
+			durationms="24445"
+			type="test suite"
+			rid="215c8b98dafe9c"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			testsuitename="CRM"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="24.43s"
+				durationms="24430"
+				type="test case"
+				rid="fc7477ee18ad2fa"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="1"
+				testcasename="TestCase3"
+				testcaseid="11ba2eb7-bbeb-49ca-935c-d59274a4d755"
+				datasource="NewConnector3"
+				iterationcount="2"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="24.43s"
+					durationms="24425"
+					type="test case iteration"
+					rid="96b3cfbd085be80"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase3"
+					iteration="1">
+					<datarow>
+						<field
+							name="Tech_one_number">
+							04864
+						</field>
+						<field
+							name="Account_name">
+							Fonterra Australia Pty Ltd
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+						result="Failed"
+						duration="24.41s"
+						durationms="24405"
+						type="test module"
+						rid="251373cd83e7108"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Search_Techone_number_in_CRM"
+						moduleid="5ca96adf-222a-4918-a3b6-5558b05a238b"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<errmsg>
+							Attribute 'InnerText' of element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HeaderTitleElement' does not match the specified value (actual='', expected='Fonterra Australia Pty Ltd').
+						</errmsg>
+						<varbindings>
+							<varbinding
+								name="Tech_One_number"
+								value="04864"/>
+							<varbinding
+								name="Account_name"
+								value="Fonterra Australia Pty Ltd"/>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.378"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="15:48:38"
+							time="00:00.378"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$Tech_One_number = '04864', $Account_name = 'Fonterra Australia Pty Ltd'
+							</message>
+							<metainfo
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.438"
+							timeRelativeToTestModuleStartTime="00:00.062"
+							timeWallClock="15:48:38"
+							time="00:00.438"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="108"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.663"
+							timeRelativeToTestModuleStartTime="00:00.287"
+							timeWallClock="15:48:39"
+							time="00:00.663"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1' at 2;18.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'HomeTabLink']/span"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1"
+								id="7f4f569d8d6e46689fee6bac105b3f33"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="112"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.323"
+							timeRelativeToTestModuleStartTime="00:06.947"
+							timeWallClock="15:48:45"
+							time="00:07.323"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 72;37.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'SFA']/?/?/span"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavActionButtonIcon"
+								id="8d512538bd714b2fbe4f979e47843949"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="116"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.087"
+							timeRelativeToTestModuleStartTime="00:08.711"
+							timeWallClock="15:48:47"
+							time="00:09.087"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 3;13.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'nav_accts']/span[@innertext='Accounts']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Accounts"
+								id="61925703879849999558d32efcb7ab9e"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="120"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.684"
+							timeRelativeToTestModuleStartTime="00:10.308"
+							timeWallClock="15:48:49"
+							time="00:10.684"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria' at 24;15.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//input[#'crmGrid_findCriteria']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria"
+								id="05c4e5d2042349a7a82b3c701e290582"
+								timeout="90000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="124"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:13.394"
+							timeRelativeToTestModuleStartTime="00:13.018"
+							timeWallClock="15:48:51"
+							time="00:13.394"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$Tech_One_number' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//input[#'crmGrid_findCriteria']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria"
+								id="05c4e5d2042349a7a82b3c701e290582"
+								timeout="90000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="132"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:14.948"
+							timeRelativeToTestModuleStartTime="00:14.572"
+							timeWallClock="15:48:53"
+							time="00:14.948"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence '{Return}' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//input[#'crmGrid_findCriteria']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria"
+								id="05c4e5d2042349a7a82b3c701e290582"
+								timeout="90000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="136"
+								itemindex="7"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:16.178"
+							timeRelativeToTestModuleStartTime="00:15.802"
+							timeWallClock="15:48:54"
+							time="00:16.178"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr' at 34;12.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']//tag[@tagname='nobr']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr"
+								id="d6d89cf0fe5e4e26bd3e3ac131555a2d"
+								timeout="90000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="140"
+								itemindex="8"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:18.335"
+							timeRelativeToTestModuleStartTime="00:17.959"
+							timeWallClock="15:48:56"
+							time="00:18.335"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.SpanTagEdit' at -1;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.Edit']//span[@innertext=' Edit ']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SpanTagEdit"
+								id="ee868663f9c64590938d129958a83674"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="144"
+								itemindex="9"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:19.731"
+							timeRelativeToTestModuleStartTime="00:19.355"
+							timeWallClock="15:48:58"
+							time="00:19.731"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.FonterraAustraliaPtyLtd' at 192;25.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'FormTitle']/h1[@title~'^Fonterra\ Australia\ Pty\ Lt']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame1.FonterraAustraliaPtyLtd"
+								id="03357a4f7e39438999e39166b451785c"
+								timeout="90000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="148"
+								itemindex="10"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.127"
+							timeRelativeToTestModuleStartTime="00:23.751"
+							timeWallClock="15:49:02"
+							time="00:24.127"
+							level="Info"
+							category="Validation"
+							errimg="images_CRM_2016_c7bebc40\CRM_2016_c7bebc40_ebc94124_trace.jpg"
+							errthumb="images_CRM_2016_c7bebc40\CRM_2016_c7bebc40_ebc94124_trace_thumb.jpg">
+							<message>
+								Validating AttributeEqual (InnerText=$Account_name) on item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.HeaderTitleElement'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'HeaderTitleElement']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HeaderTitleElement"
+								id="661c49916e9c47ff83e70cc571f29f70"
+								timeout="90000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="152"
+								itemindex="11"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.535"
+							timeRelativeToTestModuleStartTime="00:24.159"
+							timeWallClock="15:49:02"
+							time="00:24.535"
+							level="Failure"
+							category="Validation"
+							errimg="images_CRM_2016_c7bebc40\CRM_2016_c7bebc40_6cd58550_trace.jpg"
+							errthumb="images_CRM_2016_c7bebc40\CRM_2016_c7bebc40_6cd58550_trace_thumb.jpg">
+							<message>
+								Attribute 'InnerText' of element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HeaderTitleElement' does not match the specified value (actual='', expected='Fonterra Australia Pty Ltd').
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'HeaderTitleElement']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HeaderTitleElement"
+								id="661c49916e9c47ff83e70cc571f29f70"
+								timeout="90000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="153"
+								loglvl="Failure"
+								itemindex="11"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.582"
+							timeRelativeToTestModuleStartTime="00:24.206"
+							timeWallClock="15:49:02"
+							time="00:24.582"
+							level="Error"
+							category="Module"
+							errimg="images_CRM_2016_c7bebc40\CRM_2016_c7bebc40_be919d31_trace.jpg"
+							errthumb="images_CRM_2016_c7bebc40\CRM_2016_c7bebc40_be919d31_trace_thumb.jpg">
+							<message>
+								Module execution was aborted because a validation step has failed. Attribute 'InnerText' of element for item 'CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HeaderTitleElement' does not match the specified value (actual='', expected='Fonterra Australia Pty Ltd').
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at CRM.Search_Techone_number_in_CRM.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs:line 153
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Search_Techone_number_in_CRM.cs"
+								codeline="153"
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'HeaderTitleElement']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HeaderTitleElement"
+								id="661c49916e9c47ff83e70cc571f29f70"
+								timeout="90000"
+								loglvl="Error"
+								itemindex="11"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Ignored"
+					duration="1ms"
+					durationms="1"
+					type="test case iteration"
+					rid="1b1dacad24da4574"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					testcasename="TestCase3"
+					iteration="2">
+					<datarow>
+						<field
+							name="Tech_one_number">
+							03573
+						</field>
+						<field
+							name="Account_name">
+							Westland Co-op Dairy co Ltd
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,13 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="CRM_login.rxrec" />
+    <Element value="account_details_edit_is_read_only.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="CRM.rxtst" />
-    <Element value="CRM_login.rxrec" />
-    <Element value="Add_a_task.rxrec" />
-    <Element value="Adding_a_case.rxrec" />
+    <Element value="account_details_edit_is_read_only.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
