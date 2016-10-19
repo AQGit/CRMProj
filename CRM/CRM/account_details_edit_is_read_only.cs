@@ -79,11 +79,13 @@ namespace CRM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            // Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests
+            Report.Log(ReportLevel.Info, "Website", "Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests\r\nOpening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
             Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 10;10.", repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandboxInfo, new RecordItemIndex(1));
+            // This test logs into CRM and open up an account's details and validates that the details are read only
+            Report.Log(ReportLevel.Info, "Mouse", "This test logs into CRM and open up an account's details and validates that the details are read only\r\nMouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 10;10.", repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandboxInfo, new RecordItemIndex(1));
             repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox.Click("10;10");
             Delay.Milliseconds(200);
             
@@ -125,8 +127,33 @@ namespace CRM
             Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrol' at 39;6.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrolInfo, new RecordItemIndex(11));
+            // The validation for read only
+            Report.Log(ReportLevel.Info, "Validation", "The validation for read only\r\nValidating AttributeEqual (InnerText='Read only') on item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrol'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrolInfo, new RecordItemIndex(11));
+            Validate.Attribute(repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrolInfo, "InnerText", "Read only");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrol' at 39;6.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrolInfo, new RecordItemIndex(12));
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.TitlefooterStatuscontrol.Click("39;6");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1' at 6;32.", repo.DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1Info, new RecordItemIndex(13));
+            repo.DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1.Click("6;32");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Sales' at 13;45.", repo.DashboardsAQCustomerServicesDashboa.SalesInfo, new RecordItemIndex(14));
+            repo.DashboardsAQCustomerServicesDashboa.Sales.Click("13;45");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 29;11.", repo.DashboardsAQCustomerServicesDashboa.AccountsInfo, new RecordItemIndex(15));
+            repo.DashboardsAQCustomerServicesDashboa.Accounts.Click("29;11");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImg' at 6;9.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImgInfo, new RecordItemIndex(16));
+            repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImg.Click("6;9");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AccountsAllAccountsMicrosoftDynami.Client' at 1567;3.", repo.AccountsAllAccountsMicrosoftDynami.ClientInfo, new RecordItemIndex(17));
+            repo.AccountsAllAccountsMicrosoftDynami.Client.Click("1567;3");
             Delay.Milliseconds(200);
             
         }

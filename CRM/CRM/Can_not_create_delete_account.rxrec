@@ -35,7 +35,9 @@ mode="Desktop">
 		maximized="False"
 		incognito="False"
 		clearcache="False">
-			<comment/>
+			<comment>
+				Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests
+			</comment>
 			<bindings/>
 			<url>
 				https://asurequalitytest.crm6.dynamics.com/main.aspx
@@ -418,7 +420,9 @@ vtGUlz9B/jUeuf8AIP8A+Bip7XTLT7OhaMsSASSxq4qNryM5OV7RP//Z
 		optional="False"
 		searchpropertyid="f15f56f7-9184-477f-ab31-8c6befb60e57"
 		action="NotExists">
-			<comment/>
+			<comment>
+				Validate that the &quot;NEW&quot; button does not exist on the Accounts page
+			</comment>
 			<bindings/>
 			<info
 			sourcename="ItemRecorderEditor"
@@ -649,7 +653,9 @@ pObvItbZ/wDnrH/37P8A8VRtn/56x/8Afs//ABVPUkqCwwSOR6UtBJ//2Q==
 		optional="False"
 		searchpropertyid="198f7449-a1f7-451c-b6cd-e4175961000d"
 		action="NotExists">
-			<comment/>
+			<comment>
+				Validate that the &quot;DELETE&quot; button does not exist on the accounts page
+			</comment>
 			<bindings/>
 			<info
 			sourcename="ItemRecorderEditor"

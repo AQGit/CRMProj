@@ -79,7 +79,8 @@ namespace CRM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            // Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests
+            Report.Log(ReportLevel.Info, "Website", "Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests\r\nOpening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
             Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, false, false, false, false);
             Delay.Milliseconds(0);
             
@@ -95,7 +96,8 @@ namespace CRM
             repo.DashboardsAQCustomerServicesDashboa.Accounts.Click("8;5");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'DashboardsAQCustomerServicesDashboa.MsCrmMenuLabel'.", repo.DashboardsAQCustomerServicesDashboa.MsCrmMenuLabelInfo, new RecordItemIndex(4));
+            // Validate that the "NEW" button does not exist on the Accounts page
+            Report.Log(ReportLevel.Info, "Validation", "Validate that the \"NEW\" button does not exist on the Accounts page\r\nValidating NotExists on item 'DashboardsAQCustomerServicesDashboa.MsCrmMenuLabel'.", repo.DashboardsAQCustomerServicesDashboa.MsCrmMenuLabelInfo, new RecordItemIndex(4));
             Validate.NotExists(repo.DashboardsAQCustomerServicesDashboa.MsCrmMenuLabelInfo);
             Delay.Milliseconds(0);
             
@@ -107,7 +109,8 @@ namespace CRM
             //repo.DashboardsAQCustomerServicesDashboa.SpanTagDelete.Click("16;0");
             //Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating NotExists on item 'DashboardsAQCustomerServicesDashboa.SpanTagDelete'.", repo.DashboardsAQCustomerServicesDashboa.SpanTagDeleteInfo, new RecordItemIndex(7));
+            // Validate that the "DELETE" button does not exist on the accounts page
+            Report.Log(ReportLevel.Info, "Validation", "Validate that the \"DELETE\" button does not exist on the accounts page\r\nValidating NotExists on item 'DashboardsAQCustomerServicesDashboa.SpanTagDelete'.", repo.DashboardsAQCustomerServicesDashboa.SpanTagDeleteInfo, new RecordItemIndex(7));
             Validate.NotExists(repo.DashboardsAQCustomerServicesDashboa.SpanTagDeleteInfo);
             Delay.Milliseconds(0);
             

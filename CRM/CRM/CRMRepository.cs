@@ -36,6 +36,7 @@ namespace CRM
         CRMRepositoryFolders.LeadTestNameGoogleChromeAppFolder _leadtestnamegooglechrome;
         CRMRepositoryFolders.AccountsAllAccountsMicrosoftDynamiAppFolder _accountsallaccountsmicrosoftdynami;
         CRMRepositoryFolders.AccountNewAccountGoogleChromeAppFolder _accountnewaccountgooglechrome;
+        CRMRepositoryFolders.ExplorerAppFolder _explorer;
 
         /// <summary>
         /// Gets the singleton class instance representing the CRMRepository element repository.
@@ -61,6 +62,7 @@ namespace CRM
             _leadtestnamegooglechrome = new CRMRepositoryFolders.LeadTestNameGoogleChromeAppFolder(this);
             _accountsallaccountsmicrosoftdynami = new CRMRepositoryFolders.AccountsAllAccountsMicrosoftDynamiAppFolder(this);
             _accountnewaccountgooglechrome = new CRMRepositoryFolders.AccountNewAccountGoogleChromeAppFolder(this);
+            _explorer = new CRMRepositoryFolders.ExplorerAppFolder(this);
         }
 
 #region Variables
@@ -171,6 +173,15 @@ namespace CRM
         {
             get { return _accountnewaccountgooglechrome; }
         }
+
+        /// <summary>
+        /// The Explorer folder.
+        /// </summary>
+        [RepositoryFolder("6b96afad-4b90-4150-b0a1-7d9c700e4d53")]
+        public virtual CRMRepositoryFolders.ExplorerAppFolder Explorer
+        {
+            get { return _explorer; }
+        }
     }
 
     /// <summary>
@@ -217,6 +228,7 @@ namespace CRM
             RepoItemInfo _mscrmmenulabelInfo;
             RepoItemInfo _spantagdeleteInfo;
             RepoItemInfo _divtagokInfo;
+            RepoItemInfo _salesInfo;
 
             /// <summary>
             /// Creates a new DashboardsAQCustomerServicesDashboa  folder.
@@ -256,6 +268,7 @@ namespace CRM
                 _mscrmmenulabelInfo = new RepoItemInfo(this, "MsCrmMenuLabel", ".//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.NewRecord']/?/?/a", 30000, null, "6d3ac795-b7ca-4db7-8cba-64f6d6c5fbdf");
                 _spantagdeleteInfo = new RepoItemInfo(this, "SpanTagDelete", ".//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.DeleteMenu']//span[@innertext=' Delete ']", 30000, null, "5d76f2c8-7f08-446a-9e16-263ae191fbd3");
                 _divtagokInfo = new RepoItemInfo(this, "DivTagOk", ".//iframe[#'InlineDialog_Iframe']//button[#'butBegin']/div[@innertext=' Ok ']", 30000, null, "3e64fdbe-12df-43e5-a0f5-2b27a7e83659");
+                _salesInfo = new RepoItemInfo(this, "Sales", ".//a[#'SFA']//img[@alt='Sales']", 30000, null, "f34c6340-7142-49dc-910d-f18126f65453");
             }
 
             /// <summary>
@@ -955,6 +968,30 @@ namespace CRM
             }
 
             /// <summary>
+            /// The Sales item.
+            /// </summary>
+            [RepositoryItem("f34c6340-7142-49dc-910d-f18126f65453")]
+            public virtual Ranorex.ImgTag Sales
+            {
+                get
+                {
+                    return _salesInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Sales item info.
+            /// </summary>
+            [RepositoryItemInfo("f34c6340-7142-49dc-910d-f18126f65453")]
+            public virtual RepoItemInfo SalesInfo
+            {
+                get
+                {
+                    return _salesInfo;
+                }
+            }
+
+            /// <summary>
             /// The ContentIFrame0 folder.
             /// </summary>
             [RepositoryFolder("423da974-2a9c-4d3d-87eb-2702c14dbf0e")]
@@ -1644,6 +1681,8 @@ namespace CRM
             RepoItemInfo _tdareasInfo;
             RepoItemInfo _rofcontainerInfo;
             RepoItemInfo _titlefooterstatuscontrolInfo;
+            RepoItemInfo _inlineblockstatusmessagestatusmessaInfo;
+            RepoItemInfo _savefooterstatuscontrolInfo;
 
             /// <summary>
             /// Creates a new ContentIFrame1  folder.
@@ -1660,6 +1699,8 @@ namespace CRM
                 _tdareasInfo = new RepoItemInfo(this, "TdAreas", ".//div[#'tdAreas']", 30000, null, "edc72dbb-c18b-481a-9c22-e6b72a3cbf3a");
                 _rofcontainerInfo = new RepoItemInfo(this, "RofContainer", ".//div[#'rofContainer']", 30000, null, "44b6fa11-cd11-4f7b-a42d-a99fcf47f2c2");
                 _titlefooterstatuscontrolInfo = new RepoItemInfo(this, "TitlefooterStatuscontrol", ".//span[#'titlefooter_statuscontrol']", 30000, null, "61739718-c36b-4cff-920b-778ba3517990");
+                _inlineblockstatusmessagestatusmessaInfo = new RepoItemInfo(this, "InlineBlockStatusMessageStatusMessa", ".//div[#'footer_statuscontrol']/div[1]", 30000, null, "d42f7947-6507-4d4b-a109-7166cc8cd1bf");
+                _savefooterstatuscontrolInfo = new RepoItemInfo(this, "SavefooterStatuscontrol", ".//img[#'savefooter_statuscontrol']", 30000, null, "9933eb7b-8852-43da-9c19-e38668794862");
             }
 
             /// <summary>
@@ -1899,6 +1940,54 @@ namespace CRM
                 get
                 {
                     return _titlefooterstatuscontrolInfo;
+                }
+            }
+
+            /// <summary>
+            /// The InlineBlockStatusMessageStatusMessa item.
+            /// </summary>
+            [RepositoryItem("d42f7947-6507-4d4b-a109-7166cc8cd1bf")]
+            public virtual Ranorex.DivTag InlineBlockStatusMessageStatusMessa
+            {
+                get
+                {
+                    return _inlineblockstatusmessagestatusmessaInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InlineBlockStatusMessageStatusMessa item info.
+            /// </summary>
+            [RepositoryItemInfo("d42f7947-6507-4d4b-a109-7166cc8cd1bf")]
+            public virtual RepoItemInfo InlineBlockStatusMessageStatusMessaInfo
+            {
+                get
+                {
+                    return _inlineblockstatusmessagestatusmessaInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SavefooterStatuscontrol item.
+            /// </summary>
+            [RepositoryItem("9933eb7b-8852-43da-9c19-e38668794862")]
+            public virtual Ranorex.ImgTag SavefooterStatuscontrol
+            {
+                get
+                {
+                    return _savefooterstatuscontrolInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SavefooterStatuscontrol item info.
+            /// </summary>
+            [RepositoryItemInfo("9933eb7b-8852-43da-9c19-e38668794862")]
+            public virtual RepoItemInfo SavefooterStatuscontrolInfo
+            {
+                get
+                {
+                    return _savefooterstatuscontrolInfo;
                 }
             }
         }
@@ -3027,6 +3116,72 @@ namespace CRM
                 get
                 {
                     return _clientInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The ExplorerAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("6b96afad-4b90-4150-b0a1-7d9c700e4d53")]
+        public partial class ExplorerAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _accountfonterraaustraliaptyltdgoInfo;
+
+            /// <summary>
+            /// Creates a new Explorer  folder.
+            /// </summary>
+            public ExplorerAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Explorer", "/menubar[@processname='explorer']", parentFolder, 30000, null, true, "6b96afad-4b90-4150-b0a1-7d9c700e4d53", "")
+            {
+                _accountfonterraaustraliaptyltdgoInfo = new RepoItemInfo(this, "AccountFonterraAustraliaPtyLtdGo", "container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Account:\\ Fonterra\\ Austral']", 30000, null, "5f35e921-c986-40ca-86aa-89ba80d12671");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("6b96afad-4b90-4150-b0a1-7d9c700e4d53")]
+            public virtual Ranorex.MenuBar Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.MenuBar>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("6b96afad-4b90-4150-b0a1-7d9c700e4d53")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AccountFonterraAustraliaPtyLtdGo item.
+            /// </summary>
+            [RepositoryItem("5f35e921-c986-40ca-86aa-89ba80d12671")]
+            public virtual Ranorex.Button AccountFonterraAustraliaPtyLtdGo
+            {
+                get
+                {
+                    return _accountfonterraaustraliaptyltdgoInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AccountFonterraAustraliaPtyLtdGo item info.
+            /// </summary>
+            [RepositoryItemInfo("5f35e921-c986-40ca-86aa-89ba80d12671")]
+            public virtual RepoItemInfo AccountFonterraAustraliaPtyLtdGoInfo
+            {
+                get
+                {
+                    return _accountfonterraaustraliaptyltdgoInfo;
                 }
             }
         }
