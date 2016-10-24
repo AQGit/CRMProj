@@ -105,78 +105,69 @@ namespace CRM
 
             Init();
 
-            // Pre-requisite - 1. Appropriate CRM AD login session active in the Chrome browser 2. No browser window opren  .
-            Report.Log(ReportLevel.Info, "Website", "Pre-requisite - 1. Appropriate CRM AD login session active in the Chrome browser 2. No browser window opren  .\r\nOpening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, false, false, false, false);
-            Delay.Milliseconds(0);
-            
             // This test goes to the Accounts screen , searches for an account name by entering the Tech One number and matches the Tech One number with the Account name
-            Report.Log(ReportLevel.Info, "Mouse", "This test goes to the Accounts screen , searches for an account name by entering the Tech One number and matches the Tech One number with the Account name\r\nMouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 10;13.", repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandboxInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "This test goes to the Accounts screen , searches for an account name by entering the Tech One number and matches the Tech One number with the Account name\r\nMouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 10;13.", repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandboxInfo, new RecordItemIndex(0));
             repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox.Click("10;13");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 64;29.", repo.DashboardsAQCustomerServicesDashboa.NavActionButtonIconInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 64;29.", repo.DashboardsAQCustomerServicesDashboa.NavActionButtonIconInfo, new RecordItemIndex(1));
             repo.DashboardsAQCustomerServicesDashboa.NavActionButtonIcon.Click("64;29");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 15;13.", repo.DashboardsAQCustomerServicesDashboa.AccountsInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 15;13.", repo.DashboardsAQCustomerServicesDashboa.AccountsInfo, new RecordItemIndex(2));
             repo.DashboardsAQCustomerServicesDashboa.Accounts.Click("15;13");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria' at 33;7.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria' at 33;7.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(3));
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria.Click("33;7");
             Delay.Milliseconds(200);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '0' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(5));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '0' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(4));
             //repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria.PressKeys("0");
             //Delay.Milliseconds(0);
             
-            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '48' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(6));
+            //Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '48' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(5));
             //repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria.PressKeys("48");
             //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Tech_One_number' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$Tech_One_number' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(6));
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria.PressKeys(Tech_One_number);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteriaInfo, new RecordItemIndex(7));
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridFindCriteria.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr' at 77;10.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.NobrInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr' at 77;10.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.NobrInfo, new RecordItemIndex(8));
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr.Click("77;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1' at 178;8.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1Info, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1' at 178;8.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1Info, new RecordItemIndex(9));
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1.Click("178;8");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (title=$Account_name) on item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1Info, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (title=$Account_name) on item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1Info, new RecordItemIndex(10));
             Validate.Attribute(repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.Nobr1Info, "title", Account_name);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynami' at 171;21.", repo.DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynamiInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynami' at 171;21.", repo.DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynamiInfo, new RecordItemIndex(11));
             repo.DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynami.Click("171;21");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 11;13.", repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandboxInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 11;13.", repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandboxInfo, new RecordItemIndex(12));
             repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox.Click("11;13");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 62;29.", repo.DashboardsAQCustomerServicesDashboa.NavActionButtonIconInfo, new RecordItemIndex(14));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 62;29.", repo.DashboardsAQCustomerServicesDashboa.NavActionButtonIconInfo, new RecordItemIndex(13));
             repo.DashboardsAQCustomerServicesDashboa.NavActionButtonIcon.Click("62;29");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 7;2.", repo.DashboardsAQCustomerServicesDashboa.AccountsInfo, new RecordItemIndex(15));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 7;2.", repo.DashboardsAQCustomerServicesDashboa.AccountsInfo, new RecordItemIndex(14));
             repo.DashboardsAQCustomerServicesDashboa.Accounts.Click("7;2");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImg' at 10;10.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImgInfo, new RecordItemIndex(16));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImg' at 10;10.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImgInfo, new RecordItemIndex(15));
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.CrmGridClearCriteriaImg.Click("10;10");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AccountsAllAccountsMicrosoftDynami.Client' at 1563;11.", repo.AccountsAllAccountsMicrosoftDynami.ClientInfo, new RecordItemIndex(17));
-            repo.AccountsAllAccountsMicrosoftDynami.Client.Click("1563;11");
             Delay.Milliseconds(200);
             
         }

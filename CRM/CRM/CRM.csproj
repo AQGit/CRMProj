@@ -117,6 +117,18 @@
       <UserCode>true</UserCode>
       <id>252cdcdb-52e0-4eed-a240-858ef0f08b85</id>
     </Compile>
+    <Compile Include="Can_not_edit_biling_and_acc_number.cs">
+      <BoundTo>8acfcf9e-2cd6-4b34-a55a-27beda11c1f8</BoundTo>
+      <DependentUpon>Can_not_edit_biling_and_acc_number.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e5327cdf-5d80-49fe-bb53-6673a22135ff</id>
+    </Compile>
+    <Compile Include="Can_not_edit_biling_and_acc_number.UserCode.cs">
+      <BoundTo>8acfcf9e-2cd6-4b34-a55a-27beda11c1f8</BoundTo>
+      <DependentUpon>Can_not_edit_biling_and_acc_number.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>065b33b2-1624-480e-98d2-f9c67bbaeff8</id>
+    </Compile>
     <Compile Include="Create_button_available.cs">
       <BoundTo>634a4c66-06ac-4e0e-b0c9-3c2f22701961</BoundTo>
       <DependentUpon>Create_button_available.rxrec</DependentUpon>
@@ -171,6 +183,30 @@
       <UserCode>true</UserCode>
       <id>2f1975ed-ef04-4b70-8880-12af3967f048</id>
     </Compile>
+    <Compile Include="Login_module_AD_login.cs">
+      <BoundTo>19c98a0c-8188-419e-acf1-5ee38d7dbc0b</BoundTo>
+      <DependentUpon>Login_module_AD_login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a897484-1293-4aaa-aac8-801b438fa929</id>
+    </Compile>
+    <Compile Include="Login_module_AD_login.UserCode.cs">
+      <BoundTo>19c98a0c-8188-419e-acf1-5ee38d7dbc0b</BoundTo>
+      <DependentUpon>Login_module_AD_login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7bcb2a58-a658-46e7-96af-8baf6d9518bb</id>
+    </Compile>
+    <Compile Include="Logoff_and_close_browser.cs">
+      <BoundTo>32f25909-e907-4cec-aa8b-a693db6f667e</BoundTo>
+      <DependentUpon>Logoff_and_close_browser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ed6f439-c22e-4816-8701-660bfa59e547</id>
+    </Compile>
+    <Compile Include="Logoff_and_close_browser.UserCode.cs">
+      <BoundTo>32f25909-e907-4cec-aa8b-a693db6f667e</BoundTo>
+      <DependentUpon>Logoff_and_close_browser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>60d3e40d-b28c-4ef8-a3e7-24b19a5e20df</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>9681e1f2-90d1-481a-b900-e2172a4d1ca7</id>
     </Compile>
@@ -186,6 +222,18 @@
       <UserCode>true</UserCode>
       <id>0f30d0a8-38bd-45e9-863f-ab2506b01347</id>
     </Compile>
+    <Compile Include="OpenBrowser_with_CRM_homepage.cs">
+      <BoundTo>28256bf0-aeee-491a-bd44-db2f1543c64c</BoundTo>
+      <DependentUpon>OpenBrowser_with_CRM_homepage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2a74df22-2dc9-4017-b6a6-0fe3f62f9ccc</id>
+    </Compile>
+    <Compile Include="OpenBrowser_with_CRM_homepage.UserCode.cs">
+      <BoundTo>28256bf0-aeee-491a-bd44-db2f1543c64c</BoundTo>
+      <DependentUpon>OpenBrowser_with_CRM_homepage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7aff6e0f-156d-4529-8b2a-bcbebf2ea08d</id>
+    </Compile>
     <Compile Include="Search_Techone_number_in_CRM.cs">
       <BoundTo>4d6e84c3-8dfd-49c5-a921-a12dca70210f</BoundTo>
       <DependentUpon>Search_Techone_number_in_CRM.rxrec</DependentUpon>
@@ -197,6 +245,18 @@
       <DependentUpon>Search_Techone_number_in_CRM.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>91ecb6fa-e707-4acb-9af8-04189f37f430</id>
+    </Compile>
+    <Compile Include="Wait_before_iniating_another_browser_instance.cs">
+      <BoundTo>78479754-4bb4-4d47-8a30-71e9eab7d26b</BoundTo>
+      <DependentUpon>Wait_before_iniating_another_browser_instance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fef8718d-b22b-4c39-ac78-f6c29811e04c</id>
+    </Compile>
+    <Compile Include="Wait_before_iniating_another_browser_instance.UserCode.cs">
+      <BoundTo>78479754-4bb4-4d47-8a30-71e9eab7d26b</BoundTo>
+      <DependentUpon>Wait_before_iniating_another_browser_instance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8eea4092-8dc9-47a6-b0d6-0b2c94aab842</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -222,6 +282,11 @@
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
       <id>26d08ca0-9b28-4e56-840d-f394c5627dda</id>
       <recordtableid>417cdab7-85de-4c75-8653-6571458e69bd</recordtableid>
+    </None>
+    <None Include="Can_not_edit_biling_and_acc_number.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>8acfcf9e-2cd6-4b34-a55a-27beda11c1f8</id>
+      <recordtableid>3f6da40b-b87b-433e-9fd7-56ae750ea1e8</recordtableid>
     </None>
     <None Include="Create_button_available.rxrec">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
@@ -254,15 +319,35 @@
       <id>e58d3baa-c0a0-4368-bcc1-e007039abcc9</id>
       <recordtableid>232bb703-abd3-4354-b971-15cf2572df49</recordtableid>
     </None>
+    <None Include="Login_module_AD_login.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>19c98a0c-8188-419e-acf1-5ee38d7dbc0b</id>
+      <recordtableid>abf84815-63bb-4a96-b63c-2c6e6f6ffa13</recordtableid>
+    </None>
+    <None Include="Logoff_and_close_browser.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>32f25909-e907-4cec-aa8b-a693db6f667e</id>
+      <recordtableid>e61ab408-970f-416e-8c3c-05be08e13868</recordtableid>
+    </None>
     <None Include="Recording1.rxrec">
       <id>d8d365d6-6967-4aa0-9e97-e60802a47242</id>
       <recordtableid>e8e4b14d-3cc3-47ab-b90b-bdd19bb524ad</recordtableid>
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
     </None>
+    <None Include="OpenBrowser_with_CRM_homepage.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>28256bf0-aeee-491a-bd44-db2f1543c64c</id>
+      <recordtableid>58a9c566-ac66-4f48-a194-5ca18d7dccbc</recordtableid>
+    </None>
     <None Include="Search_Techone_number_in_CRM.rxrec">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
       <id>4d6e84c3-8dfd-49c5-a921-a12dca70210f</id>
       <recordtableid>5ca96adf-222a-4918-a3b6-5558b05a238b</recordtableid>
+    </None>
+    <None Include="Wait_before_iniating_another_browser_instance.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>78479754-4bb4-4d47-8a30-71e9eab7d26b</id>
+      <recordtableid>85a57d91-38d2-4784-9a96-f4388390b538</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

@@ -7,6 +7,6 @@
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution CRM[CRM[Add_a_quote.rxrec[]CRM_adding_a_lead.rxrec[]CRMRepository.rxrep[]]]]&#xD;&#xA;Solution CRM\CRM\account_details_edit_is_read_only.rxrec&#xD;&#xA;Solution CRM" />
+  <ProjectBrowserState value="[Solution CRM[CRM[Add_a_quote.rxrec[]CRM_adding_a_lead.rxrec[]CRMRepository.rxrep[]]]]&#xD;&#xA;Solution CRM\CRM\Can_not_edit_biling_and_acc_number.rxrec&#xD;&#xA;Solution CRM" />
   <StartupProject value="{F55937BA-ACFD-496D-AD76-CF29701FFA5B}" />
 </Properties>

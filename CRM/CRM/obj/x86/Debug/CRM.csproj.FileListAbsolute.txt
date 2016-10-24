@@ -14,3 +14,4 @@ C:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\bin\Debug\CRM.
 C:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\obj\x86\Debug\CRM.csprojResolveAssemblyReference.cache
 C:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\obj\x86\Debug\CRM.exe
 C:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\obj\x86\Debug\CRM.pdb
+C:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\bin\Debug\RepositoryImages\CRMRepositoryd2449b8d.rximgres

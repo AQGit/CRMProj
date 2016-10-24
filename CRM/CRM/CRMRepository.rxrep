@@ -41,26 +41,6 @@ rxversion="6.1">
 			isrooted="True"
 			usecache="False">
 				<item
-				name="CrmGridDivDataArea"
-				id="ca5d06ba-4bd4-467e-b4cb-acf122f3aa9f"
-				searchtimeout="30000ms"
-				capname="divtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'crmGrid_divDataArea']"
-				addcaps="unknown,webelement,divtag"
-				refimgid="6c6e6b3b-ddf1-4ad4-904f-9def7c653977">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'crmGrid_divDataArea']
-				</item>
-				<item
-				name="CrmGridFindCriteriaImg"
-				id="82127ae7-bffb-4ecd-9000-0d5ea9d19b3c"
-				searchtimeout="30000ms"
-				capname="imgtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//img[#'crmGrid_findCriteriaImg']"
-				addcaps="unknown,webelement,imgtag"
-				refimgid="95885e56-0b18-4e76-967a-8c96156a10a7">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//img[#'crmGrid_findCriteriaImg']
-				</item>
-				<item
 				name="CrmGridFindCriteria"
 				id="05c4e5d2-0423-49a7-a82b-3c701e290582"
 				searchtimeout="30000ms"
@@ -69,16 +49,6 @@ rxversion="6.1">
 				addcaps="unknown,webelement,inputtag"
 				refimgid="dfdc864e-452a-4e06-b893-861ec5ecbc59">
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//input[#'crmGrid_findCriteria']
-				</item>
-				<item
-				name="SomeTdTag1"
-				id="0d26e861-d558-4f1b-b1a1-b34798acd48b"
-				searchtimeout="30000ms"
-				capname="tdtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'crmGrid_splitTD']/div/table/tbody/tr/td"
-				addcaps="unknown,webelement,tdtag"
-				refimgid="be47835f-411c-4247-b333-59d42cc363e4">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//div[#'crmGrid_splitTD']/?/?/table//td
 				</item>
 				<item
 				name="CrmGridClearCriteriaImg"
@@ -270,6 +240,26 @@ rxversion="6.1">
 				refimgid="f01d7614-e537-4f92-bb8d-84b30bf0d608">
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[9]/td[4]/?/?/a[@innertext~'^Fonterra\ Australia\ Pty\ Lt']
 				</item>
+				<item
+				name="CrmGridFindCriteriaImg"
+				id="7314f953-2a79-4eab-8944-9dc1727469f1"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//img[#'crmGrid_findCriteriaImg']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="bb03e88a-dfd8-4f04-9ebe-22bf3eab9526">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//img[#'crmGrid_findCriteriaImg']
+				</item>
+				<item
+				name="WestlandCoOpDairyCoLtd"
+				id="220d74de-e57c-431a-909d-4113b0513b8d"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr/td[4]/tag/a[@innertext~'^Westland\ Co-op\ Dairy\ co\ L']"
+				addcaps="unknown,webelement,atag"
+				refimgid="880261b1-c0f8-4de5-865d-96f05623b35a">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr/td[4]/?/?/a[@innertext~'^Westland\ Co-op\ Dairy\ co\ L']
+				</item>
 				<basepath>
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']
 				</basepath>
@@ -283,66 +273,6 @@ rxversion="6.1">
 			addcaps="unknown,webelement,iframetag"
 			isrooted="True"
 			usecache="False">
-				<item
-				name="ActivityLabelinlineactivitybar4212"
-				id="1cda8ac7-ae67-4670-b7b7-cbe4a800f9a4"
-				searchtimeout="30000ms"
-				capname="atag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//a[#'activityLabelinlineactivitybar4212']"
-				addcaps="unknown,webelement,atag"
-				refimgid="b3923104-3e61-4312-8d38-b1f3d2858395">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//a[#'activityLabelinlineactivitybar4212']
-				</item>
-				<item
-				name="QuickCreateActivity4212controlIdSubject"
-				id="c8ff8079-561e-4584-a56f-aa55dcd2ab76"
-				searchtimeout="30000ms"
-				capname="inputtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//input[#'quickCreateActivity4212controlId_subject_i']"
-				addcaps="unknown,webelement,inputtag"
-				refimgid="f5a10d15-9fbf-4522-aa56-37a6cfc13f2a">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//input[#'quickCreateActivity4212controlId_subject_i']
-				</item>
-				<item
-				name="ContentNotescontrol"
-				id="cdd0fbf8-d6b8-45b1-9624-9a031a813e5c"
-				searchtimeout="30000ms"
-				capname="divtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'content_notescontrol']"
-				addcaps="unknown,webelement,divtag"
-				refimgid="6c578e6b-ccb5-4c95-96da-63fed7d2a011">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'content_notescontrol']
-				</item>
-				<item
-				name="TableTag7a073b7c542224183d26B2a7eb2"
-				id="8ea75671-9c91-4ece-9728-7921d7a8153b"
-				searchtimeout="30000ms"
-				capname="tabletag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//table[#'{7a073b7c-5422-2418-3d26-b2a7eb290832}']"
-				addcaps="unknown,webelement,tabletag"
-				refimgid="40357556-b101-4c18-99af-742e5a68790e">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//table[#'{7a073b7c-5422-2418-3d26-b2a7eb290832}']
-				</item>
-				<item
-				name="Save4212QuickCreateButton"
-				id="de7b943c-20c7-40e6-af80-11843e627013"
-				searchtimeout="30000ms"
-				capname="buttontag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//button[#'save4212QuickCreateButton']"
-				addcaps="unknown,webelement,buttontag"
-				refimgid="b66cfa18-1986-4574-84af-40c141ae8b7f">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//button[#'save4212QuickCreateButton']
-				</item>
-				<item
-				name="FonterraAustraliaPtyLtd"
-				id="03357a4f-7e39-4389-99e3-9166b451785c"
-				searchtimeout="30000ms"
-				capname="h1tag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'FormTitle']/h1[@title~'^Fonterra\ Australia\ Pty\ Lt']"
-				addcaps="unknown,webelement,h1tag"
-				refimgid="04786d46-ec5a-493b-963f-e6faf5c7f09b">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'FormTitle']/h1[@title~'^Fonterra\ Australia\ Pty\ Lt']
-				</item>
 				<item
 				name="TdAreas"
 				id="edc72dbb-c18b-481a-9c22-e6b72a3cbf3a"
@@ -374,39 +304,91 @@ rxversion="6.1">
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//span[#'titlefooter_statuscontrol']
 				</item>
 				<item
-				name="InlineBlockStatusMessageStatusMessa"
-				id="d42f7947-6507-4d4b-a109-7166cc8cd1bf"
-				searchtimeout="30000ms"
-				capname="divtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'footer_statuscontrol']/div[1]"
-				addcaps="unknown,webelement,divtag"
-				refimgid="b309c85f-f908-46c4-b6a1-28678f348477">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'footer_statuscontrol']/div[1]
-				</item>
-				<item
-				name="SavefooterStatuscontrol"
-				id="9933eb7b-8852-43da-9c19-e38668794862"
+				name="HttpsAsurequalitytestCrm6DynamicsC1"
+				id="323ac54a-01f0-48a8-8e35-8e26abc3db13"
 				searchtimeout="30000ms"
 				capname="imgtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//img[#'savefooter_statuscontrol']"
 				addcaps="unknown,webelement,imgtag"
-				refimgid="462d8b18-f950-4983-abfb-002b4d9e7a42">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//img[#'savefooter_statuscontrol']
+				refimgid="e2fa5f14-55f1-457f-a138-a0c9d270c015">
+					<image
+					name="Screenshot1"
+					guid="d51e3508-502f-4ac3-8235-f75d452e060e">
+						iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAYAAACwXJejAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABnSURBVChTY/gPBM+fv/jfP2HK/4amVjgG8UHi
+IABW1N7RDZeYv3ARXANIHKwIpBqmABlMnzEbLH7/wYP/DCACxAGZgAxAfLii6zdugjkgnSABGIaZ
+BJJnADEI4aGrCBbauHB7R/d/ADswLlUQib6MAAAAAElFTkSuQmCC
+					</image>
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//span[#'aq_tech1number_lock']/img[@alt='']
+				</item>
+				<item
+				name="FormSecNavigationControlIcon"
+				id="33c496bf-77ca-4e5e-8fd5-7565d45a86ff"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//a[#'FormSecNavigationControl-Icon']"
+				addcaps="unknown,webelement,atag"
+				refimgid="27f7c6d0-d6a9-4f37-8943-88f87468ecb7">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//a[#'FormSecNavigationControl-Icon']
+				</item>
+				<item
+				name="FlyoutFormSectionAnchor"
+				id="e932b4c9-33bd-4aef-ad02-0bb5b2fdee3e"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//tr[#'flyoutFormSection_Billing Details']/td/a[@id='flyoutFormSection_Anchor']"
+				addcaps="unknown,webelement,atag"
+				refimgid="a50e6f74-081f-46b3-80b3-738e96519b43">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//tr[#'flyoutFormSection_Billing Details']/?/?/a[@id='flyoutFormSection_Anchor']
+				</item>
+				<item
+				name="HttpsAsurequalitytestCrm6DynamicsC2"
+				id="2892e46c-e2dd-4fb0-87c5-22cce8ca470f"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="dfd2e6b1-7e07-48af-b51c-29dc4dffc83d">
+					<image
+					name="Screenshot1"
+					guid="b0c6d0a5-06c8-4f9c-b104-154620d5a494">
+						iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAYAAACwXJejAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABnSURBVChTY/gPBM+fv/jfP2HK/4amVjgG8UHi
+IABW1N7RDZeYv3ARXANIHKwIpBqmABlMnzEbLH7/wYP/DCACxAGZgAxAfLii6zdugjkgnSABGIaZ
+BJJnADEI4aGrCBbauHB7R/d/ADswLlUQib6MAAAAAElFTkSuQmCC
+					</image>
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//span[#'aq_accountingstatus_lock']/img[@alt='' and @src='https://asurequalitytest.crm6.dynamics.com/_imgs/imagestrips/transparent_spacer.gif']
+				</item>
+				<item
+				name="Accountnumber"
+				id="0e7839d1-ac96-4ff8-a873-d9a8731916ca"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'accountnumber']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="3976b9b6-79bc-476e-9e1d-8747ba63bf8a">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'accountnumber']
+				</item>
+				<item
+				name="HttpsAsurequalitytestCrm6DynamicsC"
+				id="887e8e03-a7d2-4884-8bac-110a544360a5"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//span[#'name_lock']/img[@alt='']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="3a6e48dd-4357-47cc-bc73-901a7db96a3e">
+					<image
+					name="Screenshot1"
+					guid="866737f0-5d96-40fb-9d9e-3a7b1a695071">
+						iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAYAAACwXJejAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABnSURBVChTY/gPBM+fv/jfP2HK/4amVjgG8UHi
+IABW1N7RDZeYv3ARXANIHKwIpBqmABlMnzEbLH7/wYP/DCACxAGZgAxAfLii6zdugjkgnSABGIaZ
+BJJnADEI4aGrCBbauHB7R/d/ADswLlUQib6MAAAAAElFTkSuQmCC
+					</image>
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//span[#'name_lock']/img[@alt='']
 				</item>
 				<basepath>
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']
 				</basepath>
 			</folder>
-			<item
-			name="NavTabButtonImageContainer"
-			id="53b878ce-1171-41d6-8624-18f3232ab303"
-			searchtimeout="30000ms"
-			capname="spantag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'TabSFA']/a/span"
-			addcaps="unknown,webelement,spantag"
-			refimgid="f2023475-35f5-4bdf-b843-145bb0b5ac92">
-				/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'TabSFA']/?/?/span
-			</item>
 			<item
 			name="MicrosoftDynamicsCRMMicrosoftDynami"
 			id="edc9be02-5296-488d-b129-ae1ceaa3e7a1"
@@ -416,78 +398,6 @@ rxversion="6.1">
 			addcaps="unknown,webelement,imgtag"
 			refimgid="80696837-bbf4-45db-9b98-814a1e0cc199">
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navTabLogoTextId']/img[@alt~'^Microsoft\ Dynamics\ CRMM']
-			</item>
-			<folder
-			name="DashboardFrame"
-			id="da92a9af-c279-4110-9aef-e131ac158885"
-			searchtimeout="30000ms"
-			capname="iframetag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']"
-			addcaps="unknown,webelement,iframetag"
-			isrooted="True"
-			usecache="False">
-				<item
-				name="Component90b0b4aFindCriteriaImg"
-				id="7892e1ba-ac6a-4d3a-981b-b4266e290898"
-				searchtimeout="30000ms"
-				capname="imgtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//img[#'Component90b0b4a_findCriteriaImg']"
-				addcaps="unknown,webelement,imgtag"
-				refimgid="6fdb11ec-a42d-459e-b13a-18101a2efd37">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//img[#'Component90b0b4a_findCriteriaImg']
-				</item>
-				<item
-				name="Component90b0b4aFindCriteria"
-				id="96223447-abfe-4c16-bd91-5a97fb9787a5"
-				searchtimeout="30000ms"
-				capname="inputtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//input[#'Component90b0b4a_findCriteria']"
-				addcaps="unknown,webelement,inputtag"
-				refimgid="c4e6c03c-5231-4732-9c53-fd9b6667d554">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//input[#'Component90b0b4a_findCriteria']
-				</item>
-				<item
-				name="Nobr1"
-				id="e13bbb55-ea46-4229-9a3f-059666563ef0"
-				searchtimeout="30000ms"
-				capname="webelement"
-				addcaps="unknown,webelement"
-				refimgid="3d607b95-b0b2-4fc9-9bf4-f2fa2e5576fc">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//table[#'gridBodyTable']//tag[@tagname='nobr']
-				</item>
-				<item
-				name="HttpsAsurequalitytestCrm6DynamicsC"
-				id="9946e03a-3a14-4da5-b52d-a1b1b6429faa"
-				searchtimeout="30000ms"
-				capname="imgtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//td[#'gridBodyTable_gridDelBtn_0']/div/a/img[@alt='']"
-				addcaps="unknown,webelement,imgtag"
-				refimgid="3b1a2d8e-87ee-40db-983d-62ed461b75d5">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']//td[#'gridBodyTable_gridDelBtn_0']//img[@alt='']
-				</item>
-				<basepath>
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame2']//iframe[#'dashboardFrame']
-				</basepath>
-			</folder>
-			<item
-			name="DvFooter"
-			id="414a8e60-f977-4792-a9a5-97b52727bd2c"
-			searchtimeout="30000ms"
-			capname="divtag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//div[#'dvFooter']"
-			addcaps="unknown,webelement,divtag"
-			refimgid="6f114288-079f-457a-9843-d31aea878f80">
-				/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//div[#'dvFooter']
-			</item>
-			<item
-			name="DivTagDelete"
-			id="5c51316b-fcd8-4590-96e7-99548f8b57d6"
-			searchtimeout="30000ms"
-			capname="divtag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']/div[@innertext=' Delete ']"
-			addcaps="unknown,webelement,divtag"
-			refimgid="81032bb5-9e36-4db8-a4ce-23a5c9a712d5">
-				/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']/div[@innertext=' Delete ']
 			</item>
 			<item
 			name="NavBarUserInfoTextId"
@@ -638,16 +548,6 @@ rxversion="6.1">
 				refimgid="499b2960-59b8-4de5-ad74-7fa136a9396c">
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//span[#'subject_cl']
 				</item>
-				<item
-				name="MsCrmTabcolumn0"
-				id="99d1719e-53f6-4998-a758-80314948fe2c"
-				searchtimeout="30000ms"
-				capname="divtag"
-				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'tab_1_content']/div[1]"
-				addcaps="unknown,webelement,divtag"
-				refimgid="e7bddf8d-d90c-4e79-b70b-a1bc5b82e7ef">
-					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']//div[#'tab_1_content']/div[1]
-				</item>
 				<basepath>
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'NavBarGloablQuickCreate']
 				</basepath>
@@ -723,36 +623,6 @@ rxversion="6.1">
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'SFA']/?/?/span
 			</item>
 			<item
-			name="Account"
-			id="f34e53cb-404a-4e4c-8364-5ac94e6f749a"
-			searchtimeout="30000ms"
-			capname="spantag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']"
-			addcaps="unknown,webelement,spantag"
-			refimgid="9d98e465-8b05-451f-a543-cd4958fc8fa5">
-				/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'{70816501-edb9-4740-a16c-6a5efbc05d84}']/span[@innertext='Account']
-			</item>
-			<item
-			name="MscrmGlobalqcEntitycrossdiv"
-			id="06b2407c-1f11-4e27-abbf-5fba372aff5d"
-			searchtimeout="30000ms"
-			capname="divtag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'globalquickcreate_entityinfo_NavBarGloablQuickCreate']/div"
-			addcaps="unknown,webelement,divtag"
-			refimgid="437d192c-9ec0-41c6-a5b0-0d7d407ce080">
-				/dom[@domain='asurequalitytest.crm6.dynamics.com']//div[#'globalquickcreate_entityinfo_NavBarGloablQuickCreate']/div
-			</item>
-			<item
-			name="HttpsAsurequalitytestCrm6DynamicsC"
-			id="03613647-40f1-40d4-80a2-d3e99585d5f3"
-			searchtimeout="30000ms"
-			capname="imgtag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'globalquickcreate_cross_anchor_NavBarGloablQuickCreate']/img[@src='https://asurequalitytest.crm6.dynamics.com/_imgs/refreshCommandBar/Close_16.png']"
-			addcaps="unknown,webelement,imgtag"
-			refimgid="e04b0ce9-1bc6-413c-bdfa-dc218cc53297">
-				/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'globalquickcreate_cross_anchor_NavBarGloablQuickCreate']/img[@src='https://asurequalitytest.crm6.dynamics.com/_imgs/refreshCommandBar/Close_16.png']
-			</item>
-			<item
 			name="SpanTagNew"
 			id="eeac61c4-5e96-4f12-9f28-61c676f77ff7"
 			searchtimeout="30000ms"
@@ -803,16 +673,6 @@ rxversion="6.1">
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.DeleteMenu']//span[@innertext=' Delete ']
 			</item>
 			<item
-			name="DivTagOk"
-			id="3e64fdbe-12df-43e5-a0f5-2b27a7e83659"
-			searchtimeout="30000ms"
-			capname="divtag"
-			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']/div[@innertext=' Ok ']"
-			addcaps="unknown,webelement,divtag"
-			refimgid="a5a581e0-73f7-4e8d-9856-af49a299402a">
-				/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']/div[@innertext=' Ok ']
-			</item>
-			<item
 			name="Sales"
 			id="f34c6340-7142-49dc-910d-f18126f65453"
 			searchtimeout="30000ms"
@@ -821,6 +681,16 @@ rxversion="6.1">
 			addcaps="unknown,webelement,imgtag"
 			refimgid="2ece7222-a78a-44ee-aea3-ad693fe805f7">
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'SFA']//img[@alt='Sales']
+			</item>
+			<item
+			name="AsureQualityTest"
+			id="84860347-af0b-41f3-99ab-482c9ba687fb"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']/span[@title='AsureQuality Test']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="8da3c6e6-bb8e-463c-981d-72ce17c852b2">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']/span[@title='AsureQuality Test']
 			</item>
 			<basepath>
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']
@@ -851,16 +721,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		isrooted="True"
 		usecache="True">
 			<item
-			name="Close"
-			id="c6e53b4b-6b96-4786-948e-4ec769907ce6"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/form[@title~'^Dashboards:\ AQ\ Customer\ S']/container/container[2]/container[2]/tabpagelist/tabpage/button[@accessiblename='Close']"
-			addcaps="button,accessible"
-			refimgid="7a82e8c2-7065-41c0-8c72-ebcc7ee34c4f">
-				/form[@title~'^Dashboards:\ AQ\ Customer\ S']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Dashboards:\ AQ\ Customer\ S']/button[@accessiblename='Close']
-			</item>
-			<item
 			name="Close1"
 			id="daf8ed33-060a-4a10-9509-6119c844d8d0"
 			searchtimeout="30000ms"
@@ -869,6 +729,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			addcaps="button,accessible"
 			refimgid="e6cf7f15-1094-4855-b368-fb1e51af9130">
 				/form[@title~'^Dashboards:\ AQ\ Customer\ S']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='Sign out']/button[@accessiblename='Close']
+			</item>
+			<item
+			name="Client"
+			id="ded5bace-2fb9-4ddc-a321-b0dd7adfb52d"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title~'^Dashboards:\ AQ\ Customer\ S']/container/container[2]/container[2]"
+			addcaps="container,accessible"
+			refimgid="7dd4ccf7-d3f2-4f80-a190-9dbebe268875">
+				/form[@title~'^Dashboards:\ AQ\ Customer\ S']/container[@accessiblename='Google Chrome']/container[2]/container[2]
 			</item>
 			<basepath>
 				/form[@title~'^Dashboards:\ AQ\ Customer\ S']
@@ -920,34 +790,24 @@ AAAASUVORK5CYII=
 				/dom[@domain='login.microsoftonline.com']//input[#'cred_userid_inputtext']
 			</item>
 			<item
-			name="CredSignInButton"
-			id="a3f46bde-faae-4202-9765-45fa4c29d227"
-			searchtimeout="30000ms"
-			capname="buttontag"
-			refpath="/dom[@domain='login.microsoftonline.com']//button[#'cred_sign_in_button']"
-			addcaps="unknown,webelement,buttontag"
-			refimgid="b712ec90-0b52-4233-8d0f-efd6a3d39b15">
-				/dom[@domain='login.microsoftonline.com']//button[#'cred_sign_in_button']
-			</item>
-			<item
-			name="BackgroundBackgroundImage"
-			id="affbdf0d-b75b-4e71-921a-5406870dc479"
-			searchtimeout="30000ms"
-			capname="imgtag"
-			refpath="/dom[@domain='login.microsoftonline.com']//img[#'background_background_image']"
-			addcaps="unknown,webelement,imgtag"
-			refimgid="012a9371-d064-4252-bb66-ca7b5f07b087">
-				/dom[@domain='login.microsoftonline.com']//img[#'background_background_image']
-			</item>
-			<item
 			name="CredPasswordInputtext"
-			id="096ba06e-ee20-4462-abfa-f6e2a79af1ea"
+			id="02c4055d-1dea-4e5e-a81a-1d1e6536b0b6"
 			searchtimeout="30000ms"
 			capname="inputtag"
 			refpath="/dom[@domain='login.microsoftonline.com']//input[#'cred_password_inputtext']"
 			addcaps="unknown,webelement,inputtag"
-			refimgid="18c7ea55-7958-4754-bcfd-18af03756f81">
+			refimgid="a75ffc10-2caf-4bda-b9f8-6e569c1f2d09">
 				/dom[@domain='login.microsoftonline.com']//input[#'cred_password_inputtext']
+			</item>
+			<item
+			name="LoginWorkloadLogoText"
+			id="2c3d37c9-8947-40bb-9466-41381184e2ca"
+			searchtimeout="30000ms"
+			capname="h1tag"
+			refpath="/dom[@domain='login.microsoftonline.com']//div[#'true_inner']/div[1]/h1[@id='login_workload_logo_text']"
+			addcaps="unknown,webelement,h1tag"
+			refimgid="98091f24-0b81-4268-9e8d-5ec02a74baf3">
+				/dom[@domain='login.microsoftonline.com']//div[#'true_inner']/?/?/h1[@id='login_workload_logo_text']
 			</item>
 			<basepath>
 				/dom[@domain='login.microsoftonline.com']
@@ -1193,26 +1053,26 @@ AAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<appfolder
-		name="AccountNewAccountGoogleChrome"
-		id="53b4cf0a-cabd-4107-8a79-188aa7fe731a"
+		name="SignOutGoogleChrome"
+		id="f84c749a-1312-493b-b412-dc9ffb5087db"
 		searchtimeout="30000ms"
 		capname="form"
-		refpath="/form[@title='Account: New Account - Google Chrome']"
+		refpath="/form[@title='Sign out - Google Chrome']"
 		addcaps="form,nativewindow"
 		isrooted="True"
 		usecache="True">
 			<item
 			name="Client"
-			id="becdc5d8-193f-4ffe-9d58-f1efc913e077"
+			id="4327737c-421f-4df8-b5a3-1eff46bb591e"
 			searchtimeout="30000ms"
 			capname="container"
-			refpath="/form[@title~'^Account:\ New\ Account\ -\ Go']/container/container[2]/container[2]"
+			refpath="/form[@title='Sign out - Google Chrome']/container/container[2]/container[2]"
 			addcaps="container,accessible"
-			refimgid="7b4e7205-2bb7-4e49-be91-5a719da04b28">
-				/form[@title~'^Account:\ New\ Account\ -\ Go']/container[@accessiblename='Google Chrome']/container[2]/container[2]
+			refimgid="d92b6976-f197-49e7-ad54-bb16a46c5b69">
+				/form[@title='Sign out - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]
 			</item>
 			<basepath>
-				/form[@title~'^Account:\ New\ Account\ -\ Go']
+				/form[@title='Sign out - Google Chrome']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
@@ -1229,83 +1089,6 @@ hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
 0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
 01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
 AAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		name="Explorer"
-		id="6b96afad-4b90-4150-b0a1-7d9c700e4d53"
-		searchtimeout="30000ms"
-		capname="menubar"
-		refpath="/menubar[@processname='explorer']"
-		addcaps="menubar,nativewindow"
-		isrooted="True"
-		usecache="True">
-			<item
-			name="AccountFonterraAustraliaPtyLtdGo"
-			id="5f35e921-c986-40ca-86aa-89ba80d12671"
-			searchtimeout="30000ms"
-			capname="button"
-			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename~'^Account:\ Fonterra\ Austral']"
-			addcaps="button,accessible"
-			refimgid="715ef742-f42b-47c0-a628-9030a94d3645">
-				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename~'^Account:\ Fonterra\ Austral']
-			</item>
-			<basepath>
-				/menubar[@processname='explorer']
-			</basepath>
-			<icon>
-				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
-VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
 		<basepath/>

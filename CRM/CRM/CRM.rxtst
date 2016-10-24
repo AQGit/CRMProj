@@ -3,8 +3,21 @@
 rxversion="6.1">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			name="Login_module_AD_login"
+			id="0e60e60d-850c-4fa6-8cdb-3b24cc9f40c1"
+			ref="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
+			type="Recording">
+				<databinding>
+					<var
+					variablename="AD_login"
+					variableid="11c750a1-6e1d-455d-b6cd-18498433f7c9"
+					dataname="AD_login"
+					datasourceid="5ef2ea20-ba9c-413f-9964-9a9722d8c175"/>
+				</databinding>
+			</testmodule>
 			<testcase
-			name="TestCase3"
+			name="Searching_and_validating_TechOne_number"
 			id="11ba2eb7-bbeb-49ca-935c-d59274a4d755"
 			datasource="NewConnector3"/>
 			<testmodule
@@ -20,10 +33,16 @@ rxversion="6.1">
 					datasourceid="87a8b98e-b824-4423-8850-572fa8a8e13c"/>
 				</databinding>
 			</testmodule>
+			<setup
+			name="setup"
+			id="50700ae9-2259-4c4a-bd6b-10e6b061ca93"/>
 			<testcase
 			name="TestCase1"
 			id="54cefd4a-cbe2-4318-b28c-2cc5c392938b"
 			datasource="NewConnector1"/>
+			<teardown
+			name="teardown"
+			id="5d094b50-2ff9-4e3d-bbc5-95ff1d5d9e26"/>
 			<testmodule
 			name="Search_Techone_number_in_CRM"
 			id="5f5e783c-5ce4-4506-b899-ee8aeece5e70"
@@ -47,6 +66,24 @@ rxversion="6.1">
 			id="93c8a285-73eb-4a65-bfed-274ddfa08be5"
 			datasource="NewConnector"/>
 			<testmodule
+			name="Logoff_and_close_browser"
+			id="981b23db-8198-4bd2-bf50-bc7bbc921633"
+			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
+			<testmodule
+			name="Wait_before_iniating_another_browser_instance"
+			id="9a25e634-d1b6-42c2-a834-2ba634050576"
+			ref="85a57d91-38d2-4784-9a96-f4388390b538"
+			type="Recording"/>
+			<testmodule
+			name="Logoff_and_close_browser"
+			id="a4a96264-37df-43cc-a615-91747c82387b"
+			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
+			<setup
+			name="setup"
+			id="c0452419-e2e2-451f-9c27-e6ef12273c9f"/>
+			<testmodule
 			name="Add_a_task"
 			id="c16b9d0c-c112-4ed2-9257-b6cb3409c75b"
 			ref="260ffd1b-0c8f-4b05-ae72-5014bf728d4f"
@@ -69,10 +106,31 @@ rxversion="6.1">
 					datasourceid="24216a59-5ba1-4944-aa15-bdc4b5008bae"/>
 				</databinding>
 			</testmodule>
+			<teardown
+			name="teardown"
+			id="d0c63da1-69e6-4095-97d0-47a7ab0e9d0a"/>
+			<testmodule
+			name="Wait_before_iniating_another_browser_instance"
+			id="d5ec370c-b4a2-4a6b-bbe8-571043acaf3c"
+			ref="85a57d91-38d2-4784-9a96-f4388390b538"
+			type="Recording"/>
+			<testmodule
+			name="Login_module_AD_login"
+			id="e10d9cfb-cb39-4bc1-9d09-93f133361154"
+			ref="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
+			type="Recording"/>
 			<testcase
 			name="TestCase2"
 			id="e43b44a2-eb7e-49c4-9d38-9e6120096495"
 			datasource="NewConnector2"/>
+			<testcase
+			name="Can_not_edit_billing_and_acc_number"
+			id="ebca9633-143f-4190-9bd2-d70f3ec974af"/>
+			<testmodule
+			name="Can_not_edit_biling_and_acc_number"
+			id="f6a88321-f410-42aa-88ed-3ed3b6d3b1d9"
+			ref="3f6da40b-b87b-433e-9fd7-56ae750ea1e8"
+			type="Recording"/>
 			<testcase
 			name="CRM"
 			id="f6bdd161-fc89-4525-90e9-b02b707587f9"
@@ -119,11 +177,52 @@ rxversion="6.1">
 						id="1c5ca291-807d-4afd-8e1e-fdf11b380510"/>
 					</testcase>
 					<testcase
-					name="TestCase3"
+					name="Searching_and_validating_TechOne_number"
 					id="11ba2eb7-bbeb-49ca-935c-d59274a4d755">
+						<setup
+						name="setup"
+						id="c0452419-e2e2-451f-9c27-e6ef12273c9f">
+							<testmodule
+							name="Login_module_AD_login"
+							id="0e60e60d-850c-4fa6-8cdb-3b24cc9f40c1"/>
+						</setup>
 						<testmodule
 						name="Search_Techone_number_in_CRM"
 						id="5f5e783c-5ce4-4506-b899-ee8aeece5e70"/>
+						<teardown
+						name="teardown"
+						id="5d094b50-2ff9-4e3d-bbc5-95ff1d5d9e26">
+							<testmodule
+							name="Logoff_and_close_browser"
+							id="a4a96264-37df-43cc-a615-91747c82387b"/>
+							<testmodule
+							name="Wait_before_iniating_another_browser_instance"
+							id="9a25e634-d1b6-42c2-a834-2ba634050576"/>
+						</teardown>
+					</testcase>
+					<testcase
+					name="Can_not_edit_billing_and_acc_number"
+					id="ebca9633-143f-4190-9bd2-d70f3ec974af">
+						<setup
+						name="setup"
+						id="50700ae9-2259-4c4a-bd6b-10e6b061ca93">
+							<testmodule
+							name="Login_module_AD_login"
+							id="e10d9cfb-cb39-4bc1-9d09-93f133361154"/>
+						</setup>
+						<testmodule
+						name="Can_not_edit_biling_and_acc_number"
+						id="f6a88321-f410-42aa-88ed-3ed3b6d3b1d9"/>
+						<teardown
+						name="teardown"
+						id="d0c63da1-69e6-4095-97d0-47a7ab0e9d0a">
+							<testmodule
+							name="Logoff_and_close_browser"
+							id="981b23db-8198-4bd2-bf50-bc7bbc921633"/>
+							<testmodule
+							name="Wait_before_iniating_another_browser_instance"
+							id="d5ec370c-b4a2-4a6b-bbe8-571043acaf3c"/>
+						</teardown>
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -246,6 +345,9 @@ rxversion="6.1">
 				<column>
 					Account_name
 				</column>
+				<column>
+					AD_login
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns/>
 			<table>
@@ -256,6 +358,9 @@ rxversion="6.1">
 					<th>
 						Account_name
 					</th>
+					<th>
+						AD_login
+					</th>
 				</tr>
 				<tr>
 					<td>
@@ -264,6 +369,9 @@ rxversion="6.1">
 					<td>
 						Fonterra Australia Pty Ltd
 					</td>
+					<td>
+						sunjeet.khokhar@asurequality.com
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -271,6 +379,33 @@ rxversion="6.1">
 					</td>
 					<td>
 						Westland Co-op Dairy co Ltd
+					</td>
+					<td>
+						sunjeet.khokhar@asurequality.com
+					</td>
+				</tr>
+			</table>
+		</DataSource>
+		<DataSource
+		name="NewConnector4"
+		type="Ranorex.Core.Data.SimpleDataConnector"
+		id="8166d1c5-28c1-4929-afba-d748e3abd50c"
+		lastknownrowcount="1">
+			<lastknowncolumns>
+				<column>
+					AD_login
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<table>
+				<tr>
+					<th>
+						AD_login
+					</th>
+				</tr>
+				<tr>
+					<td>
+						sunjeet.khokhar@asurequality.com
 					</td>
 				</tr>
 			</table>
@@ -288,6 +423,8 @@ rxversion="6.1">
 			id="93c8a285-73eb-4a65-bfed-274ddfa08be5"/>
 			<testcase
 			id="e43b44a2-eb7e-49c4-9d38-9e6120096495"/>
+			<testcase
+			id="ebca9633-143f-4190-9bd2-d70f3ec974af"/>
 			<testcase
 			id="f6bdd161-fc89-4525-90e9-b02b707587f9"/>
 		</testconfiguration>
