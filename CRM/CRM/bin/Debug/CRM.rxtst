@@ -5,6 +5,20 @@ rxversion="6.1">
 		<flatlistofchildren>
 			<testmodule
 			name="Login_module_AD_login"
+			id="00d9af5a-ce6e-4b8e-a46f-98097bcfffec"
+			ref="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
+			type="Recording"/>
+			<testmodule
+			name="CRM_login_non_AD"
+			id="06ddfcaf-1e31-4bf5-af94-ece4b2b478b5"
+			ref="a94240ab-6fc7-4b04-bcf1-f9d05d104038"
+			type="Recording"
+			enabled="False"/>
+			<testcase
+			name="Lead_operations"
+			id="0a5b50a9-71f6-40fd-ae75-50fb9fb35143"/>
+			<testmodule
+			name="Login_module_AD_login"
 			id="0e60e60d-850c-4fa6-8cdb-3b24cc9f40c1"
 			ref="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
 			type="Recording">
@@ -16,6 +30,9 @@ rxversion="6.1">
 					datasourceid="5ef2ea20-ba9c-413f-9964-9a9722d8c175"/>
 				</databinding>
 			</testmodule>
+			<teardown
+			name="teardown"
+			id="0e832548-24d2-43ff-9187-e16f2768e274"/>
 			<testcase
 			name="Searching_and_validating_TechOne_number"
 			id="11ba2eb7-bbeb-49ca-935c-d59274a4d755"
@@ -33,6 +50,30 @@ rxversion="6.1">
 					datasourceid="87a8b98e-b824-4423-8850-572fa8a8e13c"/>
 				</databinding>
 			</testmodule>
+			<teardown
+			name="teardown"
+			id="1ec2e787-97fe-4c91-929c-1830023dd90d"/>
+			<testmodule
+			name="Create_button_available"
+			id="2b997ec1-d64f-48ce-94e2-9e747f48189d"
+			ref="d45cdf96-1ab2-4858-86a7-1f6ddf4e9b90"
+			type="Recording"/>
+			<testcase
+			name="A_new_account_can_be_created"
+			id="309f1e96-fda3-4664-a95b-24f8badff8bb"/>
+			<testcase
+			name="Can_not_create_or_delete_an_account"
+			id="35fcf0c4-a3e6-40b4-a887-8a935018f4fb"/>
+			<testmodule
+			name="Can_not_create_delete_account"
+			id="3f07ef36-6331-4455-a47c-34ae8afaefb6"
+			ref="417cdab7-85de-4c75-8653-6571458e69bd"
+			type="Recording"/>
+			<testmodule
+			name="Wait_before_iniating_another_browser_instance"
+			id="4185dc45-9325-4f54-bde5-9d00a7881da5"
+			ref="85a57d91-38d2-4784-9a96-f4388390b538"
+			type="Recording"/>
 			<setup
 			name="setup"
 			id="50700ae9-2259-4c4a-bd6b-10e6b061ca93"/>
@@ -40,6 +81,9 @@ rxversion="6.1">
 			name="TestCase1"
 			id="54cefd4a-cbe2-4318-b28c-2cc5c392938b"
 			datasource="NewConnector1"/>
+			<setup
+			name="setup"
+			id="5c6ef8ea-0ee0-4b90-a50b-836868cf1bfd"/>
 			<teardown
 			name="teardown"
 			id="5d094b50-2ff9-4e3d-bbc5-95ff1d5d9e26"/>
@@ -61,6 +105,40 @@ rxversion="6.1">
 					datasourceid="5ef2ea20-ba9c-413f-9964-9a9722d8c175"/>
 				</databinding>
 			</testmodule>
+			<teardown
+			name="teardown"
+			id="7724267c-5c99-4896-a105-5f57a7bfb3bb"/>
+			<testmodule
+			name="Wait_before_iniating_another_browser_instance"
+			id="78d70852-a2e2-4790-9a1d-1b83f976f01b"
+			ref="85a57d91-38d2-4784-9a96-f4388390b538"
+			type="Recording"/>
+			<testmodule
+			name="Login_module_AD_login"
+			id="7cb96a35-ad42-43d3-8a37-2cedcdc5a204"
+			ref="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
+			type="Recording"/>
+			<setup
+			name="setup"
+			id="7e3388fe-1869-4bb5-9723-6e49d5418bd3"/>
+			<setup
+			name="setup"
+			id="7ed81751-5f0b-4cbb-8dcb-91ceba724e63"/>
+			<testmodule
+			name="Wait_before_iniating_another_browser_instance"
+			id="88315587-1c44-4438-9b69-a6bc8f48de3c"
+			ref="85a57d91-38d2-4784-9a96-f4388390b538"
+			type="Recording"/>
+			<testmodule
+			name="Company_filled"
+			id="89df3c17-7ab5-4ae3-9f80-98570c150300"
+			ref="29c17639-9acc-423f-b98d-8409f0c0c27e"
+			type="Recording"/>
+			<testmodule
+			name="CRM_adding_a_lead"
+			id="8c977578-c0c6-45a0-9a60-00a91d5c188f"
+			ref="bb80f846-bf1b-4113-965f-1827135fc4ae"
+			type="Recording"/>
 			<testcase
 			name="TestCase"
 			id="93c8a285-73eb-4a65-bfed-274ddfa08be5"
@@ -76,9 +154,58 @@ rxversion="6.1">
 			ref="85a57d91-38d2-4784-9a96-f4388390b538"
 			type="Recording"/>
 			<testmodule
+			name="Wait_before_iniating_another_browser_instance"
+			id="9c8ba778-687e-4334-be36-1783fd66d9d1"
+			ref="85a57d91-38d2-4784-9a96-f4388390b538"
+			type="Recording"/>
+			<testmodule
+			name="CRM_login_non_AD"
+			id="9ebc816c-0cc5-4f60-bec7-9f59822291e0"
+			ref="a94240ab-6fc7-4b04-bcf1-f9d05d104038"
+			type="Recording"/>
+			<testmodule
+			name="account_details_edit_is_read_only"
+			id="a1d3fcf6-06a4-407c-95da-c4daf68c0087"
+			ref="95b316f9-316d-42a6-beba-5e6ea7483d57"
+			type="Recording"/>
+			<testmodule
 			name="Logoff_and_close_browser"
 			id="a4a96264-37df-43cc-a615-91747c82387b"
 			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
+			<testmodule
+			name="Logoff_and_close_browser"
+			id="a63c2d47-2131-4e8c-9831-16d2b6342f94"
+			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
+			<testmodule
+			name="Logoff_and_close_browser"
+			id="aa3da221-acd2-4871-9a77-1a9ed6efd7e2"
+			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
+			<testcase
+			name="Qualifying_a-_lead_when_company_filled"
+			id="abe957ce-77f1-44c7-aab8-f74a6366dfd2"/>
+			<setup
+			name="setup"
+			id="b01ffdd6-82ea-4f52-8b14-519e5309dc19"/>
+			<testmodule
+			name="Logoff_and_close_browser"
+			id="b3454f6a-445e-4ed7-bd1c-ee83902aefd1"
+			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
+			<testmodule
+			name="Wait_before_iniating_another_browser_instance"
+			id="b79692d6-8176-4a2b-9544-c5bbbd93d704"
+			ref="85a57d91-38d2-4784-9a96-f4388390b538"
+			type="Recording"/>
+			<setup
+			name="setup"
+			id="b9a7dda4-202f-482e-8992-4c7ef4b980e1"/>
+			<testmodule
+			name="Login_module_AD_login"
+			id="bb88095d-5acf-4db2-ba0b-4e6f5b6ce79f"
+			ref="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
 			type="Recording"/>
 			<setup
 			name="setup"
@@ -88,6 +215,9 @@ rxversion="6.1">
 			id="c16b9d0c-c112-4ed2-9257-b6cb3409c75b"
 			ref="260ffd1b-0c8f-4b05-ae72-5014bf728d4f"
 			type="Recording"/>
+			<teardown
+			name="teardown"
+			id="c16e1b5e-595d-44dc-a421-fb7b14009e2b"/>
 			<testmodule
 			name="CRM_login"
 			id="c87b0330-0b30-467b-a2f6-2d6a7b183618"
@@ -106,19 +236,40 @@ rxversion="6.1">
 					datasourceid="24216a59-5ba1-4944-aa15-bdc4b5008bae"/>
 				</databinding>
 			</testmodule>
+			<testmodule
+			name="Logoff_and_close_browser"
+			id="cc00cd4b-2402-4452-9c6e-d00e6e838f66"
+			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
+			<testmodule
+			name="CRM_login_non_AD"
+			id="ceba4654-7b4b-4945-a3bb-a7b370d9e2f1"
+			ref="a94240ab-6fc7-4b04-bcf1-f9d05d104038"
+			type="Recording"/>
 			<teardown
 			name="teardown"
 			id="d0c63da1-69e6-4095-97d0-47a7ab0e9d0a"/>
+			<testmodule
+			name="Logoff_and_close_browser"
+			id="d2e93a42-7b69-4725-ab2b-7bd748854f06"
+			ref="e61ab408-970f-416e-8c3c-05be08e13868"
+			type="Recording"/>
 			<testmodule
 			name="Wait_before_iniating_another_browser_instance"
 			id="d5ec370c-b4a2-4a6b-bbe8-571043acaf3c"
 			ref="85a57d91-38d2-4784-9a96-f4388390b538"
 			type="Recording"/>
+			<testcase
+			name="Validate_that_account_details_are_read_only"
+			id="deb5a1e8-b480-4a8b-bec2-09240fbfa223"/>
 			<testmodule
 			name="Login_module_AD_login"
 			id="e10d9cfb-cb39-4bc1-9d09-93f133361154"
 			ref="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
 			type="Recording"/>
+			<teardown
+			name="teardown"
+			id="e2e33d39-6933-4196-9a6a-af688d9bc9cc"/>
 			<testcase
 			name="TestCase2"
 			id="e43b44a2-eb7e-49c4-9d38-9e6120096495"
@@ -222,6 +373,129 @@ rxversion="6.1">
 							<testmodule
 							name="Wait_before_iniating_another_browser_instance"
 							id="d5ec370c-b4a2-4a6b-bbe8-571043acaf3c"/>
+						</teardown>
+					</testcase>
+					<testcase
+					name="Validate_that_account_details_are_read_only"
+					id="deb5a1e8-b480-4a8b-bec2-09240fbfa223">
+						<setup
+						name="setup"
+						id="7e3388fe-1869-4bb5-9723-6e49d5418bd3">
+							<testmodule
+							name="CRM_login_non_AD"
+							id="ceba4654-7b4b-4945-a3bb-a7b370d9e2f1"/>
+						</setup>
+						<testmodule
+						name="account_details_edit_is_read_only"
+						id="a1d3fcf6-06a4-407c-95da-c4daf68c0087"/>
+						<teardown
+						name="teardown"
+						id="c16e1b5e-595d-44dc-a421-fb7b14009e2b">
+							<testmodule
+							name="Logoff_and_close_browser"
+							id="b3454f6a-445e-4ed7-bd1c-ee83902aefd1"/>
+							<testmodule
+							name="Wait_before_iniating_another_browser_instance"
+							id="78d70852-a2e2-4790-9a1d-1b83f976f01b"/>
+						</teardown>
+					</testcase>
+					<testcase
+					name="Can_not_create_or_delete_an_account"
+					id="35fcf0c4-a3e6-40b4-a887-8a935018f4fb">
+						<setup
+						name="setup"
+						id="b9a7dda4-202f-482e-8992-4c7ef4b980e1">
+							<testmodule
+							name="CRM_login_non_AD"
+							id="06ddfcaf-1e31-4bf5-af94-ece4b2b478b5"/>
+							<testmodule
+							name="Login_module_AD_login"
+							id="7cb96a35-ad42-43d3-8a37-2cedcdc5a204"/>
+						</setup>
+						<testmodule
+						name="Can_not_create_delete_account"
+						id="3f07ef36-6331-4455-a47c-34ae8afaefb6"/>
+						<teardown
+						name="teardown"
+						id="0e832548-24d2-43ff-9187-e16f2768e274">
+							<testmodule
+							name="Logoff_and_close_browser"
+							id="a63c2d47-2131-4e8c-9831-16d2b6342f94"/>
+							<testmodule
+							name="Wait_before_iniating_another_browser_instance"
+							id="b79692d6-8176-4a2b-9544-c5bbbd93d704"/>
+						</teardown>
+					</testcase>
+					<testcase
+					name="A_new_account_can_be_created"
+					id="309f1e96-fda3-4664-a95b-24f8badff8bb">
+						<setup
+						name="setup"
+						id="7ed81751-5f0b-4cbb-8dcb-91ceba724e63">
+							<testmodule
+							name="Login_module_AD_login"
+							id="00d9af5a-ce6e-4b8e-a46f-98097bcfffec"/>
+						</setup>
+						<testmodule
+						name="Create_button_available"
+						id="2b997ec1-d64f-48ce-94e2-9e747f48189d"/>
+						<teardown
+						name="teardown"
+						id="e2e33d39-6933-4196-9a6a-af688d9bc9cc">
+							<testmodule
+							name="Logoff_and_close_browser"
+							id="cc00cd4b-2402-4452-9c6e-d00e6e838f66"/>
+							<testmodule
+							name="Wait_before_iniating_another_browser_instance"
+							id="9c8ba778-687e-4334-be36-1783fd66d9d1"/>
+						</teardown>
+					</testcase>
+					<testcase
+					name="Lead_operations"
+					id="0a5b50a9-71f6-40fd-ae75-50fb9fb35143">
+						<setup
+						name="setup"
+						id="b01ffdd6-82ea-4f52-8b14-519e5309dc19">
+							<testmodule
+							name="Login_module_AD_login"
+							id="bb88095d-5acf-4db2-ba0b-4e6f5b6ce79f"/>
+						</setup>
+						<testmodule
+						name="CRM_adding_a_lead"
+						id="8c977578-c0c6-45a0-9a60-00a91d5c188f"/>
+						<teardown
+						name="teardown"
+						id="1ec2e787-97fe-4c91-929c-1830023dd90d">
+							<testmodule
+							name="Logoff_and_close_browser"
+							id="d2e93a42-7b69-4725-ab2b-7bd748854f06"/>
+							<testmodule
+							name="Wait_before_iniating_another_browser_instance"
+							id="4185dc45-9325-4f54-bde5-9d00a7881da5"/>
+						</teardown>
+					</testcase>
+					<testcase
+					name="Qualifying_a-_lead_when_company_filled"
+					id="abe957ce-77f1-44c7-aab8-f74a6366dfd2">
+						<setup
+						name="setup"
+						id="5c6ef8ea-0ee0-4b90-a50b-836868cf1bfd">
+							<testmodule
+							name="CRM_login_non_AD"
+							id="9ebc816c-0cc5-4f60-bec7-9f59822291e0"/>
+						</setup>
+						<testmodule
+						name="Company_filled"
+						id="89df3c17-7ab5-4ae3-9f80-98570c150300"/>
+						<teardown
+						name="teardown"
+						id="7724267c-5c99-4896-a105-5f57a7bfb3bb">
+							<testmodule
+							name="Logoff_and_close_browser"
+							id="aa3da221-acd2-4871-9a77-1a9ed6efd7e2"/>
+							<testmodule
+							name="Wait_before_iniating_another_browser_instance"
+							id="88315587-1c44-4438-9b69-a6bc8f48de3c"/>
 						</teardown>
 					</testcase>
 				</testcase>
@@ -410,17 +684,46 @@ rxversion="6.1">
 				</tr>
 			</table>
 		</DataSource>
+		<DataSource
+		name="NewConnector5"
+		type="Ranorex.Core.Data.SimpleDataConnector"
+		id="3852dede-8bf9-4871-8bab-310b7d137ff9"
+		lastknownrowcount="0">
+			<lastknowncolumns>
+				<column>
+					First_name
+				</column>
+			</lastknowncolumns>
+			<maskedcolumns/>
+			<table>
+				<tr>
+					<th>
+						First_name
+					</th>
+				</tr>
+			</table>
+		</DataSource>
 	</datasources>
 	<testconfigurations
 	default="TestRun">
 		<testconfiguration
 		name="TestRun">
 			<testcase
+			id="0a5b50a9-71f6-40fd-ae75-50fb9fb35143"/>
+			<testcase
 			id="11ba2eb7-bbeb-49ca-935c-d59274a4d755"/>
+			<testcase
+			id="309f1e96-fda3-4664-a95b-24f8badff8bb"/>
+			<testcase
+			id="35fcf0c4-a3e6-40b4-a887-8a935018f4fb"/>
 			<testcase
 			id="54cefd4a-cbe2-4318-b28c-2cc5c392938b"/>
 			<testcase
 			id="93c8a285-73eb-4a65-bfed-274ddfa08be5"/>
+			<testcase
+			id="abe957ce-77f1-44c7-aab8-f74a6366dfd2"/>
+			<testcase
+			id="deb5a1e8-b480-4a8b-bec2-09240fbfa223"/>
 			<testcase
 			id="e43b44a2-eb7e-49c4-9d38-9e6120096495"/>
 			<testcase

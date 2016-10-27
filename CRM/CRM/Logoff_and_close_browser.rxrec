@@ -473,7 +473,7 @@ dz/rfwqKpbn/AFv4VFQBoL92ihfu0UAf/9k=
 			</info>
 		</WaitForRecordItem>
 		<mouseitem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		duration="500ms"
 		searchpropertyid="4749b114-9c18-4377-9462-d6339a46f0c9"

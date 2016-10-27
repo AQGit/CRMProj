@@ -80,9 +80,9 @@ namespace CRM
             Init();
 
             // Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests
-            Report.Log(ReportLevel.Info, "Website", "Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests\r\nOpening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, false, false, false, false);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Website", "Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests\r\nOpening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            //Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, false, false, false, false);
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 16;11.", repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandboxInfo, new RecordItemIndex(1));
             repo.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox.Click("16;11");

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6f02f5ec3ee7a1e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="25/10/2016 11:09:31 a.m."
+		timestampiso="2016-10-24T22:09:31"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="19.34s"
+			durationms="19341"
+			type="test suite"
+			rid="858cf6412b397e"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="CRM"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="19.33s"
+				durationms="19328"
+				type="test case"
+				rid="16df122b882a584"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Can_not_create_or_delete_an_account"
+				testcaseid="35fcf0c4-a3e6-40b4-a887-8a935018f4fb"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="19.32s"
+					durationms="19315"
+					type="test module"
+					rid="b140b645e5c34fa"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Can_not_create_delete_account"
+					moduleid="417cdab7-85de-4c75-8653-6571458e69bd"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.284"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="11:09:31"
+						time="00:00.284"
+						level="Info"
+						category="Website">
+						<message>
+							Pre-req : 1. No appropriate AD CRM login to be active in the browser 2. No browser window should be open before running the tests<br/>Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Can_not_create_delete_account.cs"
+							codeline="83"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.469"
+						timeRelativeToTestModuleStartTime="00:00.188"
+						timeWallClock="11:09:31"
+						time="00:00.469"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox' at 16;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//img[#'homeButtonImage navTabButtonImageSandbox']"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.HomeButtonImageNavTabButtonImageSandbox"
+							id="69bc1f1161bc4c668ade157d8ab52b1d"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Can_not_create_delete_account.cs"
+							codeline="87"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.681"
+						timeRelativeToTestModuleStartTime="00:05.400"
+						timeWallClock="11:09:36"
+						time="00:05.681"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 83;26.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'SFA']/?/?/span"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavActionButtonIcon"
+							id="a0a2567efa694715adbbe1480e44c220"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Can_not_create_delete_account.cs"
+							codeline="91"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.822"
+						timeRelativeToTestModuleStartTime="00:06.541"
+						timeWallClock="11:09:37"
+						time="00:06.822"
+						level="Info"
+						category="Mouse"
+						errimg="images_CRM_2016_fa5ea215\CRM_2016_fa5ea215_565837bd_trace.jpg"
+						errthumb="images_CRM_2016_fa5ea215\CRM_2016_fa5ea215_565837bd_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 8;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'nav_accts']/span[@innertext='Accounts']"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Accounts"
+							id="61925703879849999558d32efcb7ab9e"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Can_not_create_delete_account.cs"
+							codeline="95"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.950"
+						timeRelativeToTestModuleStartTime="00:07.669"
+						timeWallClock="11:09:39"
+						time="00:07.950"
+						level="Info"
+						category="Validation"
+						errimg="images_CRM_2016_fa5ea215\CRM_2016_fa5ea215_6021173a_trace.jpg"
+						errthumb="images_CRM_2016_fa5ea215\CRM_2016_fa5ea215_6021173a_trace_thumb.jpg">
+						<message>
+							Validate that the &quot;NEW&quot; button does not exist on the Accounts page<br/>Validating NotExists on item 'DashboardsAQCustomerServicesDashboa.MsCrmMenuLabel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.NewRecord']/?/?/a"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.MsCrmMenuLabel"
+							id="6d3ac795b7ca4db78cba64f6d6c5fbdf"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Can_not_create_delete_account.cs"
+							codeline="100"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.448"
+						timeRelativeToTestModuleStartTime="00:19.167"
+						timeWallClock="11:09:50"
+						time="00:19.448"
+						level="Error"
+						category="User"
+						errimg="images_CRM_2016_fa5ea215\CRM_2016_fa5ea215_cf04cb20_trace.jpg"
+						errthumb="images_CRM_2016_fa5ea215\CRM_2016_fa5ea215_cf04cb20_trace_thumb.jpg">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

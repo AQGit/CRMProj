@@ -1,15 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Can_not_edit_biling_and_acc_number.rxrec" />
+    <Element value="Company_filled.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="Can_not_edit_biling_and_acc_number.rxrec" />
-    <Element value="account_details_edit_is_read_only.rxrec" />
-    <Element value="Can_not_create_delete_account.rxrec" />
-    <Element value="Create_button_available.rxrec" />
-    <Element value="Search_Techone_number_in_CRM.rxrec" />
     <Element value="CRM.rxtst" />
+    <Element value="Company_filled.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

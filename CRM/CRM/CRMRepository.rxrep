@@ -260,6 +260,56 @@ rxversion="6.1">
 				refimgid="880261b1-c0f8-4de5-865d-96f05623b35a">
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr/td[4]/?/?/a[@innertext~'^Westland\ Co-op\ Dairy\ co\ L']
 				</item>
+				<item
+				name="SelectAView"
+				id="3f54c131-4478-4721-a84a-c7aa82521c63"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//a[#'crmGrid_SavedNewQuerySelector']/span[2]/img[@alt='Select a view']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="637404c1-f87c-4543-b050-df1f1b9c19a9">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//a[#'crmGrid_SavedNewQuerySelector']/?/?/img[@alt='Select a view']
+				</item>
+				<item
+				name="AllLeads"
+				id="8e081338-99e6-4295-b15e-e31f269f9d94"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//li[#'{5A926B99-3A5F-DF11-AE90-00155D2E3002}']/a[@title='All Leads']/span/tag[@tagname='nobr']/span[@title='All Leads']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="2af6f949-ad62-4a46-94f5-857a0be94b0e">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//li[#'{5A926B99-3A5F-DF11-AE90-00155D2E3002}']//span[@title='All Leads']
+				</item>
+				<item
+				name="TestName"
+				id="fe98f54e-5f04-4857-91bc-f0e0ffdd6f84"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/td[2]/tag/a[@innertext='test name']"
+				addcaps="unknown,webelement,atag"
+				refimgid="02f9e72f-427a-4efe-8470-c1610f4201d1">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]//a[@innertext='test name']
+				</item>
+				<item
+				name="MyOpenLeads"
+				id="661d16f5-f0c2-4c8d-b13e-569a490698c6"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//a[#'crmGrid_SavedNewQuerySelector']/span[@innertext='My Open Leads']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="32fc02a8-4bfe-405e-af7a-9056ddf8b15c">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//a[#'crmGrid_SavedNewQuerySelector']/span[@innertext='My Open Leads']
+				</item>
+				<item
+				name="MyOpenLeads1"
+				id="ed0deb6f-24e2-43c1-8058-fb1140324dc1"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//li[#'{00000000-0000-0000-00AA-000010001005}']/a[@title='My Open Leads']/span/tag[@tagname='nobr']/span[@title='My Open Leads']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="1f30db7d-6e94-4797-b336-88a25934f1f8">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//li[#'{00000000-0000-0000-00AA-000010001005}']//span[@title='My Open Leads']
+				</item>
 				<basepath>
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']
 				</basepath>
@@ -384,6 +434,85 @@ IABW1N7RDZeYv3ARXANIHKwIpBqmABlMnzEbLH7/wYP/DCACxAGZgAxAfLii6zdugjkgnSABGIaZ
 BJJnADEI4aGrCBbauHB7R/d/ADswLlUQib6MAAAAAElFTkSuQmCC
 					</image>
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//span[#'name_lock']/img[@alt='']
+				</item>
+				<item
+				name="CompanyLabel"
+				id="b80258df-e191-4d75-afed-2276e82a2c26"
+				searchtimeout="30000ms"
+				capname="labeltag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//label[#'Company_label']"
+				addcaps="unknown,webelement,labeltag"
+				refimgid="f4b3c647-2757-48f1-a883-e531ad40fe2d">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//label[#'Company_label']
+				</item>
+				<item
+				name="SubjectI"
+				id="399b908a-58ee-4190-9dc6-aef7ce84d67b"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//input[#'subject_i']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="152c3cec-9a16-4ddc-b885-19e00ad54d86">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//input[#'subject_i']
+				</item>
+				<item
+				name="MsCrmInlineValueMsCrmInlineEditH"
+				id="18e00e0f-3e0f-4715-9d82-ed469831bc92"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'fullname']/div[1]"
+				addcaps="unknown,webelement,divtag"
+				refimgid="84c8e245-2c03-4203-9971-111790d12f24">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'fullname']/div[1]
+				</item>
+				<item
+				name="FullnameCompositionLinkControlFirstnam"
+				id="4d08a114-697d-40d4-9c25-b52f82182055"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//input[#'fullname_compositionLinkControl_firstname_i']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="0f78b8c1-6866-4a2c-b80d-2edc87f2590b">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//input[#'fullname_compositionLinkControl_firstname_i']
+				</item>
+				<item
+				name="MsCrmInlineValueMsCrmInlineEditH1"
+				id="c6072a04-76b6-4605-9aef-57ba0358d4c3"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'fullname_compositionLinkControl_lastname']/div[1]"
+				addcaps="unknown,webelement,divtag"
+				refimgid="d8466f28-b13f-4a26-a87f-0410ac4b0d70">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'fullname_compositionLinkControl_lastname']/div[1]
+				</item>
+				<item
+				name="Done"
+				id="6dbd8b03-45a8-43ca-a30d-4ddc1d1d9039"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//button[#'fullname_compositionLinkControl_flyoutLoadingArea-confirm']/div/div/span[@innertext='Done']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="8967ed91-ac7a-44ca-9101-674156abf5d8">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//button[#'fullname_compositionLinkControl_flyoutLoadingArea-confirm']//span[@innertext='Done']
+				</item>
+				<item
+				name="MsCrmInlineValueMsCrmInlineEditH2"
+				id="bf273915-a163-45b9-8fbe-cf41ee0be61d"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'companyname']/div[1]"
+				addcaps="unknown,webelement,divtag"
+				refimgid="18bc5ab0-cd6b-461b-b1c0-e82b22143ca4">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'companyname']/div[1]
+				</item>
+				<item
+				name="Companyname"
+				id="c8f1097b-8c4f-4401-8d1d-5185d6fd6be2"
+				searchtimeout="30000ms"
+				capname="divtag"
+				addcaps="unknown,webelement,divtag"
+				refimgid="6ab7852f-0a67-4ced-a672-5e736641a335">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']//div[#'companyname']
 				</item>
 				<basepath>
 					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame1']
@@ -692,6 +821,137 @@ BJJnADEI4aGrCBbauHB7R/d/ADswLlUQib6MAAAAAElFTkSuQmCC
 			refimgid="8da3c6e6-bb8e-463c-981d-72ce17c852b2">
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']/span[@title='AsureQuality Test']
 			</item>
+			<item
+			name="Sales1"
+			id="4947391e-1eaf-411e-bdf9-d4bf242b7023"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'TabSFA']/a/span/img[@alt='Sales']"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="5ea8d3bb-3d6a-4f9d-9915-14c037662d42">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'TabSFA']//img[@alt='Sales']
+			</item>
+			<item
+			name="Leads"
+			id="64448e8c-331a-4961-8498-8ce5f14ccf20"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'nav_leads']/span[@innertext='Leads']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="c7d5b35c-25ef-4678-b542-09623aa916c9">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'nav_leads']/span[@innertext='Leads']
+			</item>
+			<item
+			name="SpanTagAssign"
+			id="3d0a4639-7a45-4ae0-8130-4e1cc65b25a3"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.Assign']/span/a/span[@innertext=' Assign ']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="4f25b5d6-772b-4eab-8512-10aafa2ee1d1">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.Assign']//span[@innertext=' Assign ']
+			</item>
+			<item
+			name="SpanTagQualify"
+			id="df57d8d2-413e-4b72-903c-3c221a8ca283"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.ConvertLeadQuick']/span/a/span[@innertext=' Qualify ']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="fdb43bef-f18a-4365-ba49-b154f10e5e9c">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.ConvertLeadQuick']//span[@innertext=' Qualify ']
+			</item>
+			<folder
+			name="InlineDialogIframe"
+			id="05124fbf-9006-4e3d-af36-f1da16822df6"
+			searchtimeout="30000ms"
+			capname="iframetag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="ButBegin"
+				id="c6e965ac-2d94-48f6-adc5-750f8c34ceaa"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="f6c5718e-cfd5-4558-9532-f84f3df0cbc3">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']
+				</item>
+				<item
+				name="OkId"
+				id="6d293e53-8874-4369-8d46-5c56e6f5bd42"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'ok_id']"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="594b081c-a498-4b2b-b5d4-9c5916c5434e">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'ok_id']
+				</item>
+				<item
+				name="SomeTdTag1"
+				id="96cad503-6170-408f-ae64-8dc3b980bb90"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//table[#'errorInformation']/tbody/tr/td[2]"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="371aaa77-2022-4b1c-a59f-1e4c1b9a0d1a">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//table[#'errorInformation']/?/?/tr/td[2]
+				</item>
+				<item
+				name="DlgHdBodyContainer"
+				id="2a63e195-6d5a-4740-bf63-28a1d9499edd"
+				searchtimeout="30000ms"
+				capname="divtag"
+				refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//div[#'DlgHdBodyContainer']"
+				addcaps="unknown,webelement,divtag"
+				refimgid="959ae047-3cb1-4f65-b522-99f01af0cf6b">
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']//div[#'DlgHdBodyContainer']
+				</item>
+				<basepath>
+					/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'InlineDialog_Iframe']
+				</basepath>
+			</folder>
+			<item
+			name="HttpsAsurequalitytestCrm6DynamicsC"
+			id="102db976-ef0e-4b65-aa78-3de48aebe6a0"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.lead.NewRecord']/span/a/img[@src='https://asurequalitytest.crm6.dynamics.com/_imgs/imagestrips/transparent_spacer.gif']"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="4b0e8e95-9ac8-4288-8e54-19dbf2aa08ae">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.lead.NewRecord']//img[@src='https://asurequalitytest.crm6.dynamics.com/_imgs/imagestrips/transparent_spacer.gif']
+			</item>
+			<item
+			name="SpanTagSave1"
+			id="5308f92d-a5b1-4448-a75c-b6585c8a3b6a"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.Save']/span/a/span[@innertext=' Save ']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="f11dfe65-a90a-4267-a88e-1ea17aeaaf64">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.Save']//span[@innertext=' Save ']
+			</item>
+			<item
+			name="HttpsAsurequalitytestCrm6DynamicsC1"
+			id="f26a8c00-6d21-40d5-99eb-1cc705ad0534"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.DisqualifyLeadAs']/span/a/img[@alt='']"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="ebba79b5-461f-4855-8432-91f5f837daff">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.Form.lead.DisqualifyLeadAs']//img[@alt='']
+			</item>
+			<item
+			name="SpanTagCanceled"
+			id="a7669cc2-95e7-48ff-960b-a6d4f785c687"
+			searchtimeout="30000ms"
+			capname="spantag"
+			refpath="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.DynamicMenu.Form.DisqualifyAs.7.3']/span/a/span[@innertext=' Canceled ']"
+			addcaps="unknown,webelement,spantag"
+			refimgid="d193c9d2-36da-45a7-8d01-a762a7713bec">
+				/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'lead|NoRelationship|Form|Mscrm.DynamicMenu.Form.DisqualifyAs.7.3']//span[@innertext=' Canceled ']
+			</item>
 			<basepath>
 				/dom[@domain='asurequalitytest.crm6.dynamics.com']
 			</basepath>
@@ -808,6 +1068,16 @@ AAAASUVORK5CYII=
 			addcaps="unknown,webelement,h1tag"
 			refimgid="98091f24-0b81-4268-9e8d-5ec02a74baf3">
 				/dom[@domain='login.microsoftonline.com']//div[#'true_inner']/?/?/h1[@id='login_workload_logo_text']
+			</item>
+			<item
+			name="CredSignInButton"
+			id="786d8f4c-0ae2-4977-ae88-e47ffee09490"
+			searchtimeout="30000ms"
+			capname="buttontag"
+			refpath="/dom[@domain='login.microsoftonline.com']//button[#'cred_sign_in_button']"
+			addcaps="unknown,webelement,buttontag"
+			refimgid="a463b801-5c52-4b12-95a5-6af69578ef35">
+				/dom[@domain='login.microsoftonline.com']//button[#'cred_sign_in_button']
 			</item>
 			<basepath>
 				/dom[@domain='login.microsoftonline.com']

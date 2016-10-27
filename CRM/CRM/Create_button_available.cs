@@ -80,9 +80,9 @@ namespace CRM
             Init();
 
             // Pre-req - Appropriate AD login to CRM active in the browser. Not browser windows open with CRM
-            Report.Log(ReportLevel.Info, "Website", "Pre-req - Appropriate AD login to CRM active in the browser. Not browser windows open with CRM\r\nOpening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in maximized mode.", new RecordItemIndex(0));
-            Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, true, false, false, false);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Website", "Pre-req - Appropriate AD login to CRM active in the browser. Not browser windows open with CRM\r\nOpening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in maximized mode.", new RecordItemIndex(0));
+            //Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, true, false, false, false);
+            //Delay.Milliseconds(0);
             
             // This tests goes to the account page and checks that the "new" bbbutton is present
             Report.Log(ReportLevel.Info, "Mouse", "This tests goes to the account page and checks that the \"new\" bbbutton is present\r\nMouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1' at 15;32.", repo.DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1Info, new RecordItemIndex(1));
@@ -101,7 +101,8 @@ namespace CRM
             repo.DashboardsAQCustomerServicesDashboa.ContentIFrame0.SomeDivTag.Click("329;16");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'DashboardsAQCustomerServicesDashboa.SpanTagNew'.", repo.DashboardsAQCustomerServicesDashboa.SpanTagNewInfo, new RecordItemIndex(5));
+            // validate that the new button exists
+            Report.Log(ReportLevel.Info, "Validation", "validate that the new button exists\r\nValidating Exists on item 'DashboardsAQCustomerServicesDashboa.SpanTagNew'.", repo.DashboardsAQCustomerServicesDashboa.SpanTagNewInfo, new RecordItemIndex(5));
             Validate.Exists(repo.DashboardsAQCustomerServicesDashboa.SpanTagNewInfo);
             Delay.Milliseconds(0);
             
@@ -113,9 +114,9 @@ namespace CRM
             repo.DashboardsAQCustomerServicesDashboa.Close.Click("3;8");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AccountsAllAccountsMicrosoftDynami.Client' at 1563;11.", repo.AccountsAllAccountsMicrosoftDynami.ClientInfo, new RecordItemIndex(8));
-            repo.AccountsAllAccountsMicrosoftDynami.Client.Click("1563;11");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AccountsAllAccountsMicrosoftDynami.Client' at 1563;11.", repo.AccountsAllAccountsMicrosoftDynami.ClientInfo, new RecordItemIndex(8));
+            //repo.AccountsAllAccountsMicrosoftDynami.Client.Click("1563;11");
+            //Delay.Milliseconds(200);
             
         }
 

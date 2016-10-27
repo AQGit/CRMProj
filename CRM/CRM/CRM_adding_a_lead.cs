@@ -41,6 +41,7 @@ namespace CRM
         /// </summary>
         public CRM_adding_a_lead()
         {
+            First_name = "demo{Space}lead";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace CRM
         }
 
 #region Variables
+
+        string _First_name;
+
+        /// <summary>
+        /// Gets or sets the value of variable First_name.
+        /// </summary>
+        [TestVariable("54cc6d9d-9e8d-4b49-9e94-6aba0813cd86")]
+        public string First_name
+        {
+            get { return _First_name; }
+            set { _First_name = value; }
+        }
 
 #endregion
 
@@ -79,9 +92,9 @@ namespace CRM
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, false, false, false, false);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.", new RecordItemIndex(0));
+            //Host.Local.OpenBrowser("https://asurequalitytest.crm6.dynamics.com/main.aspx", "chrome", "", false, false, false, false, false);
+            //Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage' at 11;4.", repo.DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImageInfo, new RecordItemIndex(1));
             repo.DashboardsAQCustomerServicesDashboa.NavTabGlobalCreateImage.Click("11;4");
@@ -124,9 +137,9 @@ namespace CRM
             Validate.Exists(repo.DashboardsAQCustomerServicesDashboa.SomeTdTagInfo);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'LeadTestNameGoogleChrome'.", repo.LeadTestNameGoogleChrome.SelfInfo, new RecordItemIndex(11));
-            Host.Local.CloseApplication(repo.LeadTestNameGoogleChrome.Self, 100);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'LeadTestNameGoogleChrome'.", repo.LeadTestNameGoogleChrome.SelfInfo, new RecordItemIndex(11));
+            //Host.Local.CloseApplication(repo.LeadTestNameGoogleChrome.Self, 100);
+            //Delay.Milliseconds(0);
             
             //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'LeadTestNameGoogleChrome.LeadTestName' at 65;8.", repo.LeadTestNameGoogleChrome.LeadTestNameInfo, new RecordItemIndex(12));
             //repo.LeadTestNameGoogleChrome.LeadTestName.Click("65;8");

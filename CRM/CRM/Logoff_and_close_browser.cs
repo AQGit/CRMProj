@@ -90,9 +90,9 @@ namespace CRM
             Report.Log(ReportLevel.Info, "Wait", "Waiting 10s for item 'SignInToYourAccount.LoginWorkloadLogoText' to exist.", repo.SignInToYourAccount.LoginWorkloadLogoTextInfo, new ActionTimeout(10000), new RecordItemIndex(2));
             repo.SignInToYourAccount.LoginWorkloadLogoTextInfo.WaitForExists(10000);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SignInToYourAccount.LoginWorkloadLogoText' at 94;20.", repo.SignInToYourAccount.LoginWorkloadLogoTextInfo, new RecordItemIndex(3));
-            repo.SignInToYourAccount.LoginWorkloadLogoText.Click("94;20");
-            Delay.Milliseconds(200);
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SignInToYourAccount.LoginWorkloadLogoText' at 94;20.", repo.SignInToYourAccount.LoginWorkloadLogoTextInfo, new RecordItemIndex(3));
+            //repo.SignInToYourAccount.LoginWorkloadLogoText.Click("94;20");
+            //Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SignOutGoogleChrome.Client' at 1578;6.", repo.SignOutGoogleChrome.ClientInfo, new RecordItemIndex(4));
             repo.SignOutGoogleChrome.Client.Click("1578;6");

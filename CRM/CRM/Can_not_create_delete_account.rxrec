@@ -28,7 +28,7 @@ mode="Desktop">
 	<variables/>
 	<recorditems>
 		<openwebsiterecorditem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		browser="chrome"
 		args=""

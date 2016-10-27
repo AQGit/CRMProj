@@ -125,8 +125,8 @@ namespace CRM
             Delay.Milliseconds(200);
             
             // validate that the lock image exists on the TechOne id field
-            Report.Log(ReportLevel.Info, "Validation", "validate that the lock image exists on the TechOne id field\r\nValidating ContainsImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=9,Height=12}) on item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC1'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC1Info, new RecordItemIndex(11));
-            Validate.ContainsImage(repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC1Info, HttpsAsurequalitytestCrm6DynamicsC1_Screenshot1, HttpsAsurequalitytestCrm6DynamicsC1_Screenshot1_Options);
+            Report.Log(ReportLevel.Info, "Validation", "validate that the lock image exists on the TechOne id field\r\nValidating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=9,Height=12}) on item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC1'.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC1Info, new RecordItemIndex(11));
+            Validate.CompareImage(repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC1Info, HttpsAsurequalitytestCrm6DynamicsC1_Screenshot1, HttpsAsurequalitytestCrm6DynamicsC1_Screenshot1_Options);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame1.FormSecNavigationControlIcon' at 9;14.", repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.FormSecNavigationControlIconInfo, new RecordItemIndex(12));
@@ -171,7 +171,7 @@ namespace CRM
         { get { return repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC1Info.GetScreenshot1(new Rectangle(0, 0, 9, 12)); } }
 
         Imaging.FindOptions HttpsAsurequalitytestCrm6DynamicsC1_Screenshot1_Options
-        { get { return Imaging.FindOptions.Default; } }
+        { get { return Imaging.FindOptions.Parse("1;None;0,0,9,12;True;10000000;0ms"); } }
 
         CompressedImage HttpsAsurequalitytestCrm6DynamicsC2_Screenshot1
         { get { return repo.DashboardsAQCustomerServicesDashboa.ContentIFrame1.HttpsAsurequalitytestCrm6DynamicsC2Info.GetScreenshot1(new Rectangle(0, 0, 9, 12)); } }

@@ -28,7 +28,7 @@ mode="Desktop">
 	<variables/>
 	<recorditems>
 		<openwebsiterecorditem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		browser="chrome"
 		args=""
@@ -2199,7 +2199,7 @@ H6U2QSx7GWdmG9QVYDBBOOwHrRRQB//Z
 			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		duration="500ms"
 		searchpropertyid="108747e6-5620-4a9d-b6c3-e4528e973f92"

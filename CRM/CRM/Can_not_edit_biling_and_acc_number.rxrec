@@ -1268,7 +1268,8 @@ egCPyv8Aab86PK/2m/OpKKAP/9k=
 		codegenpropertyname="HttpsAsurequalitytestCrm6DynamicsC1_Screenshot1"
 		searchpropertyid="68c6aef8-f33a-4e9a-9024-91e3b709b61e"
 		imagerect="0,0,9,12"
-		action="ContainsImage">
+		imageoptions="1;None;0,0,9,12;True;10000000;0ms"
+		action="CompareImage">
 			<comment>
 				validate that the lock image exists on the TechOne id field
 			</comment>

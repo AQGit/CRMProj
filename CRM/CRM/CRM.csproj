@@ -129,6 +129,18 @@
       <UserCode>true</UserCode>
       <id>065b33b2-1624-480e-98d2-f9c67bbaeff8</id>
     </Compile>
+    <Compile Include="Company_filled.cs">
+      <BoundTo>41ae6276-4d46-496f-bd6d-1cb190b34944</BoundTo>
+      <DependentUpon>Company_filled.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0b94c470-2605-4a10-9b85-d82bdecf883e</id>
+    </Compile>
+    <Compile Include="Company_filled.UserCode.cs">
+      <BoundTo>41ae6276-4d46-496f-bd6d-1cb190b34944</BoundTo>
+      <DependentUpon>Company_filled.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>877d2d06-2570-49e4-a34c-1508458c521d</id>
+    </Compile>
     <Compile Include="Create_button_available.cs">
       <BoundTo>634a4c66-06ac-4e0e-b0c9-3c2f22701961</BoundTo>
       <DependentUpon>Create_button_available.rxrec</DependentUpon>
@@ -182,6 +194,18 @@
       <DependentUpon>CRM_login.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>2f1975ed-ef04-4b70-8880-12af3967f048</id>
+    </Compile>
+    <Compile Include="CRM_login_non_AD.cs">
+      <BoundTo>7fa473d6-1c49-4024-b2bb-0fab2a5bceb8</BoundTo>
+      <DependentUpon>CRM_login_non_AD.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ce983145-4065-43ce-b634-cdb620656471</id>
+    </Compile>
+    <Compile Include="CRM_login_non_AD.UserCode.cs">
+      <BoundTo>7fa473d6-1c49-4024-b2bb-0fab2a5bceb8</BoundTo>
+      <DependentUpon>CRM_login_non_AD.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>19b0022a-b30d-4e85-967b-bce79eef10d1</id>
     </Compile>
     <Compile Include="Login_module_AD_login.cs">
       <BoundTo>19c98a0c-8188-419e-acf1-5ee38d7dbc0b</BoundTo>
@@ -288,10 +312,15 @@
       <id>8acfcf9e-2cd6-4b34-a55a-27beda11c1f8</id>
       <recordtableid>3f6da40b-b87b-433e-9fd7-56ae750ea1e8</recordtableid>
     </None>
-    <None Include="Create_button_available.rxrec">
+    <None Include="Company_filled.rxrec">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>41ae6276-4d46-496f-bd6d-1cb190b34944</id>
+      <recordtableid>29c17639-9acc-423f-b98d-8409f0c0c27e</recordtableid>
+    </None>
+    <None Include="Create_button_available.rxrec">
       <id>634a4c66-06ac-4e0e-b0c9-3c2f22701961</id>
       <recordtableid>d45cdf96-1ab2-4858-86a7-1f6ddf4e9b90</recordtableid>
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
     </None>
     <None Include="CRMdemo.rxrec">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
@@ -319,6 +348,11 @@
       <id>e58d3baa-c0a0-4368-bcc1-e007039abcc9</id>
       <recordtableid>232bb703-abd3-4354-b971-15cf2572df49</recordtableid>
     </None>
+    <None Include="CRM_login_non_AD.rxrec">
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
+      <id>7fa473d6-1c49-4024-b2bb-0fab2a5bceb8</id>
+      <recordtableid>a94240ab-6fc7-4b04-bcf1-f9d05d104038</recordtableid>
+    </None>
     <None Include="Login_module_AD_login.rxrec">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
       <id>19c98a0c-8188-419e-acf1-5ee38d7dbc0b</id>
@@ -340,9 +374,9 @@
       <recordtableid>58a9c566-ac66-4f48-a194-5ca18d7dccbc</recordtableid>
     </None>
     <None Include="Search_Techone_number_in_CRM.rxrec">
-      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
       <id>4d6e84c3-8dfd-49c5-a921-a12dca70210f</id>
       <recordtableid>5ca96adf-222a-4918-a3b6-5558b05a238b</recordtableid>
+      <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>
     </None>
     <None Include="Wait_before_iniating_another_browser_instance.rxrec">
       <BoundTo>4b916693-a537-46f4-81bf-77fe05058a72</BoundTo>

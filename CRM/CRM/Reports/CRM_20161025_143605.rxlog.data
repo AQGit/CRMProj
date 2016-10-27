@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="112d61f13a2eae99"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Sunjeet.Khokhar"
+		host="L-160082"
+		rxversion="6.1.0.0"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.18063"
+		procarch="32bit"
+		language="en-US"
+		screenresolution="1600x900"
+		timestamp="25/10/2016 2:36:05 p.m."
+		timestampiso="2016-10-25T01:36:05"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="48.55s"
+			durationms="48547"
+			type="test suite"
+			rid="d63f529e0a9a8c7"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			testsuitename="CRM"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="1">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Success"
+				duration="48.53s"
+				durationms="48529"
+				type="test case"
+				rid="734b777345b8e0b"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				testcasename="A_new_account_can_be_created"
+				testcaseid="309f1e96-fda3-4664-a95b-24f8badff8bb"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="25.52s"
+					durationms="25515"
+					type="test case setup"
+					rid="61916d61f2972f9"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="25.5s"
+						durationms="25498"
+						type="test module"
+						rid="33008eb5af3eb44"
+						totalerrorcount="0"
+						totalwarningcount="1"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Login_module_AD_login"
+						moduleid="abf84815-63bb-4a96-b63c-2c6e6f6ffa13"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.334"
+							timeRelativeToTestModuleStartTime="00:00.002"
+							timeWallClock="14:36:05"
+							time="00:00.334"
+							level="Warn"
+							category="Data">
+							<message>
+								The following module variables are not bound to a data column:<br/>AD_login
+							</message>
+							<metainfo
+								loglvl="Warn"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.432"
+							timeRelativeToTestModuleStartTime="00:00.100"
+							timeWallClock="14:36:05"
+							time="00:00.432"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'https://asurequalitytest.crm6.dynamics.com/main.aspx' with browser 'chrome' in normal mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Login_module_AD_login.cs"
+								codeline="95"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.693"
+							timeRelativeToTestModuleStartTime="00:00.361"
+							timeWallClock="14:36:05"
+							time="00:00.693"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.UseAnotherAccount' at 25;27.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//table[#'use_another_account']//td/table/tbody/tr[2]/td[1]/img[@alt='Use another account']"
+								fullname="CRMRepository.SignInToYourAccount.UseAnotherAccount"
+								id="653d7c0ed3da45e0a1957f6665a9b197"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Login_module_AD_login.cs"
+								codeline="99"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:05.032"
+							timeRelativeToTestModuleStartTime="00:04.700"
+							timeWallClock="14:36:10"
+							time="00:05.032"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.CredUseridInputtext' at 24;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'cred_userid_inputtext']"
+								fullname="CRMRepository.SignInToYourAccount.CredUseridInputtext"
+								id="2894b0e36ee64c5a89a5e0a8a36c9b28"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Login_module_AD_login.cs"
+								codeline="103"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:06.505"
+							timeRelativeToTestModuleStartTime="00:06.173"
+							timeWallClock="14:36:11"
+							time="00:06.505"
+							level="Info"
+							category="Keyboard">
+							<message>
+								Key sequence from variable '$AD_login' with focus on 'SignInToYourAccount.CredUseridInputtext'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'cred_userid_inputtext']"
+								fullname="CRMRepository.SignInToYourAccount.CredUseridInputtext"
+								id="2894b0e36ee64c5a89a5e0a8a36c9b28"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Login_module_AD_login.cs"
+								codeline="107"
+								itemindex="3"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:10.661"
+							timeRelativeToTestModuleStartTime="00:10.329"
+							timeWallClock="14:36:15"
+							time="00:10.661"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignInToYourAccount.CredPasswordInputtext' at 28;7.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//input[#'cred_password_inputtext']"
+								fullname="CRMRepository.SignInToYourAccount.CredPasswordInputtext"
+								id="02c4055d1dea4e5ea81a1d1e6536b0b6"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Login_module_AD_login.cs"
+								codeline="111"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:12.169"
+							timeRelativeToTestModuleStartTime="00:11.837"
+							timeWallClock="14:36:17"
+							time="00:12.169"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynami' at 144;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navTabLogoTextId']/img[@alt~'^Microsoft\ Dynamics\ CRMM']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynami"
+								id="edc9be025296488db129ae1ceaa3e7a1"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Login_module_AD_login.cs"
+								codeline="115"
+								itemindex="5"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:24.835"
+							timeRelativeToTestModuleStartTime="00:24.503"
+							timeWallClock="14:36:29"
+							time="00:24.835"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 10s for item 'DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynami' to exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navTabLogoTextId']/img[@alt~'^Microsoft\ Dynamics\ CRMM']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.MicrosoftDynamicsCRMMicrosoftDynami"
+								id="edc9be025296488db129ae1ceaa3e7a1"
+								timeout="10000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Login_module_AD_login.cs"
+								codeline="119"
+								itemindex="6"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Success"
+					duration="15.55s"
+					durationms="15553"
+					type="test module"
+					rid="7a54d40b23dc4d4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Create_button_available"
+					moduleid="d45cdf96-1ab2-4858-86a7-1f6ddf4e9b90"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.837"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="14:36:30"
+						time="00:25.837"
+						level="Info"
+						category="Mouse">
+						<message>
+							This tests goes to the account page and checks that the &quot;new&quot; bbbutton is present<br/>Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1' at 15;32.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'HomeTabLink']/span"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabButtonImageContainer1"
+							id="c5ca2b27b56043b9a257a9daec5046e1"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="88"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.423"
+						timeRelativeToTestModuleStartTime="00:02.590"
+						timeWallClock="14:36:33"
+						time="00:28.423"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavActionButtonIcon' at 84;33.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'SFA']/?/?/span"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavActionButtonIcon"
+							id="a0a2567efa694715adbbe1480e44c220"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="92"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.221"
+						timeRelativeToTestModuleStartTime="00:04.388"
+						timeWallClock="14:36:35"
+						time="00:30.221"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Accounts' at 30;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'nav_accts']/span[@innertext='Accounts']"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Accounts"
+							id="61925703879849999558d32efcb7ab9e"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="96"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.469"
+						timeRelativeToTestModuleStartTime="00:05.636"
+						timeWallClock="14:36:36"
+						time="00:31.469"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.ContentIFrame0.SomeDivTag' at 329;16.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//iframe[#'contentIFrame0']//table[#'viewSelectorContainer']//td/table//td/div"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.ContentIFrame0.SomeDivTag"
+							id="8e6612eb9ab04ae4a134bc20a6bbc4cd"
+							timeout="90000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="100"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:34.835"
+						timeRelativeToTestModuleStartTime="00:09.002"
+						timeWallClock="14:36:39"
+						time="00:34.835"
+						level="Info"
+						category="Validation">
+						<message>
+							validate that the new button exists<br/>Validating Exists on item 'DashboardsAQCustomerServicesDashboa.SpanTagNew'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.NewRecord']//span[@innertext=' New ']"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SpanTagNew"
+							id="eeac61c45e964f129f2861c676f77ff7"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="105"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.237"
+						timeRelativeToTestModuleStartTime="00:09.403"
+						timeWallClock="14:36:40"
+						time="00:35.237"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'SpanTagNew' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.NewRecord']//span[@innertext=' New ']"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SpanTagNew"
+							id="eeac61c45e964f129f2861c676f77ff7"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="106"
+							loglvl="Success"
+							itemindex="5"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.305"
+						timeRelativeToTestModuleStartTime="00:09.471"
+						timeWallClock="14:36:40"
+						time="00:35.305"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.SpanTagNew' at 22;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//li[#'account|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.account.NewRecord']//span[@innertext=' New ']"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.SpanTagNew"
+							id="eeac61c45e964f129f2861c676f77ff7"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="109"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.487"
+						timeRelativeToTestModuleStartTime="00:10.653"
+						timeWallClock="14:36:41"
+						time="00:36.487"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.Close' at 3;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'closeButton']/img[@title='Close']"
+							fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.Close"
+							id="bc67de7a63464a86a60d91ea882c2c17"
+							timeout="60000"
+							codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Create_button_available.cs"
+							codeline="113"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="7.46s"
+					durationms="7458"
+					type="test case teardown"
+					rid="98cc97fb87a643e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+						result="Success"
+						duration="5.33s"
+						durationms="5328"
+						type="test module"
+						rid="c87f6f8ee48d892"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Logoff_and_close_browser"
+						moduleid="e61ab408-970f-416e-8c3c-05be08e13868"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:41.394"
+							timeRelativeToTestModuleStartTime="00:00.005"
+							timeWallClock="14:36:46"
+							time="00:41.394"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.AsureQualityTest' at 55;8.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//span[#'navBarUserInfoTextId']/span[@title='AsureQuality Test']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.AsureQualityTest"
+								id="84860347af0b41f399ab482c9ba687fb"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Logoff_and_close_browser.cs"
+								codeline="82"
+								itemindex="0"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:42.610"
+							timeRelativeToTestModuleStartTime="00:01.221"
+							timeWallClock="14:36:47"
+							time="00:42.610"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId' at 62;14.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='asurequalitytest.crm6.dynamics.com']//a[#'navTabButtonUserInfoSignOutId']"
+								fullname="CRMRepository.DashboardsAQCustomerServicesDashboa.NavTabButtonUserInfoSignOutId"
+								id="d5b991264c3340fea8f1fc0e4f94a69a"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Logoff_and_close_browser.cs"
+								codeline="86"
+								itemindex="1"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:43.767"
+							timeRelativeToTestModuleStartTime="00:02.378"
+							timeWallClock="14:36:48"
+							time="00:43.767"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 10s for item 'SignInToYourAccount.LoginWorkloadLogoText' to exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='login.microsoftonline.com']//div[#'true_inner']/?/?/h1[@id='login_workload_logo_text']"
+								fullname="CRMRepository.SignInToYourAccount.LoginWorkloadLogoText"
+								id="2c3d37c9894740bb946641381184e2ca"
+								timeout="10000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Logoff_and_close_browser.cs"
+								codeline="90"
+								itemindex="2"
+								loglvl="Info"/>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:45.648"
+							timeRelativeToTestModuleStartTime="00:04.259"
+							timeWallClock="14:36:50"
+							time="00:45.648"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'SignOutGoogleChrome.Client' at 1578;6.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@title='Sign out - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]"
+								fullname="CRMRepository.SignOutGoogleChrome.Client"
+								id="4327737c421f4df8b5a31eff46bb591e"
+								timeout="60000"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Logoff_and_close_browser.cs"
+								codeline="97"
+								itemindex="4"
+								loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+						result="Success"
+						duration="2.12s"
+						durationms="2119"
+						type="test module"
+						rid="12ddb38a0a6081be"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						modulename="Wait_before_iniating_another_browser_instance"
+						moduleid="85a57d91-38d2-4784-9a96-f4388390b538"
+						moduletype="Recording">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+							timeRelativeToTestSuiteStartTime="00:46.731"
+							timeRelativeToTestModuleStartTime="00:00.007"
+							timeWallClock="14:36:51"
+							time="00:46.731"
+							level="Info"
+							category="Delay">
+							<message>
+								Waiting for 2s.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\Sunjeet.Khokhar\Desktop\Ranorex scripts\For_demo\CRM\CRM\Wait_before_iniating_another_browser_instance.cs"
+								codeline="82"
+								loglvl="Info"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

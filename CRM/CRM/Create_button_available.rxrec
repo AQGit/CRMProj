@@ -28,7 +28,7 @@ mode="Desktop">
 	<variables/>
 	<recorditems>
 		<openwebsiterecorditem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		browser="chrome"
 		args=""
@@ -896,7 +896,9 @@ W4JVngjmT7rqGH40+iiqe4kFFFFIAooooAKKKKACiiigD//Z
 		optional="False"
 		searchpropertyid="6458e54f-8e3a-4b5c-ac63-c507743e29f0"
 		action="Exists">
-			<comment/>
+			<comment>
+				validate that the new button exists
+			</comment>
 			<bindings/>
 			<info
 			sourcename="ItemRecorderEditor"
@@ -1129,7 +1131,7 @@ e4dHLLjK/h7e1FaKSxSNtSVGOM4DA0UloVOTm7s//9k=
 			</helperscreenshot>
 		</mouseitem>
 		<mouseitem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		duration="500ms"
 		searchpropertyid="0fee5ef5-7e77-40ac-8953-7a1b6b2ef42c"

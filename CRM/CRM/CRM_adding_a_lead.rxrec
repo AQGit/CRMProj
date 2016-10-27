@@ -25,10 +25,16 @@ mode="Desktop">
 	<codegen
 	classname="CRM_adding_a_lead"
 	namespace="CRM"/>
-	<variables/>
+	<variables>
+		<var
+		name="First_name"
+		id="54cc6d9d-9e8d-4b49-9e94-6aba0813cd86">
+			demo{Space}lead
+		</var>
+	</variables>
 	<recorditems>
 		<openwebsiterecorditem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		browser="chrome"
 		args=""
@@ -1251,7 +1257,7 @@ gncrujZJ3DHftyPaj7OmYzz8me/X6/jzUtFFwIUtlR925yOcKcYGetFTUUnqC0P/2Q==
 			</matchvalue>
 		</validationitem>
 		<closeapprecorditem
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="fa5063f6-bd57-4062-9972-80582988a727"
 		method="CloseWindow"
